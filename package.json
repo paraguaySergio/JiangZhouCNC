@@ -1,0 +1,24 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Dependencias",
+  "main": "index.js",
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoelMoriano/JiangZhouCNC.git"
+  },
+  "author": "NoelMoriano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoelMoriano/JiangZhouCNC/issues"
+  },
+  "homepage": "https://github.com/NoelMoriano/JiangZhouCNC#readme",
+  "keywords": []
+}
