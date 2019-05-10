@@ -1,9 +1,17 @@
-$color-gray-one: #fff;
+$color-white-one: #fff;
+$color-gray-one: #444;
+$color-gray-two: #232930;
+$color-bg-card-one: #232930;
+
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background: rgba(36, 36, 36, 0.95);
+  background-blend-mode: multiply;
+  background: url("https://cdn-html.nkdev.info/goodgames/assets/images/bg-top.png"), rgba(0, 0, 0, 0.7);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /************ HEADER *************/
@@ -21,14 +29,95 @@ body {
   }
 }
 
+/************ PRODUCTS PLUS *************/
+#container-item-products-plus {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .item {
+    width: 370px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    padding: 10px;
+    margin: 20px 0px 10px 0px;
+    background-color: $color-gray-two;
+    border: 1px solid #293139;
+    border-radius: 4px;
+    color: #FFFFFF;
+
+    i {
+      margin-right: 30px;
+      font-size: 75px;
+    }
+
+    span {
+      background: #bebebe;
+      color: #bebebe;
+      border: 1px solid #bebebe;
+    }
+
+    div {
+      margin-left: 30px;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+
+      h5 {
+        color: $color-white-one;
+        font-size: 25px;
+        font-weight: 800;
+      }
+
+      h5:nth-child(2) {
+        color: darkred;
+        font-size: 25px;
+        font-weight: 800;
+      }
+    }
+  }
+}
+
 /************ ARTICLE CENTER *************/
 #container-article {
   .row {
+    //Card Left
+    .card-sidebar-left {
+      .card {
+        background: $color-bg-card-one;
+
+        .card-1 {
+          .card-content {
+            ul {
+              list-style: none;
+            }
+          }
+        }
+
+        .card-2 {
+          .card-content {
+            ul {
+              list-style: none;
+            }
+
+            .row {
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+
     //Card Right
     .card-article-right {
+
       .card-carousel-product {
         margin-top: 7px;
-        background: #546e7a;
+        background: $color-bg-card-one;
         padding: 5px;
         border-radius: 3px;
 
@@ -51,6 +140,8 @@ body {
       flex-wrap: wrap;
 
       .item {
+        background: $color-bg-card-one;
+
         .card-content {
           display: flex;
           justify-content: center;
@@ -72,10 +163,22 @@ body {
           a {
             margin-top: 13px;
             font-size: 19px;
-            color: $color-gray-one;
+            color: $color-white-one;
           }
         }
       }
     }
+  }
+}
+
+/************* FOOTER **************/
+
+#container-footer {
+  .page-footer {
+    background: $color-gray-two;
+  }
+
+  .footer-copyright {
+    background: rgba(0, 0, 0, 0.17);
   }
 }
