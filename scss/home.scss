@@ -82,6 +82,32 @@ body {
   }
 }
 
+/********** CAROUSEL *********/
+#container-carousel {
+
+  .card-carousel-product {
+    margin-top: 7px;
+    background: $color-bg-card-one;
+    padding: 5px;
+    border-radius: 3px;
+
+    .carousel {
+      margin: 10px 10px;
+      height: 270px !important;
+
+      .carousel-item {
+        text-align: center;
+        margin: 10px;
+
+        > img {
+          width: 100%;
+          height: 200px;
+        }
+      }
+    }
+  }
+}
+
 /************ ARTICLE CENTER *************/
 #container-article {
   .row {
@@ -112,32 +138,12 @@ body {
       }
     }
 
-    //Card Right
-    .card-article-right {
-
-      .card-carousel-product {
-        margin-top: 7px;
-        background: $color-bg-card-one;
-        padding: 5px;
-        border-radius: 3px;
-
-        .carousel {
-          margin: 10px 10px;
-          height: 280px;
-
-          .carousel-item {
-            text-align: center;
-            margin: 10px;
-          }
-        }
-      }
-    }
-
     //Card Products general
     .card-products {
       display: flex;
       justify-content: flex-start;
       flex-wrap: wrap;
+      background: $color-bg-card-one !important;
 
       .item {
         background: $color-bg-card-one;
@@ -157,7 +163,7 @@ body {
             width: 100%;
             height: 170px;
             margin: 0;
-            object-fit: cover;
+            object-fit: contain;
           }
 
           a {
