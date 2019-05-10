@@ -1,4 +1,13 @@
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: rgba(36, 36, 36, 0.95);
+}
+
 #container-header-desktop nav {
+  background: #171717;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
