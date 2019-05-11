@@ -1,17 +1,33 @@
-$color-primary: #DF1216;
-$color-secundary: #DF1216;
-
 $color-white-default: #F0F0F0;
+
+$color-primary: #DF1216;
+$color-secundary: #ffc620;
+
 $color-white-one: #fff;
 
 $color-gray-one: #444;
 $color-gray-two: #232930;
 
-$bgcolor-card-dark: #232930;
+$bgcolor-card-dark: #252c33;
 $bgcolor-card-light: #bebebe;
 
 $color-header-cards: #293139;
 $color-body-cards: #232930;
+
+//___________________________________________________________________________________________________________________//
+/*********** HEADER **********/
+$bgcolor-header: linear-gradient(90deg, #0b1c25 0, #1a2a33 25%, #212b31);
+$color-text: #BEBEBE;
+
+/*********** SLIDER **********/
+$color-border-bottom-slider: $color-primary;
+$color-text1: $color-white-one;
+$color-text2: $color-primary;
+
+
+/************** PRODUCTS PLUS **************/
+$color-border-bottom: $color-primary;
+$bgcolor-card-product-plus: $bgcolor-card-dark;
 
 /********** ITEMS CARDS PRODUCTS GENERAL **********/
 $color-title-cards-products: #c3c1c1;

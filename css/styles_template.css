@@ -1,3 +1,6 @@
+/*********** HEADER **********/
+/*********** SLIDER **********/
+/************** PRODUCTS PLUS **************/
 /********** ITEMS CARDS PRODUCTS GENERAL **********/
 body {
   padding: 0;
@@ -12,7 +15,10 @@ body {
 
 /************ HEADER *************/
 #container-header-desktop nav {
-  background: #171717;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0, #0b1c25), color-stop(25%, #1a2a33), to(#212b31));
+    background: -webkit-linear-gradient(left, #0b1c25 0, #1a2a33 25%, #212b31);
+    background: -o-linear-gradient(left, #0b1c25 0, #1a2a33 25%, #212b31);
+    background: linear-gradient(90deg, #0b1c25 0, #1a2a33 25%, #212b31);
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -26,6 +32,17 @@ body {
   #container-header-desktop nav .nav-wrapper {
     width: 90%; }
 
+#container-header-desktop nav .nav-wrapper ul {
+    cursor: pointer;
+    color: #BEBEBE;
+    text-decoration: none;
+}
+
+#container-header-desktop nav .nav-wrapper ul li a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
 /**************** SLIDER ****************/
 #container-slider {
   margin-top: 2rem; }
@@ -35,12 +52,14 @@ body {
 }
 
 #container-slider .slider .slides li h3 {
+    color: #fff;
     font-weight: 500;
     font-size: 45px;
     text-shadow: 2px 1px 2px #000000;
 }
 
 #container-slider .slider .slides li h5 {
+    color: #DF1216;
     font-weight: 500;
     font-size: 30px;
     text-shadow: 2px 1px 2px #000000;
@@ -59,7 +78,7 @@ body {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
   #container-item-products-plus .item {
-    width: 350px;
+      width: 30%;
       height: 90px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -71,12 +90,17 @@ body {
     -ms-flex-align: center;
     align-items: center;
     min-height: 50px;
-    padding: 10px;
-    margin: 20px 0px 10px 0px;
-    background-color: #232930;
-    border: 1px solid #293139;
+      margin: 20px 5px 10px 5px;
+      background-color: #252c33;
+      border-bottom: 2px solid #DF1216;
     border-radius: 4px;
     color: #FFFFFF; }
+
+@media (max-width: 702px) {
+    #container-item-products-plus .item {
+        width: 100%;
+    }
+}
     #container-item-products-plus .item i {
       margin-right: 30px;
       font-size: 35px; }
@@ -140,7 +164,8 @@ body {
 
 /************ ARTICLE CENTER *************/
 #container-article .row .card-sidebar-left .card {
-  background: #232930; }
+    background: #252c33;
+}
   #container-article .row .card-sidebar-left .card .card-title {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -175,9 +200,11 @@ body {
   justify-content: space-around;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  background: #232930 !important; }
+    background: #252c33 !important;
+}
   #container-article .row .card-products .item {
-    background: #232930; }
+      background: #252c33;
+  }
     #container-article .row .card-products .item .card-content {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -203,9 +230,10 @@ body {
           object-fit: cover; }
       #container-article .row .card-products .item .card-content a {
         margin-top: 13px;
-          font-size: 15px;
+          font-size: 13px;
           color: #c3c1c1;
           font-weight: 500;
+          text-align: center;
       }
 
 /************* FOOTER **************/
@@ -223,16 +251,6 @@ body {
 
 ul {
   font-size: 12px; }
-
-button {
-    background: #00b0ff;
-    color: #fff;
-}
-
-input[type=submit] {
-    background: #00b0ff;
-    color: #fff;
-}
 
 .container-fluid {
   width: 100%; }
