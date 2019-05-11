@@ -28,6 +28,26 @@ body {
 /**************** SLIDER ****************/
 #container-slider {
   margin-top: 2rem;
+
+  .slider {
+    .slides {
+      li {
+        border-bottom: 3px solid $color-primary;
+
+        h3 {
+          font-weight: 500;
+          font-size: 45px;
+          text-shadow: 2px 1px 2px #000000;
+        }
+
+        h5 {
+          font-weight: 500;
+          font-size: 30px;
+          text-shadow: 2px 1px 2px #000000;
+        }
+      }
+    }
+  }
 }
 
 /************ PRODUCTS PLUS *************/
@@ -39,7 +59,7 @@ body {
 
   .item {
     width: 350px;
-    height: 100px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,13 +77,13 @@ body {
     }
 
     span {
-      width: 100px;
+      width: 79px;
       height: 50%;
       border-right: 1px solid #bebebe;
     }
 
     .text-description {
-      margin-left: 30px;
+      margin-left: 39px;
       display: flex;
       justify-content: flex-start;
       align-items: center;
@@ -92,7 +112,11 @@ body {
 
   .card-carousel-product {
     margin-top: 7px;
-    background: $bgcolor-card-dark;
+    background-blend-mode: multiply;
+    background: url("../img/fondo-cards/china.jpg"), radial-gradient(ellipse at center, #000000 0%, #eaeaea 94%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
     padding: 5px;
     border-radius: 3px;
 
@@ -102,6 +126,12 @@ body {
       .carousel-item {
         text-align: center;
         margin: 10px;
+
+        h6 {
+          color: $color-white-one;
+          font-weight: 500;
+          font-size: 20px;
+        }
 
         > img {
           width: 100%;
@@ -121,12 +151,17 @@ body {
         background: $bgcolor-card-dark;
 
         .card-title {
+          display: flex;
+          justify-content: flex-start;
           background: #293139;
-          text-align: center;
           font-weight: 500;
           font-size: 17px;
           color: #f1f8e9;
           padding: 10px;
+
+          .material-icons {
+            margin-right: 10px;
+          }
         }
 
         .card-1 {
@@ -170,7 +205,7 @@ body {
           display: flex;
           justify-content: center;
           flex-wrap: wrap;
-          width: 180px;
+          width: 214px;
           background: $bgcolor-item-product;
           margin: 0px 5px 0px 5px;
           border-radius: 4px;
@@ -190,8 +225,9 @@ body {
 
           a {
             margin-top: 13px;
-            font-size: 19px;
-            color: $color-white-one;
+            font-size: 15px;
+            color: $color-title-cards-products;
+            font-weight: 500;
           }
         }
       }

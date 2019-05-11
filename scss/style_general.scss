@@ -7,3 +7,13 @@ body {
 ul {
   font-size: 12px;
 }
+
+button {
+  background: #00b0ff;
+  color: $color-white-one;
+}
+
+input[type=submit] {
+  background: #00b0ff;
+  color: $color-white-one;
+}

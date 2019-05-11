@@ -1,3 +1,4 @@
+/********** ITEMS CARDS PRODUCTS GENERAL **********/
 body {
   padding: 0;
   margin: 0;
@@ -29,6 +30,22 @@ body {
 #container-slider {
   margin-top: 2rem; }
 
+#container-slider .slider .slides li {
+    border-bottom: 3px solid #DF1216;
+}
+
+#container-slider .slider .slides li h3 {
+    font-weight: 500;
+    font-size: 45px;
+    text-shadow: 2px 1px 2px #000000;
+}
+
+#container-slider .slider .slides li h5 {
+    font-weight: 500;
+    font-size: 30px;
+    text-shadow: 2px 1px 2px #000000;
+}
+
 /************ PRODUCTS PLUS *************/
 #container-item-products-plus {
   display: -webkit-box;
@@ -43,7 +60,7 @@ body {
   flex-wrap: wrap; }
   #container-item-products-plus .item {
     width: 350px;
-    height: 100px;
+      height: 90px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -64,11 +81,11 @@ body {
       margin-right: 30px;
       font-size: 35px; }
     #container-item-products-plus .item span {
-      width: 100px;
+        width: 79px;
       height: 50%;
       border-right: 1px solid #bebebe; }
     #container-item-products-plus .item .text-description {
-      margin-left: 30px;
+        margin-left: 39px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -97,7 +114,13 @@ body {
 /********** CAROUSEL *********/
 #container-carousel .card-carousel-product {
   margin-top: 7px;
-  background: #232930;
+    background-blend-mode: multiply;
+    background: url("../img/fondo-cards/china.jpg"), -webkit-radial-gradient(center, ellipse, #000000 0%, #eaeaea 94%);
+    background: url("../img/fondo-cards/china.jpg"), -o-radial-gradient(center, ellipse, #000000 0%, #eaeaea 94%);
+    background: url("../img/fondo-cards/china.jpg"), radial-gradient(ellipse at center, #000000 0%, #eaeaea 94%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
   padding: 5px;
   border-radius: 3px; }
   #container-carousel .card-carousel-product .carousel {
@@ -105,6 +128,12 @@ body {
     #container-carousel .card-carousel-product .carousel .carousel-item {
       text-align: center;
       margin: 10px; }
+
+#container-carousel .card-carousel-product .carousel .carousel-item h6 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
       #container-carousel .card-carousel-product .carousel .carousel-item > img {
         width: 100%;
         height: 200px; }
@@ -113,12 +142,21 @@ body {
 #container-article .row .card-sidebar-left .card {
   background: #232930; }
   #container-article .row .card-sidebar-left .card .card-title {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
     background: #293139;
-    text-align: center;
     font-weight: 500;
     font-size: 17px;
     color: #f1f8e9;
     padding: 10px; }
+
+#container-article .row .card-sidebar-left .card .card-title .material-icons {
+    margin-right: 10px;
+}
   #container-article .row .card-sidebar-left .card .card-1 .card-content ul {
     padding: 0;
     list-style: none; }
@@ -149,7 +187,7 @@ body {
       justify-content: center;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-      width: 180px;
+        width: 214px;
       background: rgba(0, 0, 0, 0.17);
       margin: 0px 5px 0px 5px;
       border-radius: 4px;
@@ -165,8 +203,10 @@ body {
           object-fit: cover; }
       #container-article .row .card-products .item .card-content a {
         margin-top: 13px;
-        font-size: 19px;
-        color: #fff; }
+          font-size: 15px;
+          color: #c3c1c1;
+          font-weight: 500;
+      }
 
 /************* FOOTER **************/
 #container-footer .page-footer {
@@ -183,6 +223,16 @@ body {
 
 ul {
   font-size: 12px; }
+
+button {
+    background: #00b0ff;
+    color: #fff;
+}
+
+input[type=submit] {
+    background: #00b0ff;
+    color: #fff;
+}
 
 .container-fluid {
   width: 100%; }
