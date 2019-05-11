@@ -90,7 +90,7 @@ body {
         font-weight: 800; }
       #container-item-products-plus .item .text-description h5:nth-child(2) {
         margin: 0;
-        color: darkred;
+          color: #DF1216;
         font-size: 25px;
         font-weight: 800; }
 

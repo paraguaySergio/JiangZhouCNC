@@ -46,7 +46,7 @@ body {
     min-height: 50px;
     padding: 10px;
     margin: 20px 0px 10px 0px;
-    background-color: $color-gray-two;
+    background-color: $bgcolor-card-dark;
     border: 1px solid #293139;
     border-radius: 4px;
     color: #FFFFFF;
@@ -79,7 +79,7 @@ body {
 
       h5:nth-child(2) {
         margin: 0;
-        color: darkred;
+        color: $color-primary;
         font-size: 25px;
         font-weight: 800;
       }
@@ -92,7 +92,7 @@ body {
 
   .card-carousel-product {
     margin-top: 7px;
-    background: $color-bg-card-one;
+    background: $bgcolor-card-dark;
     padding: 5px;
     border-radius: 3px;
 
@@ -118,7 +118,7 @@ body {
     //Card Left
     .card-sidebar-left {
       .card {
-        background: $color-bg-card-one;
+        background: $bgcolor-card-dark;
 
         .card-title {
           background: #293139;
@@ -161,17 +161,17 @@ body {
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-      background: $color-bg-card-one !important;
+      background: $bgcolor-card-dark !important;
 
       .item {
-        background: $color-bg-card-one;
+        background: $bgcolor-card-dark;
 
         .card-content {
           display: flex;
           justify-content: center;
           flex-wrap: wrap;
           width: 180px;
-          background: rgba(0, 0, 0, .17);
+          background: $bgcolor-item-product;
           margin: 0px 5px 0px 5px;
           border-radius: 4px;
           padding: 8px;
