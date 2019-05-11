@@ -29,6 +29,11 @@ body {
   }
 }
 
+/**************** SLIDER ****************/
+.container-slider {
+  margin-top: 2rem;
+}
+
 /************ PRODUCTS PLUS *************/
 #container-item-products-plus {
   display: flex;
@@ -92,8 +97,7 @@ body {
     border-radius: 3px;
 
     .carousel {
-      margin: 10px 10px;
-      height: 270px !important;
+      height: 350px;
 
       .carousel-item {
         text-align: center;
@@ -116,10 +120,24 @@ body {
       .card {
         background: $color-bg-card-one;
 
+        .card-title {
+          background: #293139;
+          text-align: center;
+          font-weight: 500;
+          font-size: 17px;
+          color: #f1f8e9;
+          padding: 10px;
+        }
+
         .card-1 {
           .card-content {
             ul {
+              padding: 0;
               list-style: none;
+
+              li {
+                border: dashed 1px #bebebe;
+              }
             }
           }
         }
