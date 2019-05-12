@@ -1,0 +1,47 @@
+/*********** HEADER **********/
+/*********** SLIDER **********/
+/************** PRODUCTS PLUS **************/
+/********** ITEMS CARDS PRODUCTS GENERAL **********/
+/**************** FOOTER ******************/
+/************** NOSOTROS ***************/
+.card-article-right .card-nosotros {
+    padding: 20px;
+    background: #293139;
+    color: #F0F0F0;
+}
+
+.card-article-right .card-nosotros .title-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.card-article-right .card-nosotros .title-cards .hr-one {
+    height: 2px;
+    background: #F0F0F0;
+    width: 5%;
+}
+
+.card-article-right .card-nosotros .title-cards h5 {
+    width: auto;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.card-article-right .card-nosotros .title-cards h5 span {
+    color: #DF1216;
+}
+
+.card-article-right .card-nosotros .title-cards .hr-two {
+    height: 2px;
+    background: #F0F0F0;
+    width: 55%;
+}
+
+.card-article-right .card-nosotros p {
+    text-align: justify;
+}

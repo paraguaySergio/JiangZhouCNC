@@ -1,0 +1,312 @@
+/*********** HEADER **********/
+/*********** SLIDER **********/
+/************** PRODUCTS PLUS **************/
+/********** ITEMS CARDS PRODUCTS GENERAL **********/
+/**************** FOOTER ******************/
+body {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-blend-mode: multiply;
+    background: url("https://cdn-html.nkdev.info/goodgames/assets/images/bg-top.png"), rgba(0, 0, 0, 0.7);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/************ HEADER *************/
+#container-header-desktop nav {
+    background: -webkit-gradient(linear, left top, right top, color-stop(0, #0b1c25), color-stop(25%, #1a2a33), to(#212b31));
+    background: -webkit-linear-gradient(left, #0b1c25 0, #1a2a33 25%, #212b31);
+    background: -o-linear-gradient(left, #0b1c25 0, #1a2a33 25%, #212b31);
+    background: linear-gradient(90deg, #0b1c25 0, #1a2a33 25%, #212b31);
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#container-header-desktop nav .nav-wrapper {
+    width: 90%;
+}
+
+#container-header-desktop nav .nav-wrapper ul {
+    cursor: pointer;
+    color: #F0F0F0;
+    text-decoration: none;
+}
+
+#container-header-desktop nav .nav-wrapper ul li a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/**************** SLIDER ****************/
+#container-slider {
+    margin-top: 2rem;
+}
+
+#container-slider .slider .slides li {
+    border-bottom: 3px solid #DF1216;
+}
+
+#container-slider .slider .slides li h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 45px;
+    text-shadow: 2px 1px 2px #000000;
+}
+
+#container-slider .slider .slides li h5 {
+    color: #DF1216;
+    font-weight: 500;
+    font-size: 30px;
+    text-shadow: 2px 1px 2px #000000;
+}
+
+/************ PRODUCTS PLUS *************/
+#container-item-products-plus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#container-item-products-plus .item {
+    width: 30%;
+    height: 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 50px;
+    margin: 20px 5px 10px 5px;
+    background-color: #293139;
+    border-bottom: 2px solid #DF1216;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 702px) {
+    #container-item-products-plus .item {
+        width: 100%;
+    }
+}
+
+#container-item-products-plus .item i {
+    margin-right: 30px;
+    font-size: 35px;
+}
+
+#container-item-products-plus .item span {
+    width: 79px;
+    height: 50%;
+    border-right: 1px solid #bebebe;
+}
+
+#container-item-products-plus .item .text-description {
+    margin-left: 39px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+}
+
+#container-item-products-plus .item .text-description h5 {
+    margin: 0;
+    color: #F0F0F0;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#container-item-products-plus .item .text-description h5:nth-child(2) {
+    margin: 0;
+    color: #DF1216;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+/********** CAROUSEL *********/
+#container-carousel .card-carousel-product {
+    margin-top: 7px;
+    background-blend-mode: multiply;
+    background: url("../img/fondo-cards/china.jpg"), -webkit-radial-gradient(center, ellipse, #000000 0%, #eaeaea 94%);
+    background: url("../img/fondo-cards/china.jpg"), -o-radial-gradient(center, ellipse, #000000 0%, #eaeaea 94%);
+    background: url("../img/fondo-cards/china.jpg"), radial-gradient(ellipse at center, #000000 0%, #eaeaea 94%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#container-carousel .card-carousel-product .carousel {
+    height: 350px;
+}
+
+#container-carousel .card-carousel-product .carousel .carousel-item {
+    text-align: center;
+    margin: 10px;
+}
+
+#container-carousel .card-carousel-product .carousel .carousel-item h6 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#container-carousel .card-carousel-product .carousel .carousel-item > img {
+    width: 100%;
+    height: 200px;
+}
+
+/************ ARTICLE CENTER *************/
+#container-article .row .card-sidebar-left .card {
+    background: #293139;
+}
+
+#container-article .row .card-sidebar-left .card .card-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    background: rgba(23, 27, 32, 0.91);
+    font-weight: 500;
+    font-size: 17px;
+    color: #f1f8e9;
+    padding: 10px;
+}
+
+#container-article .row .card-sidebar-left .card .card-title .material-icons {
+    margin-right: 10px;
+    color: #DF1216;
+}
+
+#container-article .row .card-sidebar-left .card .card-1 .card-content ul {
+    padding: 0;
+    list-style: none;
+}
+
+#container-article .row .card-sidebar-left .card .card-1 .card-content ul li {
+    border: dashed 1px #bebebe;
+}
+
+#container-article .row .card-sidebar-left .card .card-2 .card-content ul {
+    list-style: none;
+}
+
+#container-article .row .card-sidebar-left .card .card-3 {
+    padding: 10px;
+}
+
+#container-article .row .card-sidebar-left .card .card-3 .row {
+    color: #fff;
+}
+
+#container-article .row .card-sidebar-left .card .card-3 .row .form-contact {
+    width: 80%;
+}
+
+#container-article .row .card-products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background: #293139 !important;
+}
+
+#container-article .row .card-products .item {
+    background: #293139;
+}
+
+#container-article .row .card-products .item .card-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 214px;
+    background: rgba(23, 27, 32, 0.91);
+    margin: 0px 5px 0px 5px;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 7px;
+}
+
+#container-article .row .card-products .item .card-content div {
+    width: 100%;
+}
+
+#container-article .row .card-products .item .card-content div img {
+    width: 100%;
+    height: 170px;
+    margin: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+#container-article .row .card-products .item .card-content a {
+    margin-top: 13px;
+    font-size: 13px;
+    color: #c3c1c1;
+    font-weight: 500;
+    text-align: center;
+}
+
+/************* FOOTER **************/
+#container-footer .page-footer {
+    background: #232930;
+}
+
+#container-footer .page-footer .container .row .col {
+    font-size: 15px;
+}
+
+#container-footer .footer-copyright {
+    background: rgba(0, 0, 0, 0.17);
+}
+
+#container-footer .footer-copyright .container {
+    font-size: 14px;
+}
+
+#container-footer .footer-copyright .container a i {
+    font-size: 17px;
+    color: #DF1216;
+}
