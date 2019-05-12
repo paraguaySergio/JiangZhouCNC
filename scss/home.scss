@@ -1,3 +1,4 @@
+@import "variables";
 
 body {
   padding: 0;
@@ -171,7 +172,7 @@ body {
         .card-title {
           display: flex;
           justify-content: flex-start;
-          background: #293139;
+          background: $bgcolor-header-cards;
           font-weight: 500;
           font-size: 17px;
           color: #f1f8e9;
@@ -179,6 +180,7 @@ body {
 
           .material-icons {
             margin-right: 10px;
+            color: $color-primary;
           }
         }
 
@@ -200,9 +202,17 @@ body {
             ul {
               list-style: none;
             }
+          }
+        }
 
-            .row {
-              margin-top: 10px;
+        .card-3 {
+          padding: 10px;
+
+          .row {
+            color: $color-white-one;
+
+            .form-contact {
+              width: 80%;
             }
           }
         }
@@ -257,11 +267,32 @@ body {
 /************* FOOTER **************/
 
 #container-footer {
+
   .page-footer {
     background: $color-gray-two;
+
+    .container {
+      .row {
+        .col {
+          font-size: 15px;
+
+        }
+      }
+    }
   }
 
   .footer-copyright {
     background: rgba(0, 0, 0, 0.17);
+
+    .container {
+      font-size: 14px;
+
+      a {
+        i {
+          font-size: 17px;
+          color: $color-primary;
+        }
+      }
+    }
   }
 }

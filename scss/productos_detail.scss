@@ -1,0 +1,140 @@
+@import "variables";
+
+/************** CARD PRODUCTS DETAIL ***************/
+.card-article-right {
+  .card-products-detail-one {
+    background: $bgcolor-card-dark;
+    color: $color-white-default;
+    padding: 0;
+
+    .title-cards {
+      display: flex;
+      align-items: center;
+      background: $bgcolor-header-cards;
+      width: 100%;
+
+      h5 {
+        padding-left: 10px;
+        width: auto;
+        font-size: 17px;
+        font-weight: bold;
+
+        span {
+          color: $color-primary;
+        }
+      }
+    }
+
+    .header-product-detail {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      height: 250px;
+
+      .img-product {
+        width: 40%;
+        width: 200px;
+        margin: auto;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .table-description {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+
+        table {
+          background: $color-gray-two;
+          margin: auto;
+
+          tr {
+            td {
+              margin: auto;
+
+              a {
+                background: $color-terciary;
+                color: $color-white-default;
+                font-size: 16px;
+                font-weight: bold;
+                padding: 5px;
+                border-radius: 7px;
+                width: 100px;
+                margin: 5px
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .body-detail-product {
+      background: $color-gray-two;
+      padding: 10px;
+
+      p {
+        text-align: center;
+      }
+    }
+
+    .form-contact-product {
+      margin: auto;
+      padding: 10px;
+      width: 80%;
+
+      .title-cotizador {
+        margin-top: 1rem;
+        display: flex;
+        text-align: center;
+        width: 100%;
+
+        .hr-one {
+          height: 2px;
+          background: $color-white-default;
+          width: 5%;
+        }
+
+        h5 {
+          width: auto;
+          font-size: 24px;
+          font-weight: bold;
+          margin-top: -5px;
+
+          span {
+            color: $color-primary;
+          }
+        }
+
+        .hr-two {
+          height: 2px;
+          background: $color-white-default;
+          width: 40%;
+        }
+      }
+
+      .form-contact {
+        margin: 10px;
+
+        p {
+          margin: 0;
+
+          input, textarea {
+            color: #fff !important;
+          }
+
+          button {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+
+  }
+}

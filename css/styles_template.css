@@ -2,6 +2,12 @@
 /*********** SLIDER **********/
 /************** PRODUCTS PLUS **************/
 /********** ITEMS CARDS PRODUCTS GENERAL **********/
+/**************** FOOTER ******************/
+/*********** HEADER **********/
+/*********** SLIDER **********/
+/************** PRODUCTS PLUS **************/
+/********** ITEMS CARDS PRODUCTS GENERAL **********/
+/**************** FOOTER ******************/
 body {
   padding: 0;
   margin: 0;
@@ -34,7 +40,7 @@ body {
 
 #container-header-desktop nav .nav-wrapper ul {
     cursor: pointer;
-    color: #BEBEBE;
+    color: #F0F0F0;
     text-decoration: none;
 }
 
@@ -91,7 +97,7 @@ body {
     align-items: center;
     min-height: 50px;
       margin: 20px 5px 10px 5px;
-      background-color: #252c33;
+      background-color: #293139;
       border-bottom: 2px solid #DF1216;
     border-radius: 4px;
     color: #FFFFFF; }
@@ -164,7 +170,7 @@ body {
 
 /************ ARTICLE CENTER *************/
 #container-article .row .card-sidebar-left .card {
-    background: #252c33;
+    background: #293139;
 }
   #container-article .row .card-sidebar-left .card .card-title {
       display: -webkit-box;
@@ -173,7 +179,7 @@ body {
       -webkit-box-pack: start;
       -ms-flex-pack: start;
       justify-content: flex-start;
-    background: #293139;
+      background: rgba(23, 27, 32, 0.91);
     font-weight: 500;
     font-size: 17px;
     color: #f1f8e9;
@@ -181,6 +187,7 @@ body {
 
 #container-article .row .card-sidebar-left .card .card-title .material-icons {
     margin-right: 10px;
+    color: #DF1216;
 }
   #container-article .row .card-sidebar-left .card .card-1 .card-content ul {
     padding: 0;
@@ -189,8 +196,18 @@ body {
       border: dashed 1px #bebebe; }
   #container-article .row .card-sidebar-left .card .card-2 .card-content ul {
     list-style: none; }
-  #container-article .row .card-sidebar-left .card .card-2 .card-content .row {
-    margin-top: 10px; }
+
+#container-article .row .card-sidebar-left .card .card-3 {
+    padding: 10px;
+}
+
+#container-article .row .card-sidebar-left .card .card-3 .row {
+    color: #fff;
+}
+
+#container-article .row .card-sidebar-left .card .card-3 .row .form-contact {
+    width: 80%;
+}
 
 #container-article .row .card-products {
   display: -webkit-box;
@@ -200,10 +217,10 @@ body {
   justify-content: space-around;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-    background: #252c33 !important;
+    background: #293139 !important;
 }
   #container-article .row .card-products .item {
-      background: #252c33;
+      background: #293139;
   }
     #container-article .row .card-products .item .card-content {
       display: -webkit-box;
@@ -215,7 +232,7 @@ body {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
         width: 214px;
-      background: rgba(0, 0, 0, 0.17);
+        background: rgba(23, 27, 32, 0.91);
       margin: 0px 5px 0px 5px;
       border-radius: 4px;
       padding: 8px;
@@ -240,8 +257,21 @@ body {
 #container-footer .page-footer {
   background: #232930; }
 
+#container-footer .page-footer .container .row .col {
+    font-size: 15px;
+}
+
 #container-footer .footer-copyright {
   background: rgba(0, 0, 0, 0.17); }
+
+#container-footer .footer-copyright .container {
+    font-size: 14px;
+}
+
+#container-footer .footer-copyright .container a i {
+    font-size: 17px;
+    color: #DF1216;
+}
 
 body {
   margin: 0;

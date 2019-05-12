@@ -2,28 +2,29 @@ $color-white-default: #F0F0F0;
 
 $color-primary: #DF1216;
 $color-secundary: #ffc620;
+$color-terciary: #028EED;
 
 $color-white-one: #fff;
 
 $color-gray-one: #444;
 $color-gray-two: #232930;
+$color-gray-tree: rgba(23, 27, 32, 0.91);
 
-$bgcolor-card-dark: #252c33;
+$bgcolor-cards-body: #252c33;
 $bgcolor-card-light: #bebebe;
 
-$color-header-cards: #293139;
-$color-body-cards: #232930;
+$bgcolor-card-dark: #293139;
+
 
 //___________________________________________________________________________________________________________________//
 /*********** HEADER **********/
 $bgcolor-header: linear-gradient(90deg, #0b1c25 0, #1a2a33 25%, #212b31);
-$color-text: #BEBEBE;
+$color-text: $color-white-default;
 
 /*********** SLIDER **********/
 $color-border-bottom-slider: $color-primary;
 $color-text1: $color-white-one;
 $color-text2: $color-primary;
-
 
 /************** PRODUCTS PLUS **************/
 $color-border-bottom: $color-primary;
@@ -31,4 +32,8 @@ $bgcolor-card-product-plus: $bgcolor-card-dark;
 
 /********** ITEMS CARDS PRODUCTS GENERAL **********/
 $color-title-cards-products: #c3c1c1;
-$bgcolor-item-product: rgba(0, 0, 0, 0.17);
+$bgcolor-item-product: $color-gray-tree;
+$bgcolor-header-cards: $color-gray-tree;
+
+/**************** FOOTER ******************/
+$bgcolor-footer: rgba(0, 0, 0, 0.17);
