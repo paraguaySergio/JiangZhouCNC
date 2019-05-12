@@ -14,6 +14,7 @@
 <body>
 <div class="container-fluid" id="container-header-desktop">
     <nav>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <div class="nav-wrapper">
             <a href="../" class="brand-logo"><img src="img/logos/logo.png" alt="" class="responsive-img"></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -26,28 +27,51 @@
     </nav>
 </div>
 
+<ul id="slide-out" class="sidenav">
+    <li>
+        <div class="user-view">
+            <div class="background">
+                <img src="img/fondo-cards/china.jpg">
+            </div>
+            <a href="#user"><img class="circle" src="img/fondo-cards/china.jpg"></a>
+            <a href="#name"><span class="white-text name">Joung Zhou</span></a>
+            <a href="#email"><span class="white-text email">sales@jzsk.com.cn</span></a>
+        </div>
+    </li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li>
+        <div class="divider"></div>
+    </li>
+    <li><a class="subheader">MENU</a></li>
+    <li><a class="waves-effect" href="nosotros">Nosotros</a></li>
+    <li><a class="waves-effect" href="productos">productos</a></li>
+    <li><a class="waves-effect" href="noticias">Noticias</a></li>
+    <li><a class="waves-effect" href="contacto">Contacto</a></li>
+</ul>
+
 <div class="container" id="container-slider">
     <div class="slider">
         <ul class="slides">
             <li>
                 <img src="img/slider/hero.jpg"> <!-- random image -->
                 <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <h3>Los mejores productos de corte lazer</h3>
+                    <h5 class="light  text-lighten-3">Nosotros lo tenemos</h5>
                 </div>
             </li>
             <li>
                 <img src="img/slider/IMAGEN-CORTE-LASER.jpg"> <!-- random image -->
                 <div class="caption left-align">
-                    <h3>Left Aligned Caption</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <h3>Los mejores productos de corte lazer</h3>
+                    <h5 class="light  text-lighten-3">Nosotros lo tenemos</h5>
                 </div>
             </li>
             <li>
                 <img src="img/slider/hero.jpg"> <!-- random image -->
                 <div class="caption right-align">
-                    <h3>Right Aligned Caption</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <h3>Los mejores productos de corte lazer</h3>
+                    <h5 class="light  text-lighten-3">Nosotros lo tenemos</h5>
                 </div>
             </li>
         </ul>
@@ -58,12 +82,12 @@
 <div class="container" id="container-item-products-plus">
 
     <div class="item">
-        <span>
+         <span>
        <i class="large material-icons">broken_image</i>
         </span>
         <div class="text-description">
-            <h5>Corte</h5>
-            <h5>Lazer</h5>
+            <a href="productos"><h5>Corte</h5>
+                <h5>Lazer</h5></a>
         </div>
     </div>
     <div class="item">
@@ -71,8 +95,8 @@
         <i class="large material-icons ">widgets</i>
         </span>
         <div class="text-description">
-            <h5>Corte</h5>
-            <h5>Lazer</h5>
+            <a href="productos"><h5>Corte</h5>
+                <h5>Lazer</h5></a>
         </div>
     </div>
     <div class="item">
@@ -80,8 +104,8 @@
         <i class="large material-icons">wrap_text</i>
         </span>
         <div class="text-description">
-            <h5>Corte</h5>
-            <h5>Lazer</h5>
+            <a href="productos"><h5>Corte</h5>
+                <h5>Lazer</h5></a>
         </div>
     </div>
 </div>
@@ -90,18 +114,18 @@
     <div class="row">
         <div class="card-carousel-product">
             <div class="carousel">
-                <a class="carousel-item" href="#one!"><img src="img/productos/s_634857410012187500.jpg"><h6>
-                    Producto 01</h6></a>
-                <a class="carousel-item" href="#two!"><img src="img/productos/s_634857416109375000.jpg"><h6>
-                    Producto 02</h6></a>
+                <a class="carousel-item" href="#one!"><img src="img/productos/s_634857421835781250.jpg"><h6>
+                    DK771220 CNC WIRE EDM</h6></a>
+                <a class="carousel-item " href="#two!"><img src="img/productos/s_634857416109375000.jpg"><h6>
+                    DK7732 CNC WIRE EDM</h6></a>
                 <a class="carousel-item" href="#three!"><img src="img/productos/s_634857426448125000.jpg"><h6>
-                    Producto 03</h6></a>
+                    XK SERIES CNC MACHINE CENTER</h6></a>
                 <a class="carousel-item" href="#four!"><img src="img/productos/s_634857422869531250.jpg"><h6>
-                    Producto 04</h6></a>
+                    CNC MILLING MACHINE</h6></a>
                 <a class="carousel-item" href="#five!"><img src="img/productos/s_634857430151875000.jpg"><h6>
-                    Prodcto 03</h6></a>
+                    QT SERIES CNC ABRASIVE WIRE CUTTING MACHINE</h6></a>
                 <a class="carousel-item" href="#six!"><img src="img/productos/s_634857439162187500.jpg"><h6>
-                    Producto 05</h6></a>
+                    D71 DIE SINKER EDM</h6></a>
             </div>
         </div>
     </div>
@@ -114,11 +138,11 @@
                 <div class="card-title"><i class="small material-icons">hdr_weak</i>Productos Populares</div>
                 <div class="card-content white-text">
                     <ul>
-                        <li>DK7716 CNC WIRE CUT EDM</li>
-                        <li>D71 DIE SINKER EDM</li>
-                        <li>JZDX SERIES CNC CARVE-MILLING MACHINE</li>
-                        <li>QT SERIES CNC ABRASIVE WIRE CUTTING MACHINE</li>
-                        <li>QT SERIES CNC ABRASIVE</li>
+                        <li><a href="productos">DK7716 CNC WIRE CUT EDM</a></li>
+                        <li><a href="productos">D71 DIE SINKER EDM</a></li>
+                        <li><a href="productos">JZDX SERIES CNC CARVE-MILLING MACHINE</a></li>
+                        <li><a href="productos">QT SERIES CNC ABRASIVE WIRE CUTTING MACHINE</a></li>
+                        <li><a href="productos">QT SERIES CNC ABRASIVE</a></li>
                     </ul>
                 </div>
             </div>
@@ -174,7 +198,8 @@
                     <div class="card-content white-text">
                         <div>
                             <img src="img/productos/s_634857430151875000.jpg"
-                                 width="100%" alt="" class="responsive-img">
+                                 width="100%" alt="" class="responsive-img materialboxed"
+                                 data-caption="DK7716 CNC WIRE CUT EDM">
                         </div>
                         <a href="productos/product_detail">DK7716 CNC WIRE CUT EDM</a>
                     </div>
@@ -184,7 +209,8 @@
                     <div class="card-content white-text">
                         <div>
                             <img src="img/productos/s_634857439162187500.jpg"
-                                 width="100%" alt="" class="responsive-img">
+                                 width="100%" alt="" class="responsive-img materialboxed"
+                                 data-caption="DK7716 CNC WIRE CUT EDM">
                         </div>
                         <a href="productos/product_detail">D71 DIE SINKER EDM</a>
                     </div>
@@ -194,7 +220,8 @@
                     <div class="card-content white-text">
                         <div>
                             <img src="img/productos/s_634857430151875000.jpg"
-                                 width="100%" alt="" class="responsive-img">
+                                 width="100%" alt="" class="responsive-img materialboxed"
+                                 data-caption="DK7716 CNC WIRE CUT EDM">
                         </div>
                         <a href="productos/product_detail">JZDX SERIES CNC CARVE-MILLING MACHINE</a>
                     </div>
@@ -204,7 +231,8 @@
                     <div class="card-content white-text">
                         <div>
                             <img src="img/productos/s_634857426448125000.jpg"
-                                 width="100%" alt="" class="responsive-img">
+                                 width="100%" alt="" class="responsive-img materialboxed"
+                                 data-caption="DK7716 CNC WIRE CUT EDM">
                         </div>
                         <a href="#">QT SERIES CNC ABRASIVE WIRE CUTTING MACHINE</a>
                     </div>
@@ -214,7 +242,8 @@
                     <div class="card-content white-text">
                         <div>
                             <img src="img/productos/s_634857422869531250.jpg"
-                                 width="100%" alt="" class="responsive-img">
+                                 width="100%" alt="" class="responsive-img materialboxed"
+                                 data-caption="DK7716 CNC WIRE CUT EDM">
                         </div>
                         <a href="#">QT SERIES CNC ABRASIVE</a>
                     </div>
@@ -224,7 +253,8 @@
                     <div class="card-content white-text">
                         <div>
                             <img src="img/productos/s_634857411446718750.jpg"
-                                 width="100%" alt="" class="responsive-img">
+                                 width="100%" alt="" class="responsive-img materialboxed"
+                                 data-caption="DK7716 CNC WIRE CUT EDM">
                         </div>
                         <a href="#">QT SERIES CNC ABRASIVE</a>
                     </div>
@@ -234,7 +264,8 @@
                     <div class="card-content white-text">
                         <div>
                             <img src="img/productos/s_634857415746875000.jpg"
-                                 width="100%" alt="" class="responsive-img">
+                                 width="100%" alt="" class="responsive-img materialboxed"
+                                 data-caption="DK7716 CNC WIRE CUT EDM">
                         </div>
                         <a href="#">JZDX SERIES CNC CARVE-MILLING MACHINE</a>
                     </div>
@@ -244,7 +275,8 @@
                     <div class="card-content white-text">
                         <div>
                             <img src="img/productos/s_634857416415625000.jpg"
-                                 width="100%" alt="" class="responsive-img">
+                                 width="100%" alt="" class="responsive-img materialboxed"
+                                 data-caption="DK7716 CNC WIRE CUT EDM">
                         </div>
                         <a href="#">D71 DIE SINKER EDM</a>
                     </div>
@@ -254,7 +286,8 @@
                     <div class="card-content white-text">
                         <div>
                             <img src="img/productos/s_634857421835781250.jpg"
-                                 width="100%" alt="" class="responsive-img">
+                                 width="100%" alt="" class="responsive-img materialboxed"
+                                 data-caption="DK7716 CNC WIRE CUT EDM">
                         </div>
                         <a href="#">JZDX SERIES CNC CARVE-MILLING MACHINE</a>
                     </div>
@@ -296,6 +329,18 @@
     </footer>
 </div>
 
+
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+        <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+        <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+        <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+        <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+        <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+</div>
 
 <!--JavaScript at end of body for optimized loading-->
 <script type="text/javascript" src="js/materialize.js"></script>

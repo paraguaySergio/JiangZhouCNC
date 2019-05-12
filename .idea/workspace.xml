@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005a3f4a-7acd-4919-9668-ce8f35ac1a25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contacto/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/general.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/general.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/materialize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/imports-dist.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/imports-dist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/imports.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/imports.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/imports.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/imports.css.map" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +26,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="168" lean-forward="true" selection-end-line="303" selection-end-column="7" />
+            <state relative-caret-position="453">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/materialize.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="6294" column="22" lean-forward="true" selection-start-line="6294" selection-start-column="22" selection-end-line="6294" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/home.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="64" column="27" lean-forward="true" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS/general.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -32,11 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/productos/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="189" column="31" lean-forward="true" selection-start-line="189" selection-start-column="31" selection-end-line="189" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="4536">
+              <caret line="189" column="31" selection-start-line="189" selection-start-column="31" selection-end-line="189" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -44,17 +74,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/productos/product_detail/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="40" column="47" lean-forward="true" selection-end-line="185" selection-end-column="7" />
+            <state relative-caret-position="960">
+              <caret line="40" column="47" selection-end-line="185" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contacto/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="70" column="52" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
+            <state relative-caret-position="2184">
+              <caret line="91" column="57" selection-start-line="91" selection-start-column="57" selection-end-line="91" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -70,6 +100,9 @@
       <find>footer-copyright</find>
       <find>$bgcolor-card-dark</find>
       <find>.card-products</find>
+      <find>container-head</find>
+      <find>slides</find>
+      <find>.slider .indicators .indicator-item.active</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,12 +122,14 @@
         <option value="$PROJECT_DIR$/scss/productos.scss" />
         <option value="$PROJECT_DIR$/scss/productos_detail.scss" />
         <option value="$PROJECT_DIR$/scss/imports.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/nosotros/index.html" />
-        <option value="$PROJECT_DIR$/scss/home.scss" />
         <option value="$PROJECT_DIR$/productos/product_detail/index.html" />
         <option value="$PROJECT_DIR$/productos/index.html" />
         <option value="$PROJECT_DIR$/contacto/index.html" />
+        <option value="$PROJECT_DIR$/JS/general.js" />
+        <option value="$PROJECT_DIR$/scss/home.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/materialize.css" />
       </list>
     </option>
   </component>
@@ -120,7 +155,7 @@
             <path>
               <item name="JiangZhouCNC" type="b2602c69:ProjectViewProjectNode" />
               <item name="JiangZhouCNC" type="462c0819:PsiDirectoryNode" />
-              <item name="contacto" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JiangZhouCNC" type="b2602c69:ProjectViewProjectNode" />
@@ -188,7 +223,9 @@
       <workItem from="1557362873324" duration="1114000" />
       <workItem from="1557364216753" duration="2271000" />
       <workItem from="1557366817305" duration="2633000" />
-      <workItem from="1557623532979" duration="24527000" />
+      <workItem from="1557623532979" duration="24856000" />
+      <workItem from="1557670002705" duration="398000" />
+      <workItem from="1557670445859" duration="2338000" />
     </task>
     <task id="LOCAL-00001" summary="add h1&gt;hola mundo">
       <created>1557363527340</created>
@@ -246,11 +283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557649545656</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add new contacto">
+      <created>1557650112931</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557650112931</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30545000" />
+    <option name="totallyTimeSpent" value="33610000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -278,7 +322,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.27552673" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32901135" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32901135" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -353,7 +397,8 @@
     <MESSAGE value="update gitignore" />
     <MESSAGE value="add materialize and sass" />
     <MESSAGE value="add new files and styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new files and styles" />
+    <MESSAGE value="add new contacto" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new contacto" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -428,13 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="219" column="17" lean-forward="true" selection-start-line="219" selection-start-column="17" selection-end-line="219" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/productos_detail.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -452,37 +490,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="168" lean-forward="true" selection-end-line="303" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/productos/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="189" column="31" lean-forward="true" selection-start-line="189" selection-start-column="31" selection-end-line="189" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="4536">
+          <caret line="189" column="31" selection-start-line="189" selection-start-column="31" selection-end-line="189" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/productos/product_detail/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="40" column="47" lean-forward="true" selection-end-line="185" selection-end-column="7" />
+        <state relative-caret-position="960">
+          <caret line="40" column="47" selection-end-line="185" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contacto/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="70" column="52" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
+        <state relative-caret-position="2184">
+          <caret line="91" column="57" selection-start-line="91" selection-start-column="57" selection-end-line="91" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/general.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="64" column="27" lean-forward="true" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="6294" column="22" lean-forward="true" selection-start-line="6294" selection-start-column="22" selection-end-line="6294" selection-end-column="22" />
         </state>
       </provider>
     </entry>

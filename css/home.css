@@ -33,6 +33,18 @@ body {
     align-items: center;
 }
 
+#container-header-desktop nav .sidenav-trigger {
+    display: none;
+}
+
+@media (max-width: 702px) {
+    #container-header-desktop nav .sidenav-trigger {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
 #container-header-desktop nav .nav-wrapper {
     width: 90%;
 }

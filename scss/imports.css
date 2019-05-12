@@ -41,6 +41,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+#container-header-desktop nav .sidenav-trigger {
+  display: none;
+}
+@media (max-width: 702px) {
+  #container-header-desktop nav .sidenav-trigger {
+    display: flex;
+  }
+}
 #container-header-desktop nav .nav-wrapper {
   width: 90%;
 }

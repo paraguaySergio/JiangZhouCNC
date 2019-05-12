@@ -20,6 +20,12 @@ body {
     justify-content: center;
     align-items: center;
 
+    .sidenav-trigger {
+      display: none;
+      @media (max-width: 702px) {
+        display: flex;
+      }
+    }
     .nav-wrapper {
       width: 90%;
 
@@ -56,7 +62,7 @@ body {
         }
 
         h5 {
-          color: $color-text2;
+          color: $color-primary;
           font-weight: 500;
           font-size: 30px;
           text-shadow: 2px 1px 2px #000000;
