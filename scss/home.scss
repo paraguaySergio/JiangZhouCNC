@@ -206,13 +206,25 @@ body {
         }
 
         .card-3 {
-          padding: 10px;
-
           .row {
+            padding: 10px;
             color: $color-white-one;
 
             .form-contact {
-              width: 80%;
+              width: 80% !important;
+              margin: auto !important;
+
+              p {
+                margin: 0;
+
+                input, textarea {
+                  color: #fff !important;
+                }
+
+                button {
+                  margin-top: 10px;
+                }
+              }
             }
           }
         }

@@ -225,16 +225,26 @@ body {
     list-style: none;
 }
 
-#container-article .row .card-sidebar-left .card .card-3 {
-    padding: 10px;
-}
-
 #container-article .row .card-sidebar-left .card .card-3 .row {
+    padding: 10px;
     color: #fff;
 }
 
 #container-article .row .card-sidebar-left .card .card-3 .row .form-contact {
-    width: 80%;
+    width: 80% !important;
+    margin: auto !important;
+}
+
+#container-article .row .card-sidebar-left .card .card-3 .row .form-contact p {
+    margin: 0;
+}
+
+#container-article .row .card-sidebar-left .card .card-3 .row .form-contact p input, #container-article .row .card-sidebar-left .card .card-3 .row .form-contact p textarea {
+    color: #fff !important;
+}
+
+#container-article .row .card-sidebar-left .card .card-3 .row .form-contact p button {
+    margin-top: 10px;
 }
 
 #container-article .row .card-products {
