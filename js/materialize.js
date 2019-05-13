@@ -1137,7 +1137,7 @@ if (typeof define === 'function' && define.amd) {
         return M;
     });
 
-    // Common JS
+    // Common js
 } else if (typeof exports !== 'undefined' && !exports.nodeType) {
     if (typeof module !== 'undefined' && !module.nodeType && module.exports) {
         exports = module.exports = M;
