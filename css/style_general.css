@@ -1,3 +1,8 @@
+/*********** HEADER **********/
+/*********** SLIDER **********/
+/************** PRODUCTS PLUS **************/
+/********** ITEMS CARDS PRODUCTS GENERAL **********/
+/**************** FOOTER ******************/
 body {
   margin: 0;
     padding: 0;
@@ -7,4 +12,19 @@ body {
 
 ul {
     font-size: 12px;
+}
+
+.btn-primary {
+    background: #028EED;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease 0.2s;
+    -o-transition: all 0.2s ease 0.2s;
+    transition: all 0.2s ease 0.2s;
+}
+
+.btn-primary:hover {
+    border-bottom: 2px solid #DF1216;
 }

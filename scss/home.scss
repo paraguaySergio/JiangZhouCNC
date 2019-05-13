@@ -26,6 +26,7 @@ body {
         display: flex;
       }
     }
+
     .nav-wrapper {
       width: 90%;
 
@@ -246,24 +247,34 @@ body {
 
       .item {
         background: $bgcolor-card-dark;
+        @media(max-width: 797px) {
+          width: 45%;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+        }
 
         .card-content {
           display: flex;
           justify-content: center;
           flex-wrap: wrap;
-          width: 214px;
+          width: 190px;
           background: $bgcolor-item-product;
           margin: 0px 5px 0px 5px;
           border-radius: 4px;
           padding: 8px;
-          margin: 7px;
+
+          @media(max-width: 797px) {
+            width: 170px;
+          }
 
           div {
             width: 100%;
+            height: 100px;
 
             img {
               width: 100%;
-              height: 170px;
+              height: 100%;
               margin: 0;
               object-fit: cover;
             }
