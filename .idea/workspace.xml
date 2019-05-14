@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="005a3f4a-7acd-4919-9668-ce8f35ac1a25" name="Default Changelist" comment="correction styles">
+    <list default="true" id="005a3f4a-7acd-4919-9668-ce8f35ac1a25" name="Default Changelist" comment="added JSON products">
+      <change afterPath="$PROJECT_DIR$/scss/productos.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/general.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/general.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/materialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/materialize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/productos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/productos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/s_634857410012187500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/s_634857411446718750.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/s_634857415746875000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/s_634857416109375000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/s_634857416415625000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/s_634857416699687500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/s_634857421835781250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/s_634857422869531250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/s_634857426448125000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/s_634857430151875000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/s_634857430830312500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/s_634857433666250000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/s_634857439162187500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/s_635107801986975045.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="198" column="55" selection-start-line="198" selection-start-column="55" selection-end-line="198" selection-end-column="55" />
+            <state relative-caret-position="156">
+              <caret line="210" column="75" selection-start-line="210" selection-start-column="75" selection-end-line="210" selection-end-column="75" />
               <folding>
                 <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -32,10 +47,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/productos.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/products.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="139" column="2" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
+            <state relative-caret-position="48">
+              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -81,10 +105,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Index.html" />
         <option value="$PROJECT_DIR$/scss/nosotros.scss" />
-        <option value="$PROJECT_DIR$/scss/productos.scss" />
         <option value="$PROJECT_DIR$/scss/imports.scss" />
         <option value="$PROJECT_DIR$/nosotros/index.html" />
-        <option value="$PROJECT_DIR$/productos/index.html" />
         <option value="$PROJECT_DIR$/contacto/index.html" />
         <option value="$PROJECT_DIR$/JS/general.js" />
         <option value="$PROJECT_DIR$/css/materialize.css" />
@@ -95,6 +117,8 @@
         <option value="$PROJECT_DIR$/scss/home.scss" />
         <option value="$PROJECT_DIR$/JS/products.js" />
         <option value="$PROJECT_DIR$/js/products.js" />
+        <option value="$PROJECT_DIR$/scss/productos.scss" />
+        <option value="$PROJECT_DIR$/productos/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -110,7 +134,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,16 +151,11 @@
               <item name="JiangZhouCNC" type="462c0819:PsiDirectoryNode" />
               <item name="productos" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JiangZhouCNC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JiangZhouCNC" type="462c0819:PsiDirectoryNode" />
-              <item name="productos" type="462c0819:PsiDirectoryNode" />
-              <item name="product_detail" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,7 +205,8 @@
       <workItem from="1557623532979" duration="24856000" />
       <workItem from="1557670002705" duration="398000" />
       <workItem from="1557670445859" duration="2499000" />
-      <workItem from="1557711010791" duration="14510000" />
+      <workItem from="1557711010791" duration="14656000" />
+      <workItem from="1557800934838" duration="5126000" />
     </task>
     <task id="LOCAL-00001" summary="add h1&gt;hola mundo">
       <created>1557363527340</created>
@@ -266,11 +285,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557723014910</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added JSON products">
+      <created>1557730392880</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1557730392880</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48281000" />
+    <option name="totallyTimeSpent" value="53553000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -285,9 +311,10 @@
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12321144" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16931638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49920508" weight="0.22690438" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.110210694" />
@@ -298,7 +325,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.27552673" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32901135" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32901135" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.22690438" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -377,7 +404,8 @@
     <MESSAGE value="add new contacto" />
     <MESSAGE value="add navbar mobile, button floating" />
     <MESSAGE value="correction styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction styles" />
+    <MESSAGE value="added JSON products" />
+    <option name="LAST_COMMIT_MESSAGE" value="added JSON products" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -490,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/productos/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2149">
-          <caret line="189" column="31" selection-start-line="189" selection-start-column="31" selection-end-line="189" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/general.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -518,17 +539,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/productos/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="65" column="75" selection-start-line="65" selection-start-column="75" selection-end-line="65" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/products.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="139" column="2" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
+        <state relative-caret-position="48">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/productos.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="198" column="55" selection-start-line="198" selection-start-column="55" selection-end-line="198" selection-end-column="55" />
+        <state relative-caret-position="156">
+          <caret line="210" column="75" selection-start-line="210" selection-start-column="75" selection-end-line="210" selection-end-column="75" />
           <folding>
             <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

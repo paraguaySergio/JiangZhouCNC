@@ -58,14 +58,6 @@ let jsonProducts = {
         },
         {
             "id": 8,
-            "title": "CNC MILLING MACHINE",
-            "model": "XK",
-            "description": "XK SERIES CNC MILLING MACHINE",
-            "size": "big",
-            "img": "CNCMILLINGMACHINE2",
-        },
-        {
-            "id": 9,
             "title": "DIE SNKER EDM WITH 3-AXIS",
             "model": "D71",
             "description": "DIE SNKER EDM WITH 3-AXIS",
@@ -73,7 +65,7 @@ let jsonProducts = {
             "img": "DIESNKEREDMWITH3-AXIS",
         },
         {
-            "id": 10,
+            "id": 9,
             "title": "DK7720 CNC WIRE EDM",
             "model": "DK7720",
             "description": "CNC WIRE CUT EDM",
@@ -81,7 +73,7 @@ let jsonProducts = {
             "img": "DK7720CNCWIREEDM",
         },
         {
-            "id": 11,
+            "id": 10,
             "title": "DK7725 CNC WIRE EDM",
             "model": "DK7725",
             "description": "CNC WIRE EDM",
@@ -89,7 +81,7 @@ let jsonProducts = {
             "img": "DK7725CNCWIREEDM",
         },
         {
-            "id": 12,
+            "id": 11,
             "title": "DK7732 CNC WIRE EDM",
             "model": "",
             "description": "CNC WIRE EDM",
@@ -97,7 +89,7 @@ let jsonProducts = {
             "img": "DK7732CNCWIREEDM",
         },
         {
-            "id": 13,
+            "id": 12,
             "title": "DK7740 CNC WIRE EDM",
             "model": "",
             "description": "CNC WIRE EDM",
@@ -105,7 +97,7 @@ let jsonProducts = {
             "img": "DK7740CNCWIREEDM",
         },
         {
-            "id": 14,
+            "id": 13,
             "title": "DK7755 CNC WIRE EDM",
             "model": "",
             "description": "CNC WIRE EDM",
@@ -113,7 +105,7 @@ let jsonProducts = {
             "img": "DK7755CNCWIREEDM",
         },
         {
-            "id": 15,
+            "id": 14,
             "title": "DK7763A CNC WIRE EDM",
             "model": "",
             "description": "CNC WIRE EDM",
@@ -121,7 +113,7 @@ let jsonProducts = {
             "img": "DK7763ACNCWIREEDM",
         },
         {
-            "id": 16,
+            "id": 15,
             "title": "DK7780 CNC WIRE EDM",
             "model": "",
             "description": "CNC WIRE EDM",
@@ -129,7 +121,7 @@ let jsonProducts = {
             "img": "DK7780CNCWIREEDM",
         },
         {
-            "id": 17,
+            "id": 16,
             "title": "DK771220 CNC WIRE EDM",
             "model": "",
             "description": "DK771220 CNC WIRE EDM",
