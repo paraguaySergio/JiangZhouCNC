@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "productos.scss"
+  ],
+  "names": [],
+  "mappings": "AAKU;EACE;EACA;EACA",
+  "file": "productos.css"
+}
