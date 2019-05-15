@@ -311,12 +311,14 @@ body {
     }
 }
 
-#container-article .row .card-products .item .card-content div {
-    width: 100%;
-    height: 100px;
+#container-article .row .card-products .item .card-content .material-placeholder {
+    width: 150px;
+    margin: auto;
+    background: #fff;
+    height: 150px;
 }
 
-#container-article .row .card-products .item .card-content div img {
+#container-article .row .card-products .item .card-content .material-placeholder img {
     width: 100%;
     height: 100%;
     margin: 0;

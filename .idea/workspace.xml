@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005a3f4a-7acd-4919-9668-ce8f35ac1a25" name="Default Changelist" comment="added JSON products">
-      <change afterPath="$PROJECT_DIR$/scss/productos.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/dataGet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/functions_data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/productos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/productos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/s_634857410012187500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/s_634857411446718750.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/s_634857415746875000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/s_634857416109375000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/s_634857416415625000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/s_634857416699687500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/s_634857421835781250.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/s_634857422869531250.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/s_634857426448125000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/s_634857430151875000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/s_634857430830312500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/s_634857433666250000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/s_634857439162187500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/productos/s_635107801986975045.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/productos/s_634857413795156250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/product_detail/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/product_detail/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/imports-dist.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/imports-dist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/imports.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/imports.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/imports.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/imports.css.map" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="210" column="75" selection-start-line="210" selection-start-column="75" selection-end-line="210" selection-end-column="75" />
+            <state relative-caret-position="220">
+              <caret line="185" column="63" selection-start-line="185" selection-start-column="63" selection-end-line="185" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -49,17 +39,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/productos.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state>
+              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/home.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="270" column="13" selection-start-line="270" selection-start-column="10" selection-end-line="270" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/products.js">
+        <entry file="file://$PROJECT_DIR$/js/functions_data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            <state relative-caret-position="264">
+              <caret line="25" column="354" selection-start-line="25" selection-start-column="354" selection-end-line="25" selection-end-column="354" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/productos/product_detail/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" selection-start-line="12" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -90,6 +98,10 @@
       <find>heade</find>
       <find>card-prod</find>
       <find>DK7720CNCWIREEDM</find>
+      <find>DK7755CNCWIREEDM</find>
+      <find>material-placeholder</find>
+      <find>card</find>
+      <find>card-products</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,14 +124,16 @@
         <option value="$PROJECT_DIR$/css/materialize.css" />
         <option value="$PROJECT_DIR$/scss/variables.scss" />
         <option value="$PROJECT_DIR$/scss/style_general.scss" />
-        <option value="$PROJECT_DIR$/productos/product_detail/index.html" />
         <option value="$PROJECT_DIR$/scss/productos_detail.scss" />
-        <option value="$PROJECT_DIR$/scss/home.scss" />
         <option value="$PROJECT_DIR$/JS/products.js" />
-        <option value="$PROJECT_DIR$/js/products.js" />
         <option value="$PROJECT_DIR$/scss/productos.scss" />
         <option value="$PROJECT_DIR$/productos/index.html" />
+        <option value="$PROJECT_DIR$/js/products.js" />
+        <option value="$PROJECT_DIR$/js/dataGet.js" />
+        <option value="$PROJECT_DIR$/productos/product_detail/index.html" />
+        <option value="$PROJECT_DIR$/js/functions_data.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/home.scss" />
       </list>
     </option>
   </component>
@@ -134,6 +148,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,11 +166,21 @@
               <item name="JiangZhouCNC" type="462c0819:PsiDirectoryNode" />
               <item name="productos" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JiangZhouCNC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JiangZhouCNC" type="462c0819:PsiDirectoryNode" />
+              <item name="productos" type="462c0819:PsiDirectoryNode" />
+              <item name="product_detail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JiangZhouCNC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JiangZhouCNC" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,7 +231,8 @@
       <workItem from="1557670002705" duration="398000" />
       <workItem from="1557670445859" duration="2499000" />
       <workItem from="1557711010791" duration="14656000" />
-      <workItem from="1557800934838" duration="5126000" />
+      <workItem from="1557800934838" duration="5305000" />
+      <workItem from="1557879461195" duration="11080000" />
     </task>
     <task id="LOCAL-00001" summary="add h1&gt;hola mundo">
       <created>1557363527340</created>
@@ -292,11 +318,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557730392880</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added JSON products and styles">
+      <created>1557812310816</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557812310816</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53553000" />
+    <option name="totallyTimeSpent" value="64812000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -311,10 +344,9 @@
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16931638" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17249602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49920508" weight="0.22690438" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.110210694" />
@@ -324,8 +356,9 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32970452" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.27552673" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32901135" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.17828201" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.22690438" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49920508" weight="0.22690438" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -405,7 +438,8 @@
     <MESSAGE value="add navbar mobile, button floating" />
     <MESSAGE value="correction styles" />
     <MESSAGE value="added JSON products" />
-    <option name="LAST_COMMIT_MESSAGE" value="added JSON products" />
+    <MESSAGE value="added JSON products and styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="added JSON products and styles" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -424,12 +458,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style_general.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/imports.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/imports.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -511,13 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/productos/product_detail/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="81" column="53" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/general.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -532,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="253" column="34" selection-start-line="253" selection-start-column="34" selection-end-line="253" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/productos/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -548,25 +565,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/products.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state relative-caret-position="241">
+          <caret line="107" column="21" lean-forward="true" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/productos.scss">
+    <entry file="file://$PROJECT_DIR$/js/dataGet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <caret line="7" column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productos/product_detail/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/functions_data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="25" column="354" selection-start-line="25" selection-start-column="354" selection-end-line="25" selection-end-column="354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style_general.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="210" column="75" selection-start-line="210" selection-start-column="75" selection-end-line="210" selection-end-column="75" />
+        <state relative-caret-position="220">
+          <caret line="185" column="63" selection-start-line="185" selection-start-column="63" selection-end-line="185" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/productos.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="270" column="13" selection-start-line="270" selection-start-column="10" selection-end-line="270" selection-end-column="13" />
         </state>
       </provider>
     </entry>
