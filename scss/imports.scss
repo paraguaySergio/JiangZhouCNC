@@ -1,6 +1,8 @@
-@import "style_general";
-@import "modify_framework";
-@import "variables";
-@import "home";
-@import "nosotros";
-@import "productos_detail";
+@import "components-web/variables";
+@import "components-web/style_general";
+@import "components-web/modify_framework";
+@import "pages/productos_detail";
+@import "pages/home";
+@import "pages/nosotros";
+@import "pages/contacto";
+
