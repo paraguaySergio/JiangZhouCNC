@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="005a3f4a-7acd-4919-9668-ce8f35ac1a25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scss/pages/_contacto.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacto/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacto/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/materialize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/modify_framework.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/nosotros.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/productos.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/productos_detail.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style_general.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles_template.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles_template.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/variables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/functions_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/functions_data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nosotros/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nosotros/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productos/product_detail/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/product_detail/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/imports-dist.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/imports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/imports.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/imports.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/imports.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/modify_framework.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components-web/_modify_framework.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/nosotros.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/nosotros.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/nosotros.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_nosotros.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/productos.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/productos.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/productos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_productos.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/productos_detail.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/productos_detail.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/productos_detail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_productos_detail.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/style_general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components-web/_style_general.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components-web/_variables.scss" afterDir="false" />
-    </list>
+    <list default="true" id="005a3f4a-7acd-4919-9668-ce8f35ac1a25" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -51,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/pages/_contacto.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="192">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -152,11 +117,6 @@
             <path>
               <item name="JiangZhouCNC" type="b2602c69:ProjectViewProjectNode" />
               <item name="JiangZhouCNC" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JiangZhouCNC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JiangZhouCNC" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -242,7 +202,7 @@
       <workItem from="1557711010791" duration="14656000" />
       <workItem from="1557800934838" duration="5305000" />
       <workItem from="1557879461195" duration="11280000" />
-      <workItem from="1557978611977" duration="8302000" />
+      <workItem from="1557978611977" duration="8539000" />
     </task>
     <task id="LOCAL-00001" summary="add h1&gt;hola mundo">
       <created>1557363527340</created>
@@ -349,11 +309,25 @@
       <option name="project" value="LOCAL" />
       <updated>1557897131821</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update web joungzhou">
+      <created>1557987028100</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1557987028108</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update web joungzhou">
+      <created>1557987189449</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1557987189449</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73314000" />
+    <option name="totallyTimeSpent" value="73551000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,7 +438,8 @@
     <MESSAGE value="added JSON products" />
     <MESSAGE value="added JSON products and styles" />
     <MESSAGE value="consumiendo json en home" />
-    <option name="LAST_COMMIT_MESSAGE" value="consumiendo json en home" />
+    <MESSAGE value="update web joungzhou" />
+    <option name="LAST_COMMIT_MESSAGE" value="update web joungzhou" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -654,8 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/pages/_contacto.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="192">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
