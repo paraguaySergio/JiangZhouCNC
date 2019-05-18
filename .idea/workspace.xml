@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="005a3f4a-7acd-4919-9668-ce8f35ac1a25" name="Default Changelist" comment="" />
+    <list default="true" id="005a3f4a-7acd-4919-9668-ce8f35ac1a25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/product_detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles_template.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles_template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/dataGet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/functions_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/functions_data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos/product_detail/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos/product_detail/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/imports-dist.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/imports-dist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/imports.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/imports.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/imports.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/imports.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,11 +25,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scss/pages/_contacto.scss">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/functions_data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state>
+              <folding>
+                <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="134" column="33" lean-forward="true" selection-start-line="134" selection-start-column="33" selection-end-line="134" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/product_detail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/productos/product_detail/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -54,6 +99,7 @@
       <find>#container-Ar</find>
       <find>#container-ar</find>
       <find>card</find>
+      <find>body</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -77,20 +123,21 @@
         <option value="$PROJECT_DIR$/JS/products.js" />
         <option value="$PROJECT_DIR$/scss/productos.scss" />
         <option value="$PROJECT_DIR$/js/products.js" />
-        <option value="$PROJECT_DIR$/js/dataGet.js" />
         <option value="$PROJECT_DIR$/css/home.css" />
         <option value="$PROJECT_DIR$/css/styles_template.css" />
         <option value="$PROJECT_DIR$/scss/home.scss" />
         <option value="$PROJECT_DIR$/scss/pages/home.scss" />
         <option value="$PROJECT_DIR$/nosotros/index.html" />
         <option value="$PROJECT_DIR$/contacto/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/productos/index.html" />
-        <option value="$PROJECT_DIR$/scss/pages/_home.scss" />
-        <option value="$PROJECT_DIR$/js/functions_data.js" />
-        <option value="$PROJECT_DIR$/productos/product_detail/index.html" />
         <option value="$PROJECT_DIR$/scss/imports.scss" />
         <option value="$PROJECT_DIR$/scss/pages/_contacto.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/pages/_home.scss" />
+        <option value="$PROJECT_DIR$/productos/index.html" />
+        <option value="$PROJECT_DIR$/productos/product_detail/index.html" />
+        <option value="$PROJECT_DIR$/js/dataGet.js" />
+        <option value="$PROJECT_DIR$/js/functions_data.js" />
+        <option value="$PROJECT_DIR$/js/product_detail.js" />
       </list>
     </option>
   </component>
@@ -140,6 +187,12 @@
               <item name="JiangZhouCNC" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JiangZhouCNC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JiangZhouCNC" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -157,6 +210,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mariano\Desktop\PROYECTO ACTUAL\JiangZhouCNC" />
       <recent name="C:\Users\mariano\Desktop\PROYECTO ACTUAL\JiangZhouCNC\scss\pages" />
       <recent name="C:\Users\mariano\Desktop\PROYECTO ACTUAL\JiangZhouCNC\scss\components-web" />
     </key>
@@ -202,7 +256,9 @@
       <workItem from="1557711010791" duration="14656000" />
       <workItem from="1557800934838" duration="5305000" />
       <workItem from="1557879461195" duration="11280000" />
-      <workItem from="1557978611977" duration="8539000" />
+      <workItem from="1557978611977" duration="8609000" />
+      <workItem from="1558060409594" duration="4373000" />
+      <workItem from="1558145807420" duration="10709000" />
     </task>
     <task id="LOCAL-00001" summary="add h1&gt;hola mundo">
       <created>1557363527340</created>
@@ -323,11 +379,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557987189449</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update web joungzhou">
+      <created>1557987260719</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1557987260719</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73551000" />
+    <option name="totallyTimeSpent" value="88703000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,14 +411,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.110210694" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32970452" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.27552673" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.17828201" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.22690438" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.6812401" weight="0.27552673" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" weight="0.17828201" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.31875995" side_tool="true" weight="0.27552673" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49920508" weight="0.22690438" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -496,20 +559,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/dataGet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style_general.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style_general.css" />
     <entry file="file://$PROJECT_DIR$/scss/pages/_productos.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -517,12 +567,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/home.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/variables.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/home.css" />
+    <entry file="file://$PROJECT_DIR$/css/variables.css" />
     <entry file="file://$PROJECT_DIR$/scss/components-web/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -554,13 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles_template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5890">
-          <caret line="166" column="6" lean-forward="true" selection-start-line="166" selection-start-column="6" selection-end-line="166" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/general.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
@@ -575,48 +614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/functions_data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="34" column="109" selection-start-line="34" selection-start-column="109" selection-end-line="34" selection-end-column="109" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/pages/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="202" column="41" selection-start-line="202" selection-start-column="25" selection-end-line="202" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/productos/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1857">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/scss/pages/_contacto.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="154" column="57" lean-forward="true" selection-start-line="154" selection-start-column="57" selection-end-line="154" selection-end-column="113" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/productos/product_detail/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="91" column="74" selection-start-line="91" selection-start-column="74" selection-end-line="91" selection-end-column="74" />
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -627,10 +628,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/pages/_contacto.scss">
+    <entry file="file://$PROJECT_DIR$/scss/pages/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles_template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productos/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="134" column="33" lean-forward="true" selection-start-line="134" selection-start-column="33" selection-end-line="134" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dataGet.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productos/product_detail/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/functions_data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/product_detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
         </state>
       </provider>
     </entry>
