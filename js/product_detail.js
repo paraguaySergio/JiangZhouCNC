@@ -1,3 +1,5 @@
+import "../js/products";
+
 /*********** data GET ***********/
 let prodId = getParameterByName('prodId');
 showData(prodId);
@@ -9,7 +11,12 @@ function getParameterByName(name) {
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
 
-function showData(idProduct) {
-    console.log(idProduct);
+function showData(i) {
+    console.log(i);
+    let title_product = jsonProducts.products[2].title;
+    console.log(title_product);
+
+    let tamano = jsonProducts.products[2].size;
+    console.log(tamano);
 
 }
