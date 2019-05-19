@@ -5,10 +5,10 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-blend-mode: multiply;
-  background: rgba(0, 0, 0, 0.7);
-  background-position: center;
+  background: url("../../img/fondo/red-dark.png"), rgba(0, 0, 0, 0.7);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-position: top;
+  background-repeat: repeat;
 }
 
 /************ HEADER *************/
@@ -184,6 +184,8 @@ body {
           font-size: 17px;
           color: #f1f8e9;
           padding: 10px;
+          border-top-left-radius: 4px;
+          border-top-right-radius: 4px;
 
           .material-icons {
             margin-right: 10px;
@@ -194,15 +196,10 @@ body {
         .card-1 {
           .card-content {
             ul {
-              padding: 0;
               list-style: none;
 
               li {
                 border: dashed 1px #bebebe;
-
-                a {
-                  color: $color-white-one !important;
-                }
               }
             }
           }
@@ -252,17 +249,20 @@ body {
         .card-content {
           display: flex;
           justify-content: center;
-          flex-wrap: wrap;
+          flex-direction: column;
           width: 200px;
-          background: $bgcolor-item-product;
+          background-image: linear-gradient(to bottom, #252525, #1f1f1f, #1a1a1a, #141414, #0d0d0d, #0d0d0d, #0d0d0d, #0d0d0d, #141414, #1a1a1a, #1f1f1f, #252525);
+          box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
           margin: 10px;
-          border-radius: 4px;
-          padding: 8px 4px 10px 4px;
+          border-radius: 7px;
+          padding: 0px;
 
           div {
-            width: 95%;
+            width: 100%;
             height: 110px;
             background: $color-white-one;
+            border-top-right-radius: 7px;
+            border-top-left-radius: 7px;
 
             img {
               width: 100%;
@@ -278,6 +278,34 @@ body {
             color: $color-title-cards-products;
             font-weight: 500;
             text-align: center;
+            padding-bottom: 7px;
+          }
+
+          .div-button {
+            a {
+              width: 40%;
+              font-size: 14px;
+              background-color: $color-white-one;
+              color: $color-primary;
+              border-radius: 3px;
+              outline: none;
+              text-align: center;
+              float: right;
+              padding: 5px;
+              cursor: pointer;
+              font-weight: 500;
+              line-height: 14px;
+              border: solid 1px $color-primary;
+              margin: 10px;
+
+              &:hover {
+                color: $color-white-one;
+                border: none;
+                font-weight: 700;
+                padding: 6px;
+                background-color: $color-primary;
+              }
+            }
           }
         }
       }
