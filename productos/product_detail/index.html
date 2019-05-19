@@ -101,14 +101,14 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2" align="center"><a href="../../contacto" class="btn-primary">ORDENAR</a>
+                                <td colspan="2" align="center"><a class="waves-effect waves-light btn modal-trigger"
+                                                                  href="#modal-order-product">ORDENAR</a>
                                 </td>
                             </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
-
                 <div class="body-detail-product">
                     <p>
                         Productos de primera Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -116,43 +116,89 @@
                         ea eos ex fugit ipsa odio quibusdam quidem quisquam reiciendis, sint, sit!
                     </p>
                 </div>
-
-                <div class="form-contact-product">
-                    <div class="title-cotizador">
-                        <hr class="hr-one">
-                        <h5>Realiza tu<span> Cotización</span></h5>
-                        <hr class="hr-two">
-                    </div>
-                    <form class="form-contact" action="">
-                        <p>
-                            <label for="">Nombres</label>
-                            <input type="text">
-                        </p>
-                        <p>
-                            <label for="">Apellidos</label>
-                            <input type="text">
-                        </p>
-                        <p>
-                            <label for="">Email</label>
-                            <input type="text">
-                        </p>
-                        <p>
-                            <label for="">Teléfono</label>
-                            <input type="text">
-                        </p>
-                        <p>
-                            <label for="">Mensaje</label>
-                            <textarea name="" id="" style="max-width:100%;width: 100%;"></textarea>
-                        <p>
-                            <button class="btn btn-enviar">Enviar</button>
-                        </p>
-                    </form>
-                </div>
-
             </div>
         </div>
     </div>
 </div>
+
+
+<!--- **********START MODAL ORDEN PRODUCT ************ --->
+<!-- Modal Structure -->
+<div id="modal-order-product" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <h5>ORDEN PRODUCT:
+            <script>document.write(obj.title);</script>
+        </h5>
+        <div class="content-order-product">
+            <div class="item-product">
+                <table width="100%" border="0" cellpadding="5" cellspacing="1">
+                    <tbody>
+                    <tr>
+                        <td width="70" align="center">Product.title</td>
+                        <td>
+                            <strong>
+                                <script>document.write(obj.title);</script>
+                            </strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="70" align="center">Product.model</td>
+                        <td>
+                            <script>document.write(obj.model);</script>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">Product.description</td>
+                        <td>
+                            <script>document.write(obj.description);</script>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="fondo-img">
+                    <script>
+                        document.write("<img src='../../img/productos/" + obj.img + ".jpg" + "' alt=''>");
+                    </script>
+                </div>
+            </div>
+            <div class="form-contact-product">
+                <div class="title-cotizador">
+                    <hr class="hr-one">
+                    <h5>Ingresa tu <span> información</span></h5>
+                    <hr class="hr-two">
+                </div>
+                <form class="form-contact" action="">
+                    <p>
+                        <label for="">Nombres</label>
+                        <input type="text">
+                    </p>
+                    <p>
+                        <label for="">Apellidos</label>
+                        <input type="text">
+                    </p>
+                    <p>
+                        <label for="">Email</label>
+                        <input type="text">
+                    </p>
+                    <p>
+                        <label for="">Teléfono</label>
+                        <input type="text">
+                    </p>
+                    <p>
+                        <label for="">Mensaje</label>
+                        <textarea name="" id="" style="max-width:100%;width: 100%;"></textarea>
+                    <p>
+                        <button class="btn btn-enviar">CONFIRMAR</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
+    </div>
+</div>
+<!--- **********END MODAL ORDEN PRODUCT ************ --->
 
 <div class="container-fluid" id="container-footer">
     <footer class="page-footer">

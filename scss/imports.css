@@ -483,46 +483,62 @@ body {
 .card-article-right .card-products-detail-one .body-detail-product p {
   text-align: center;
 }
-.card-article-right .card-products-detail-one .form-contact-product {
+.card-article-right .card-products-detail-one #modal-order-product .modal-content {
+  background: rgba(0, 0, 0, 0.6);
+}
+.card-article-right .card-products-detail-one #modal-order-product .modal-content h5 {
+  color: #DF1216;
+}
+.card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product {
+  display: flex;
+}
+.card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product .item-product {
+  display: flex;
+  justify-content: space-around;
+}
+.card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product .form-contact-product {
   margin: auto;
   padding: 10px;
-  width: 80%;
+  width: 300px;
 }
-.card-article-right .card-products-detail-one .form-contact-product .title-cotizador {
+.card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product .form-contact-product .title-cotizador {
   margin-top: 1rem;
   display: flex;
   text-align: center;
   width: 100%;
 }
-.card-article-right .card-products-detail-one .form-contact-product .title-cotizador .hr-one {
+.card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product .form-contact-product .title-cotizador .hr-one {
   height: 2px;
   background: #F0F0F0;
   width: 5%;
 }
-.card-article-right .card-products-detail-one .form-contact-product .title-cotizador h5 {
+.card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product .form-contact-product .title-cotizador h5 {
   width: auto;
   font-size: 24px;
   font-weight: bold;
   margin-top: -5px;
 }
-.card-article-right .card-products-detail-one .form-contact-product .title-cotizador h5 span {
+.card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product .form-contact-product .title-cotizador h5 span {
   color: #DF1216;
 }
-.card-article-right .card-products-detail-one .form-contact-product .title-cotizador .hr-two {
+.card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product .form-contact-product .title-cotizador .hr-two {
   height: 2px;
   background: #F0F0F0;
   width: 40%;
 }
-.card-article-right .card-products-detail-one .form-contact-product .form-contact {
+.card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product .form-contact-product .form-contact {
   margin: 10px;
 }
-.card-article-right .card-products-detail-one .form-contact-product .form-contact p {
+.card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product .form-contact-product .form-contact p {
   margin: 0;
 }
-.card-article-right .card-products-detail-one .form-contact-product .form-contact p input, .card-article-right .card-products-detail-one .form-contact-product .form-contact p textarea {
+.card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product .form-contact-product .form-contact p label {
+  color: #000000;
+}
+.card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product .form-contact-product .form-contact p input, .card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product .form-contact-product .form-contact p textarea {
   color: #fff !important;
 }
-.card-article-right .card-products-detail-one .form-contact-product .form-contact p button {
+.card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product .form-contact-product .form-contact p button {
   margin-top: 10px;
 }
 
