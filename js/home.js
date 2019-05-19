@@ -8,7 +8,7 @@ products_carousel = () => {
 
 list_products = () => {
     for (let i = 0; i <= 16; i++) {
-        document.write("<li><a href='productos/product_detail/?prodId=" + jsonProducts.products[i].id + "'>" + jsonProducts.products[i].title + "</a></li>");
+        document.write("<li><a href='productos/product_detail/?prodId=" + jsonProducts.products[i].id + "' style='color:#fff'>" + jsonProducts.products[i].title + "</a></li>");
     }
 };
 
