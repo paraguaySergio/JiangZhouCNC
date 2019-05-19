@@ -1,8 +1,5 @@
-import "../js/products";
-
 /*********** data GET ***********/
 let prodId = getParameterByName('prodId');
-showData(prodId);
 
 function getParameterByName(name) {
     name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
@@ -11,12 +8,11 @@ function getParameterByName(name) {
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
 
-function showData(i) {
-    console.log(i);
-    let title_product = jsonProducts.products[2].title;
-    console.log(title_product);
+let obj = jsonProducts.products[prodId];
 
-    let tamano = jsonProducts.products[2].size;
-    console.log(tamano);
-
-}
+/******** CARD1 LIST **********/
+PD_list_products = () => {
+    for (let i = 0; i <= 16; i++) {
+        document.write("<li><a href='?prodId=" + jsonProducts.products[i].id + "' style='color:#fff;'>" + jsonProducts.products[i].title + "</a></li>");
+    }
+};

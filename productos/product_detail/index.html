@@ -7,20 +7,18 @@
     <link type="text/css" rel="stylesheet" href="../../css/materialize.css" media="screen,projection"/>
     <link rel="stylesheet" href="../../css/styles_template.css">
     <!--- SCRIPTS --->
-    <script src="../../js/functions_data.js"></script>
+    <script src="../../js/products_data.js"></script>
+    <script src="../../js/data_return.js"></script>
     <script src="../../js/product_detail.js"></script>
-    <script src="../../js/products.js"></script>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-<script>
-
-</script>
 <div class="container-fluid" id="container-header-desktop">
     <nav>
         <div class="nav-wrapper">
-            <a href="../" class="brand-logo"><img src="../../img/logos/logo.png" alt="" class="responsive-img"></a>
+            <a href="../../index.html" class="brand-logo"><img src="../../img/logos/logo.png" alt=""
+                                                               class="responsive-img"></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="../../nosotros">Nosotros</a></li>
                 <li><a href="../../productos">Productos</a></li>
@@ -30,8 +28,6 @@
         </div>
     </nav>
 </div>
-
-
 <div class="container section" id="container-article">
     <div class="row">
         <div class="col l4 m4 s12  card-sidebar-left">
@@ -39,21 +35,9 @@
                 <div class="card-title"><i class="small material-icons">hdr_weak</i>Productos Populares</div>
                 <div class="card-content white-text">
                     <ul>
-                        <li>DK7716 CNC WIRE CUT EDM</li>
-                        <li>D71 DIE SINKER EDM</li>
-                        <li>JZDX SERIES CNC CARVE-MILLING MACHINE</li>
-                        <li>QT SERIES CNC ABRASIVE WIRE CUTTING MACHINE</li>
-                        <li>QT SERIES CNC ABRASIVE</li>
-                        <li>DK7716 CNC WIRE CUT EDM</li>
-                        <li>D71 DIE SINKER EDM</li>
-                        <li>JZDX SERIES CNC CARVE-MILLING MACHINE</li>
-                        <li>QT SERIES CNC ABRASIVE WIRE CUTTING MACHINE</li>
-                        <li>QT SERIES CNC ABRASIVE</li>
-                        <li>DK7716 CNC WIRE CUT EDM</li>
-                        <li>D71 DIE SINKER EDM</li>
-                        <li>JZDX SERIES CNC CARVE-MILLING MACHINE</li>
-                        <li>QT SERIES CNC ABRASIVE WIRE CUTTING MACHINE</li>
-                        <li>QT SERIES CNC ABRASIVE</li>
+                        <script>
+                            PD_list_products();
+                        </script>
                     </ul>
                 </div>
             </div>
@@ -77,28 +61,42 @@
         <div class="col l8 m8 s12 card-article-right">
             <div class="card  darken-1 card-products-detail-one">
                 <div class="title-cards">
-                    <h5>DK7716 CNC WIRE CUT EDM</h5>
+                    <h5>
+                        <script>document.write(obj.title)</script>
+                    </h5>
                 </div>
 
                 <div class="header-product-detail">
                     <div class="img-product">
-                        <img src="../../img/productos/DK7755CNCWIREEDM.jpg" alt="">
-                        <span class="description-size">BIG</span>
+                        <script>
+                            document.write("<img src='../../img/productos/" + obj.img + ".jpg" + "' alt=''>");
+                        </script>
+                        <span class="description-size">
+                            <script>document.write(obj.size.toUpperCase());</script>
+                        </span>
                     </div>
                     <div class="table-description">
                         <table width="100%" border="0" cellpadding="5" cellspacing="1">
                             <tbody>
                             <tr>
                                 <td width="70" align="center">Product.title</td>
-                                <td><strong>DK7716 CNC WIRE CUT EDM</strong></td>
+                                <td>
+                                    <strong>
+                                        <script>document.write(obj.title);</script>
+                                    </strong>
+                                </td>
                             </tr>
                             <tr>
                                 <td width="70" align="center">Product.model</td>
-                                <td>DK7716</td>
+                                <td>
+                                    <script>document.write(obj.model);</script>
+                                </td>
                             </tr>
                             <tr>
                                 <td align="center">Product.description</td>
-                                <td>CNC WIRE CUT EDM</td>
+                                <td>
+                                    <script>document.write(obj.description);</script>
+                                </td>
                             </tr>
                             <tr>
                                 <td colspan="2" align="center"><a href="../../contacto" class="btn-primary">ORDENAR</a>
@@ -187,6 +185,6 @@
 
 <!--JavaScript at end of body for optimized loading-->
 <script type="text/javascript" src="../../js/materialize.js"></script>
-<script src="../../js/general.js"></script>
+<script src="../../js/general_materialize.js"></script>
 </body>
 </html>
