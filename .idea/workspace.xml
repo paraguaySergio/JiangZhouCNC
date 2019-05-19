@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="005a3f4a-7acd-4919-9668-ce8f35ac1a25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scss/components-web/_sidenav.scss" afterDir="false" />
+    <list default="true" id="005a3f4a-7acd-4919-9668-ce8f35ac1a25" name="Default Changelist" comment="modification in sidenav">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles_template.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles_template.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/imports-dist.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/imports-dist.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/imports.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/imports.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/imports.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/imports.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/imports.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/imports.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/materialize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/general_materialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/general_materialize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/materialize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/materialize.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/materialize.css.map" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,23 +21,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="119" column="37" lean-forward="true" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/pages/_home.scss">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/components/_modal.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="167">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/general_materialize.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -57,7 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$bgcolor-card-dark</find>
       <find>.card-products</find>
       <find>container-head</find>
       <find>slides</find>
@@ -87,6 +92,7 @@
       <find>brand-logo</find>
       <find>slider</find>
       <find>nav-wrapper</find>
+      <find>.modal</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,18 +133,20 @@
         <option value="$PROJECT_DIR$/post/index.html" />
         <option value="$PROJECT_DIR$/productos/index.html" />
         <option value="$PROJECT_DIR$/scss/pages/_blog.scss" />
-        <option value="$PROJECT_DIR$/blog/index.html" />
         <option value="$PROJECT_DIR$/js/product.js" />
         <option value="$PROJECT_DIR$/productos/product_detail/index.html" />
         <option value="$PROJECT_DIR$/scss/pages/_productos_detail.scss" />
         <option value="$PROJECT_DIR$/contacto/index.html" />
         <option value="$PROJECT_DIR$/nosotros/index.html" />
         <option value="$PROJECT_DIR$/scss/pages/_nosotros.scss" />
-        <option value="$PROJECT_DIR$/js/home.js" />
         <option value="$PROJECT_DIR$/scss/imports.scss" />
         <option value="$PROJECT_DIR$/scss/components-web/_sidenav.scss" />
         <option value="$PROJECT_DIR$/scss/pages/_home.scss" />
+        <option value="$PROJECT_DIR$/js/home.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/general_materialize.js" />
+        <option value="$PROJECT_DIR$/blog/index.html" />
+        <option value="$PROJECT_DIR$/scss/components/_modal.scss" />
       </list>
     </option>
   </component>
@@ -160,6 +168,16 @@
             <path>
               <item name="JiangZhouCNC" type="b2602c69:ProjectViewProjectNode" />
               <item name="JiangZhouCNC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JiangZhouCNC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JiangZhouCNC" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JiangZhouCNC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JiangZhouCNC" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JiangZhouCNC" type="b2602c69:ProjectViewProjectNode" />
@@ -239,7 +257,7 @@
       <workItem from="1557978611977" duration="8609000" />
       <workItem from="1558060409594" duration="4373000" />
       <workItem from="1558145807420" duration="47737000" />
-      <workItem from="1558273193198" duration="4052000" />
+      <workItem from="1558273193198" duration="7186000" />
     </task>
     <task id="LOCAL-00001" summary="add h1&gt;hola mundo">
       <created>1557363527340</created>
@@ -423,11 +441,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558248556084</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="modification in sidenav">
+      <created>1558280260762</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1558280260762</updated>
+    </task>
+    <task id="LOCAL-00028" summary="modification in sidenav">
+      <created>1558280283448</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1558280283448</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129783000" />
+    <option name="totallyTimeSpent" value="132917000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -442,7 +474,7 @@
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17249602" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17249602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -453,7 +485,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32901135" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.68044513" weight="0.27552673" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.68044513" visible="true" weight="0.16693678" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49920508" weight="0.17828201" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.31955484" side_tool="true" weight="0.27552673" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49920508" weight="0.22690438" />
@@ -543,7 +575,8 @@
     <MESSAGE value="added varibles por get with JS" />
     <MESSAGE value="added atomatization in web" />
     <MESSAGE value="optimization desing web and funcionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimization desing web and funcionality" />
+    <MESSAGE value="modification in sidenav" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification in sidenav" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -605,13 +638,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/dataGet.js" />
     <entry file="file://$PROJECT_DIR$/js/data_return.js.html" />
-    <entry file="file://$PROJECT_DIR$/js/general_materialize.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/product_detail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -688,16 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="129" column="27" selection-start-line="129" selection-start-column="27" selection-end-line="129" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/product.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -759,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="120" lean-forward="true" selection-start-line="10" selection-start-column="120" selection-end-line="10" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/imports.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -789,11 +798,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        <state relative-caret-position="150">
+          <caret line="117" selection-start-line="117" selection-end-line="118" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/general_materialize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="119" column="37" lean-forward="true" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -14,6 +14,12 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+/*************** MODALS ******************/
+document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems, {});
+});
+
 
 /********** NAVAR MOBILE ***********/
 document.addEventListener('DOMContentLoaded', function () {
