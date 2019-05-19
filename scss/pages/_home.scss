@@ -30,6 +30,15 @@ body {
     .nav-wrapper {
       width: 90%;
 
+      .brand-logo {
+        transform: translateX(-20%);
+        margin-top: 4px;
+        @media(max-width: 702px) {
+          transform: translateX(-71%);
+          margin-top: 4px;
+        }
+      }
+
       ul {
         cursor: pointer;
         color: $color-text;
@@ -49,6 +58,10 @@ body {
 /**************** SLIDER ****************/
 #container-slider {
   margin-top: 2rem;
+  @media(max-width: 702px) {
+    width: 100%;
+    margin-top: 0rem;
+  }
 
   .slider {
     .slides {
@@ -60,6 +73,9 @@ body {
           font-weight: 500;
           font-size: 45px;
           text-shadow: 2px 1px 2px #000000;
+          @media(max-width: 702px) {
+            font-size: 35px;
+          }
         }
 
         h5 {
@@ -67,6 +83,9 @@ body {
           font-weight: 500;
           font-size: 30px;
           text-shadow: 2px 1px 2px #000000;
+          @media(max-width: 702px) {
+            font-size: 25px;
+          }
         }
       }
     }
