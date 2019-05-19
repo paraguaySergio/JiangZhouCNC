@@ -131,7 +131,8 @@
         </h5>
         <div class="content-order-product">
             <div class="item-product">
-                <table width="100%" border="0" cellpadding="5" cellspacing="1">
+
+                <table class="table-product" width="100%" border="0" cellpadding="5" cellspacing="1">
                     <tbody>
                     <tr>
                         <td width="70" align="center">Product.title</td>
@@ -153,44 +154,42 @@
                             <script>document.write(obj.description);</script>
                         </td>
                     </tr>
+                    <tr>
+                        <td align="center">Product.Img</td>
+                        <td>
+                            <script>
+                                document.write("<img src='../../img/productos/" + obj.img + ".jpg" + "' alt=''>");
+                            </script>
+                        </td>
+                    </tr>
                     </tbody>
                 </table>
-                <div class="fondo-img">
-                    <script>
-                        document.write("<img src='../../img/productos/" + obj.img + ".jpg" + "' alt=''>");
-                    </script>
-                </div>
-            </div>
-            <div class="form-contact-product">
-                <div class="title-cotizador">
-                    <hr class="hr-one">
-                    <h5>Ingresa tu <span> información</span></h5>
-                    <hr class="hr-two">
-                </div>
-                <form class="form-contact" action="">
-                    <p>
+
+                <div class="form-order-product">
+                    <div class="title-cotizador">
+                        <hr class="hr-one">
+                        <h5>Ingresa tu <span> información</span></h5>
+                        <hr class="hr-two">
+                    </div>
+                    <form class="" action="">
                         <label for="">Nombres</label>
                         <input type="text">
-                    </p>
-                    <p>
+
                         <label for="">Apellidos</label>
                         <input type="text">
-                    </p>
-                    <p>
+
                         <label for="">Email</label>
                         <input type="text">
-                    </p>
-                    <p>
+
                         <label for="">Teléfono</label>
                         <input type="text">
-                    </p>
-                    <p>
+
                         <label for="">Mensaje</label>
                         <textarea name="" id="" style="max-width:100%;width: 100%;"></textarea>
-                    <p>
+
                         <button class="btn btn-enviar">CONFIRMAR</button>
-                    </p>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
