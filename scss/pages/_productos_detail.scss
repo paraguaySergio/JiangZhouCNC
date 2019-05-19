@@ -98,8 +98,11 @@
     .body-detail-product {
       background: $color-gray-two;
       padding: 10px;
-      margin: 10px;
       font-size: 14px;
+
+      h5 {
+        text-align: center;
+      }
 
       p {
         text-align: center;
@@ -115,13 +118,17 @@
           .item-product {
             width: 100%;
             display: flex;
+            justify-content: space-around;
+            align-items: center;
 
             .table-product {
-              width: 50% !important;
+              width: 45% !important;
+              margin: 10px;
             }
 
             .form-order-product {
-              width: 50% !important;
+              width: 45% !important;
+              margin: 10px
             }
           }
         }
