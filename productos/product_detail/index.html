@@ -131,7 +131,7 @@
                         nesciunt, suscipit. Sequi!</span>
                     </p>
                     <br>
-                    <div style="border:none;overflow:hidden;background: #fff;width: 100%;margin:auto;display: block"
+                    <div style="border:none;overflow:hidden;background:rgba(255,255,255,0.8);width: 100%;margin:auto;display: block"
                          class="fb-comments"
                          data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="700"
                          data-numposts="5"></div>
@@ -146,14 +146,15 @@
 <!-- Modal Structure -->
 <div id="modal-order-product" class="modal modal-fixed-footer">
     <div class="modal-content" style="background: rgba(0,0,0,0.1)">
-        <h6 style="color:#df1216;font-weight:500;font-size: 20px">ORDENAR PRODUCTO:
+        <h6 style="color:#df1216;font-weight:500;font-size: 20px;border-bottom: 1px solid #BEBEBE;padding-bottom: 5px;">
+            ORDENAR PRODUCTO:
             <span style="color:#0d0d0d;font-weight:500;"><script>document.write(obj.title);</script></span>
         </h6>
         <div class="content-order-product">
-            <div class="item-product" style="display: flex;flex-wrap: wrap;">
+            <div class="item-product" style="display: flex;flex-wrap: wrap;margin-top:40px;margin: auto">
 
                 <table class="table-product"
-                       style="width: 45%;margin:10px;display: flex;justify-content: center;align-items: center">
+                       style="width:350px;margin:10px;display: flex;justify-content: center;align-items: center;margin: auto">
                     <tbody>
                     <tr>
                         <td width="70" align="center">Product.title</td>
@@ -183,29 +184,36 @@
                             </script>
                         </td>
                     </tr>
+                    <tr>
+                        <td colspan="2"><img src="../../img/otros/pagos.png" alt=""
+                                             style="width:100%;object-fit: contain;margin: auto;display: block;"></td>
+                    </tr>
                     </tbody>
+
                 </table>
 
                 <div class="form-order-product"
-                     style="width: 45%;margin:10px;display: flex;justify-content: center;align-items: center;background:#fff;padding:10px;border-radius: 7px;box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.49);">
-                    <div class="content-form">
-                    <div class="title-cotizador">
-                        <h6 style="color: #df1216;font-weight: 500;">Ingrese su <span> información</span></h6>
-                    </div>
-                        <form class="form" action="">
+                     style="width: 430px;margin:10px;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;background:#fff;padding:0px;border-radius: 7px;box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.49);margin: auto;">
+                    <div class="content-form" style="height: 100%;">
+                        <div class="title-cotizador">
+                            <h6 style="margin: 0;padding: 10px;font-weight: 500;background: #df1216;color: #fff;border-top-left-radius:7px;border-top-right-radius:7px;">
+                                Ingrese su <span> información</span>
+                            </h6>
+                        </div>
+                        <form class="form" action="" style="padding: 15px">
                             <input type="text" placeholder="Ingrese nombre completo..." style="::placeholder:#fff;">
                             <input type="text" placeholder="Ingrese apellido completo..." style="::placeholder:#fff;">
                             <input type="email" placeholder="Ingrese email..." style="::placeholder:#fff;">
                             <input type="number" max="15" placeholder="Ingrese teléfono..." style="::placeholder:#fff;">
-                            <textarea name="" id="" style="max-width:450px;width: 100%;"
+                            <textarea name="" id="" style="max-width:440px;width: 100%;"
                                       placeholder="Ingrese Mensaje..." style="::placeholder:#fff;"></textarea>
-                        <button class="btn btn-enviar">CONFIRMAR</button>
-                    </form>
+                            <button class="btn btn-enviar">CONFIRMAR</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="terminos" style="font-size:15px;color:#444;">
+        <div class="terminos" style="font-size:12px;color:#444;margin-top:30px">
             <p><b>Terminos y Condiciónes:</b>
                 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dicta dignissimos
                     dolor et facilis nam pariatur possimus quae quia quidem, rem repellendus soluta.
@@ -214,8 +222,6 @@
                     magni molestias nisi. Aliquam amet, architecto blanditiis dolorem eum facilis magni nam
                     nesciunt obcaecati, optio quae, voluptates.</span>
             </p>
-            <img src="../../img/otros/pagos.png" alt=""
-                 style="width:50%;object-fit: contain;margin: auto;display: block;">
         </div>
     </div>
     <div class="modal-footer">

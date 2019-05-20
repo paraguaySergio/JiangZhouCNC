@@ -97,15 +97,15 @@
 
     .body-detail-product {
       background: $color-gray-two;
-      padding: 10px;
+      padding: 15px;
       font-size: 14px;
 
       h5 {
-        text-align: center;
+        text-align: left;
       }
 
       p {
-        text-align: center;
+        text-align: justify;
       }
     }
 
@@ -129,6 +129,10 @@
             .form-order-product {
               width: 45% !important;
               margin: 10px
+            }
+
+            .terminos {
+              font-size: 13px;
             }
           }
         }
