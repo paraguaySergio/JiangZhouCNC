@@ -151,49 +151,29 @@
             <span style="color:#0d0d0d;font-weight:500;"><script>document.write(obj.title);</script></span>
         </h6>
         <div class="content-order-product">
-            <div class="item-product" style="display: flex;flex-wrap: wrap;margin-top:40px;margin: auto">
+            <div class="item-product" style="display: flex;flex-wrap: wrap;margin-top:20px;">
 
-                <table class="table-product"
-                       style="width:350px;margin:10px;display: flex;justify-content: center;align-items: center;margin: auto;font-size: 14px;">
-                    <tbody>
-                    <tr>
-                        <td width="70" align="center">Product.title</td>
-                        <td>
-                            <strong>
-                                <script>document.write(obj.title);</script>
-                            </strong>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="70" align="center">Product.model</td>
-                        <td>
-                            <script>document.write(obj.model);</script>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="center">Product.description</td>
-                        <td>
-                            <script>document.write(obj.description);</script>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="center">Product.Img</td>
-                        <td>
-                            <script>
-                                document.write("<img src='../../img/productos/" + obj.img + ".jpg" + "' alt=''>");
-                            </script>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><img src="../../img/otros/pagos.png" alt=""
-                                             style="width:100%;object-fit: contain;margin: auto;display: block;"></td>
-                    </tr>
-                    </tbody>
-
-                </table>
+                <div class="img-product"
+                     style="width: 411px;display: flex;margin:auto;flex-direction: column;">
+                    <div class="img" style="width: 95%;height: 300px;background: #fff;margin:auto">
+                        <script>document.write("<img src='../../img/productos/" + obj.img + ".jpg' style='width: 100%;height: 100%;object-fit: contain;'>")</script>
+                    </div>
+                    <ul style="background: rgba(0,0,0,0.5);color: #fff;margin:auto;width: 95%;padding: 10px;font-weight: 500;margin-bottom:10px;">
+                        <li>
+                            Producto:
+                            <script>document.write(obj.title)</script>
+                        </li>
+                        <li>
+                            Modelo:
+                            <script>document.write(obj.model)</script>
+                        </li>
+                    </ul>
+                    <img src="../../img/otros/pagos.png" alt=""
+                         style="width:100%;object-fit: contain;margin: auto;display: block;margin-bottom: 10px">
+                </div>
 
                 <div class="form-order-product"
-                     style="width: 430px;margin:10px;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;background:#fff;padding:0px;border-radius: 7px;box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.49);margin: auto;">
+                     style="width: 430px;margin:10px;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;background:#fff;padding:0px;border-radius: 7px;box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.49);margin: auto;margin-top: 0;">
                     <div class="content-form" style="height: 100%;">
                         <div class="title-cotizador">
                             <h6 style="margin: 0;padding: 10px;font-weight: 500;background: #df1216;color: #fff;border-top-left-radius:7px;border-top-right-radius:7px;">
@@ -205,8 +185,13 @@
                             <input type="text" placeholder="Ingrese apellido completo..." style="::placeholder:#fff;">
                             <input type="email" placeholder="Ingrese email..." style="::placeholder:#fff;">
                             <input type="number" max="15" placeholder="Ingrese teléfono..." style="::placeholder:#fff;">
-                            <textarea name="" id="" style="max-width:440px;width: 100%;"
-                                      placeholder="Ingrese Mensaje..." style="::placeholder:#fff;"></textarea>
+                            <textarea name="" id=""
+                                      placeholder="Ingrese Mensaje..."
+                                      style="::placeholder:#fff;max-width:400px"></textarea>
+                            <label for="">Producto</label>
+                            <script>
+                                document.write("<input disabled type='text' value='" + obj.title + " / " + obj.model + "' style='font-size: 12px;font-weight: 500;color:#028eed'>");
+                            </script>
                             <button class="btn btn-enviar">CONFIRMAR</button>
                         </form>
                     </div>
