@@ -1,69 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="005a3f4a-7acd-4919-9668-ce8f35ac1a25" name="Default Changelist" comment="file recovery sass">
-      <change afterPath="$PROJECT_DIR$/scss/components-web/_modify_framework.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components-web/_sidenav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components-web/_style_general.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components-web/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_badges.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_chips.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_collapsible.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_color-classes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_color-variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_datepicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_icons-material-design.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_materialbox.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_normalize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_preloader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_pulse.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_sidenav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_slider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_table_of_contents.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_tabs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_tapTarget.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_timepicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_toast.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_waves.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/forms/_checkboxes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/forms/_file-input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/forms/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/forms/_input-fields.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/forms/_radio-buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/forms/_range.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/forms/_select.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/forms/_switches.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/imports-dist.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/imports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/imports.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/imports.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/materialize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/materialize.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/materialize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/_blog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/_contacto.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/_nosotros.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/_productos.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/_productos_detail.scss" afterDir="false" />
+    <list default="true" id="005a3f4a-7acd-4919-9668-ce8f35ac1a25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/materialize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
-    <list id="20c50956-7d8c-4fca-a15b-2c6d602ca2f6" name="Revert &quot;Update .gitignore&quot;" comment="Revert &quot;Update .gitignore&quot;&#10;&#10;This reverts commit b3c1300e">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list id="20c50956-7d8c-4fca-a15b-2c6d602ca2f6" name="Revert &quot;Update .gitignore&quot;" comment="Revert &quot;Update .gitignore&quot;&#10;&#10;This reverts commit b3c1300e" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -78,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+            <state relative-caret-position="261">
+              <caret line="209" column="39" selection-start-line="209" selection-start-column="39" selection-end-line="209" selection-end-column="39" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -99,7 +41,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#container-Ar</find>
       <find>#container-ar</find>
       <find>card</find>
       <find>body</find>
@@ -129,6 +70,7 @@
       <find>modal</find>
       <find>.modal</find>
       <find>top</find>
+      <find>Sass</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,7 +107,6 @@
         <option value="$PROJECT_DIR$/productos/index.html" />
         <option value="$PROJECT_DIR$/js/product.js" />
         <option value="$PROJECT_DIR$/nosotros/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/general_materialize.js" />
         <option value="$PROJECT_DIR$/scss/materialize.css" />
         <option value="$PROJECT_DIR$/contacto/index.html" />
@@ -191,6 +132,7 @@
         <option value="$PROJECT_DIR$/scss/components-web/_sidenav.scss" />
         <option value="$PROJECT_DIR$/scss/components-web/_modify_framework.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -212,6 +154,11 @@
             <path>
               <item name="JiangZhouCNC" type="b2602c69:ProjectViewProjectNode" />
               <item name="JiangZhouCNC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JiangZhouCNC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JiangZhouCNC" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,7 +230,7 @@
       <workItem from="1558145807420" duration="47737000" />
       <workItem from="1558273193198" duration="32718000" />
       <workItem from="1558409765119" duration="10162000" />
-      <workItem from="1558491333584" duration="4222000" />
+      <workItem from="1558491333584" duration="5230000" />
     </task>
     <task id="LOCAL-00001" summary="add h1&gt;hola mundo">
       <created>1557363527340</created>
@@ -558,11 +505,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558419328650</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="file recovery sass">
+      <created>1558496312765</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1558496312765</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172833000" />
+    <option name="totallyTimeSpent" value="173841000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -575,6 +529,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Repositories" weight="0.3298887" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15103339" />
@@ -1010,8 +965,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+        <state relative-caret-position="261">
+          <caret line="209" column="39" selection-start-line="209" selection-start-column="39" selection-end-line="209" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
