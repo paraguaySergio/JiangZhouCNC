@@ -59,10 +59,12 @@
   color: #8b1014 !important; }
 
 .red {
-  background-color: #df1216 !important; }
+    background-color: #F44336 !important;
+}
 
 .red-text {
-  color: #df1216 !important; }
+    color: #F44336 !important;
+}
 
 .red.lighten-5 {
   background-color: #FFEBEE !important; }
@@ -4736,7 +4738,8 @@ textarea.materialize-textarea {
   input[type=number]:not(.browser-default):focus.invalid ~ label,
   input[type=search]:not(.browser-default):focus.invalid ~ label,
   textarea.materialize-textarea:focus.invalid ~ label {
-    color: #df1216; }
+      color: #F44336;
+  }
   input:not([type]).validate + label,
   input[type=text]:not(.browser-default).validate + label,
   input[type=password]:not(.browser-default).validate + label,
@@ -4808,9 +4811,10 @@ input.invalid[type=search]:not(.browser-default):focus,
 textarea.materialize-textarea.invalid,
 textarea.materialize-textarea.invalid:focus, .select-wrapper.invalid > input.select-dropdown,
 .select-wrapper.invalid > input.select-dropdown:focus {
-  border-bottom: 1px solid #df1216;
-  -webkit-box-shadow: 0 1px 0 0 #df1216;
-  box-shadow: 0 1px 0 0 #df1216; }
+    border-bottom: 1px solid #F44336;
+    -webkit-box-shadow: 0 1px 0 0 #F44336;
+    box-shadow: 0 1px 0 0 #F44336;
+}
 
 input:not([type]).valid ~ .helper-text[data-success],
 input:not([type]):focus.valid ~ .helper-text[data-success],
@@ -4928,7 +4932,8 @@ input[type=search]:not(.browser-default):focus.invalid ~ .helper-text:after,
 textarea.materialize-textarea.invalid ~ .helper-text:after,
 textarea.materialize-textarea:focus.invalid ~ .helper-text:after, .select-wrapper.invalid ~ .helper-text:after {
   content: attr(data-error);
-  color: #df1216; }
+    color: #F44336;
+}
 
 input:not([type]) + label:after,
 input[type=text]:not(.browser-default) + label:after,
@@ -6396,7 +6401,7 @@ input[type=range]::-ms-thumb {
       z-index: 2;
       bottom: 30px; }
   .slider .slides {
-    background-color: #df1216;
+      background-color: #F44336;
     margin: 0;
     height: 400px; }
     .slider .slides li {
@@ -6549,11 +6554,12 @@ input[type=range]::-ms-thumb {
     visibility: visible;
     -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
     animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-    -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-    transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-    -o-transition: opacity .3s, transform .3s, visibility 0s 1s;
-    transition: opacity .3s, transform .3s, visibility 0s 1s;
-    transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s; }
+      -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
+      transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
+      -o-transition: opacity .3s, transform .3s, visibility 0s 1s;
+      transition: opacity .3s, transform .3s, visibility 0s 1s;
+      transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s;
+  }
 
 .tap-target {
   position: absolute;
@@ -6601,11 +6607,11 @@ input[type=range]::-ms-thumb {
     transition: transform .3s, -webkit-transform .3s; }
   .tap-target-wave::after {
     visibility: hidden;
-    -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-    transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-    -o-transition: opacity .3s, transform .3s, visibility 0s;
-    transition: opacity .3s, transform .3s, visibility 0s;
-    transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
+      -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
+      transition: opacity .3s, visibility 0s, -webkit-transform .3s;
+      -o-transition: opacity .3s, transform .3s, visibility 0s;
+      transition: opacity .3s, transform .3s, visibility 0s;
+      transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
     z-index: -1; }
 
 .tap-target-origin {
@@ -6807,7 +6813,8 @@ input[type=range]::-ms-thumb {
   padding: 0 1rem; }
 
 .datepicker-clear {
-  color: #df1216; }
+    color: #F44336;
+}
 
 /* Media Queries */
 @media only screen and (min-width: 601px) {
@@ -6983,7 +6990,8 @@ input[type=range]::-ms-thumb {
   justify-content: space-between; }
 
 .timepicker-clear {
-  color: #df1216; }
+    color: #F44336;
+}
 
 .timepicker-close {
   color: #df1216; }
