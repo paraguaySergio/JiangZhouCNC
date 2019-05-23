@@ -77,7 +77,9 @@ body {
       -webkit-transform: translateX(-20%);
       -ms-transform: translateX(-20%);
       transform: translateX(-20%);
-      margin-top: 4px; }
+        margin-top: 6px;
+        width: 170px;
+    }
       @media (max-width: 702px) {
         #container-header-desktop nav .nav-wrapper .brand-logo {
           -webkit-transform: translateX(-71%);

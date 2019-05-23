@@ -32,7 +32,8 @@ body {
 
       .brand-logo {
         transform: translateX(-20%);
-        margin-top: 4px;
+        margin-top: 6px;
+        width: 170px;
         @media(max-width: 702px) {
           transform: translateX(-71%);
           margin-top: 4px;
