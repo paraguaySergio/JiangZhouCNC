@@ -239,11 +239,28 @@ body {
   #container-article .row .card-sidebar-left .card .card-3 .row {
     padding: 10px;
     color: #fff; }
-    #container-article .row .card-sidebar-left .card .card-3 .row .form-contact p {
-      margin: 0; }
-      #container-article .row .card-sidebar-left .card .card-3 .row .form-contact p input, #container-article .row .card-sidebar-left .card .card-3 .row .form-contact p textarea {
-        color: #fff !important; }
-      #container-article .row .card-sidebar-left .card .card-3 .row .form-contact p button {
+
+#container-article .row .card-sidebar-left .card .card-3 .row .form-contact {
+    margin: auto;
+    width: 80%;
+    height: 400px !important;
+    color: #fff !important;
+}
+
+#container-article .row .card-sidebar-left .card .card-3 .row .form-contact input {
+    color: #fff !important;
+    padding: 0;
+    margin: 0;
+    height: 1rem !important;
+}
+
+#container-article .row .card-sidebar-left .card .card-3 .row .form-contact textarea {
+    color: #fff !important;
+    padding: 0;
+    margin: 0;
+}
+
+#container-article .row .card-sidebar-left .card .card-3 .row .form-contact button {
         margin-top: 10px; }
 
 #container-article .row .card-products {

@@ -3,7 +3,8 @@
 <head>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
     <link rel="stylesheet" href="css/styles_template.css">
@@ -20,10 +21,11 @@
         <div class="nav-wrapper">
             <a href="../" class="brand-logo"><img src="img/logos/logo.png" alt="" class="responsive-img"></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="nosotros">Nosotros</a></li>
                 <li><a href="productos">Productos</a></li>
-                <li><a href="blog">Blog</a></li>
-                <li><a href="contacto">Contacto</a></li>
+                <li><a href="servicios">Servicios</a></li>
+                <li><a href="contacto">Contácto</a></li>
             </ul>
         </div>
     </nav>
@@ -44,7 +46,7 @@
     <li><a class="waves-effect" href="nosotros">Nosotros</a></li>
     <li><a class="waves-effect" href="productos">Productos</a></li>
 
-    <li><a class="waves-effect" href="blog">Noticias</a></li>
+    <li><a class="waves-effect" href="servicios">Noticias</a></li>
     <li><a class="waves-effect" href="contacto">Contácto</a></li>
 </ul>
 
@@ -111,6 +113,25 @@
 <div class="container section" id="container-article">
     <div class="row">
         <div class="col l4 m4 s12  card-sidebar-left">
+            <div class="card darken-3 card-3">
+                <div class="row">
+                    <form class="form-contact" action="">
+                        <input type="text" placeholder="Nombres...">
+
+                        <input type="text" placeholder="Apellidos...">
+
+                        <input type="email" placeholder="Email...">
+
+                        <input type="number" min="0" max="15" maxlength="15" minlength="0" placeholder="teléfono...">
+
+                        <textarea name="" id="" style="max-width:100%;height: 100px;"
+                                  placeholder="Ingrese Mensaje"></textarea>
+
+                        <button class="btn btn-enviar">Enviar</button>
+
+                    </form>
+                </div>
+            </div>
             <div class="card darken-1 card-1">
                 <div class="card-title"><i class="small material-icons">hdr_weak</i>Productos Populares</div>
                 <div class="card-content white-text">
@@ -135,35 +156,6 @@
                     </ul>
                 </div>
             </div>
-            <div class="card darken-3 card-3">
-                <div class="row">
-                    <form class="form-contact" action="" style="width: 80%;margin:auto;padding:10px 0px 10px 0px">
-                        <p>
-                            <label for="">Nombres</label>
-                            <input type="text">
-                        </p>
-                        <p>
-                            <label for="">Apellidos</label>
-                            <input type="text">
-                        </p>
-                        <p>
-                            <label for="">Email</label>
-                            <input type="text">
-                        </p>
-                        <p>
-                            <label for="">Teléfono</label>
-                            <input type="text">
-                        </p>
-                        <p>
-                            <label for="">Mensaje</label>
-                            <textarea name="" id="" style="max-width:100%;height: 100px;"></textarea>
-                        <p>
-                            <button class="btn btn-enviar">Enviar</button>
-                        </p>
-                    </form>
-                </div>
-            </div>
-
         </div>
 
 
@@ -189,10 +181,11 @@
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Links</h5>
                     <ul>
+                        <li><a class="grey-text text-lighten-3" href="index.html">Inicio</a></li>
                         <li><a class="grey-text text-lighten-3" href="nosotros/">Nosotros</a></li>
                         <li><a class="grey-text text-lighten-3" href="productos/">Productos</a></li>
-                        <li><a class="grey-text text-lighten-3" href="blog/">Blog</a></li>
-                        <li><a class="grey-text text-lighten-3" href="contacto/">Contacto</a></li>
+                        <li><a class="grey-text text-lighten-3" href="servicios/">Servicios</a></li>
+                        <li><a class="grey-text text-lighten-3" href="contacto/">Contácto</a></li>
                     </ul>
                 </div>
             </div>
