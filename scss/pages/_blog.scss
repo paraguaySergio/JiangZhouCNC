@@ -48,11 +48,29 @@
       .img-post {
         padding: 10px;
         margin: auto;
+        width: 30%;
+        @media(max-width: 702px) {
+          display: flex;
+          justify-content: center;
+          height: 150px;
+        }
+
+        img {
+          display: block;
+          margin: auto;
+          width: 170px;
+          object-fit: contain;
+        }
       }
 
       .description-post {
-        padding: 10px;
-        margin: auto;
+        margin: 10px;
+        width: 70%;
+        @media(max-width: 702px) {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+        }
       }
 
     }
