@@ -238,16 +238,26 @@ body {
             color: $color-white-one;
 
             .form-contact {
-              p {
+              margin: auto;
+              width: 80%;
+              height: 400px !important;
+              color: #fff !important;
+
+              input {
+                color: #fff !important;
+                padding: 0;
                 margin: 0;
+                height: 1rem !important;
+              }
 
-                input, textarea {
-                  color: #fff !important;
-                }
+              textarea {
+                color: #fff !important;
+                padding: 0;
+                margin: 0;
+              }
 
-                button {
-                  margin-top: 10px;
-                }
+              button {
+                margin-top: 10px;
               }
             }
           }
