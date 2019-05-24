@@ -2565,7 +2565,8 @@ input[type=range] + .thumb {
   user-select: none; }
 
 .circle {
-  border-radius: 50%; }
+  border-radius: 20%;
+}
 
 .center-block {
   display: block;
@@ -3349,12 +3350,16 @@ nav {
 
 @media only screen and (min-width: 601px) {
   nav.nav-extended .nav-wrapper {
-    min-height: 64px; }
+    min-height: 75px;
+  }
   nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
-    height: 64px;
-    line-height: 64px; }
+    height: 75px;
+    line-height: 75px;
+  }
   .navbar-fixed {
-    height: 64px; } }
+    height: 75px;
+  }
+}
 
 a {
   text-decoration: none; }
@@ -4467,7 +4472,7 @@ body.keyboard-focused .dropdown-content li:focus {
   margin-right: 5px; }
   .chip:focus {
     outline: none;
-    background-color: #e31f24;
+    background-color: #E30613;
     color: #fff; }
   .chip > img {
     float: left;
@@ -4494,9 +4499,10 @@ body.keyboard-focused .dropdown-content li:focus {
   -o-transition: all .3s;
   transition: all .3s; }
   .chips.focus {
-    border-bottom: 1px solid #e31f24;
-    -webkit-box-shadow: 0 1px 0 0 #e31f24;
-    box-shadow: 0 1px 0 0 #e31f24; }
+    border-bottom: 1px solid #E30613;
+    -webkit-box-shadow: 0 1px 0 0 #E30613;
+    box-shadow: 0 1px 0 0 #E30613;
+  }
   .chips:hover {
     cursor: text; }
   .chips .input {
@@ -6549,11 +6555,22 @@ input[type=range]::-ms-thumb {
     visibility: visible;
     -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
     animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-    -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-    transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-    -o-transition: opacity .3s, transform .3s, visibility 0s 1s;
-    transition: opacity .3s, transform .3s, visibility 0s 1s;
-    transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s; }
+    -webkit-transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+    transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+    -o-transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s;
+    transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s;
+    transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s; }
 
 .tap-target {
   position: absolute;
@@ -6601,11 +6618,22 @@ input[type=range]::-ms-thumb {
     transition: transform .3s, -webkit-transform .3s; }
   .tap-target-wave::after {
     visibility: hidden;
-    -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-    transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-    -o-transition: opacity .3s, transform .3s, visibility 0s;
-    transition: opacity .3s, transform .3s, visibility 0s;
-    transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
+    -webkit-transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+    transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+    -o-transition: opacity .3s,
+ transform .3s,
+ visibility 0s;
+    transition: opacity .3s,
+ transform .3s,
+ visibility 0s;
+    transition: opacity .3s,
+ transform .3s,
+ visibility 0s,
+ -webkit-transform .3s;
     z-index: -1; }
 
 .tap-target-origin {
