@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="../css/styles_template.css">
     <script src="../js/servicios_data.js"></script>
     <script src="../js/servicios.js"></script>
+    <script src="../js/products_data.js"></script>
+    <script src="../js/data_return.js"></script>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
@@ -58,18 +60,31 @@
 <div class="container section" id="container-article">
     <div class="row">
         <div class="col l4 m4 s12  card-sidebar-left">
-            <div class="card darken-1 card-1">
-                <div class="card-title"><i class="small material-icons">hdr_weak</i>Productos Populares</div>
-                <div class="card-content white-text">
-                    <ul>
-                        <li>DK7716 CNC WIRE CUT EDM</li>
-                        <li>D71 DIE SINKER EDM</li>
-                        <li>JZDX SERIES CNC CARVE-MILLING MACHINE</li>
-                        <li>QT SERIES CNC ABRASIVE WIRE CUTTING MACHINE</li>
-                        <li>QT SERIES CNC ABRASIVE</li>
-                    </ul>
+            <div class="card darken-3 card-3">
+                <div class="card-title"><i class="small material-icons">book</i>Escribanos</div>
+                <div class="row">
+                    <form class="form-contact" action="" style="width: 80%;margin:auto;padding:10px 0px 10px 0px">
+
+                        <label for="">Nombres</label>
+                        <input type="text">
+
+                        <label for="">Apellidos</label>
+                        <input type="text">
+
+                        <label for="">Email</label>
+                        <input type="text">
+
+                        <label for="">Teléfono</label>
+                        <input type="text">
+
+                        <label for="">Mensaje</label>
+                        <textarea name="" id="" cols="20" rows="10"></textarea>
+
+                        <button class="btn btn-enviar">Enviar</button>
+                    </form>
                 </div>
             </div>
+
             <div class="card darken-2 card-2">
                 <div class="card-title"><i class="small material-icons">call</i>Contáctanos</div>
                 <div class="card-content white-text">
@@ -84,27 +99,13 @@
                     </ul>
                 </div>
             </div>
-            <div class="card darken-3 card-3">
-                <div class="row">
-                    <form class="form-contact" action="" style="width: 80%;margin:auto;padding:10px 0px 10px 0px">
 
-                            <label for="">Nombres</label>
-                            <input type="text">
-
-                            <label for="">Apellidos</label>
-                            <input type="text">
-
-                            <label for="">Email</label>
-                            <input type="text">
-
-                        <label for="">Teléfono</label>
-                            <input type="text">
-
-                        <label for="">Mensaje</label>
-                            <textarea name="" id="" cols="20" rows="10"></textarea>
-
-                        <button class="btn btn-enviar">Enviar</button>
-                    </form>
+            <div class="card darken-1 card-1">
+                <div class="card-title"><i class="small material-icons">hdr_weak</i>Productos Populares</div>
+                <div class="card-content white-text">
+                    <ul>
+                        <script>list_products("../productos/product_detail");</script>
+                    </ul>
                 </div>
             </div>
 

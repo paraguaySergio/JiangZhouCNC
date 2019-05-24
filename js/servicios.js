@@ -16,13 +16,11 @@ function servicios() {
             "                        <!---********** ENLACE **********--->\n" +
             "                        <a class=\"waves-effect waves-light btn modal-trigger\" href=\"#modal1\"\n" +
             "                           onclick=\"redirectIdServ()\">Leer\n" +
-            "                            Mas</a>\n" +
+            "                            Más</a>\n" +
             "                    </div>\n" +
             "                </div>");
     }
 }
-
-
 
 
 

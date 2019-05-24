@@ -27,7 +27,7 @@ ul {
   transition: all 0.2s ease 0.2s;
 }
 .btn-primary:hover {
-    border-bottom: 2px solid #C00D0E;
+  border-bottom: 2px solid #C00D0E;
 }
 
 .container-fluid {
@@ -41,25 +41,33 @@ ul {
 /**************** FOOTER ******************/
 /* latin */
 @font-face {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local("Raleway"), local("Raleway-Regular"), url(https://fonts.gstatic.com/s/raleway/v13/1Ptug8zYS_SKggPNyC0ITw.woff2) format("woff2");
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Raleway"), local("Raleway-Regular"), url(https://fonts.gstatic.com/s/raleway/v13/1Ptug8zYS_SKggPNyC0ITw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
 /* latin */
 @font-face {
-    font-family: "Merriweather Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local("Merriweather Sans"), local("MerriweatherSans-Regular"), url(https://fonts.gstatic.com/s/merriweathersans/v10/2-c99IRs1JiJN1FRAMjTN5zd9vgsFHX1QjU.woff2) format("woff2");
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Merriweather Sans"), local("MerriweatherSans-Regular"), url(https://fonts.gstatic.com/s/merriweathersans/v10/2-c99IRs1JiJN1FRAMjTN5zd9vgsFHX1QjU.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Righteous"), local("Righteous-Regular"), url(https://fonts.gstatic.com/s/righteous/v7/1cXxaUPXBpj2rGoU7C9WiHGF.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 body {
-    font-family: "Raleway";
+  font-family: "Raleway";
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -72,7 +80,7 @@ body {
 
 /************ HEADER *************/
 #container-header-desktop nav {
-    background: linear-gradient(to right bottom, #3b555e, #394f59, #374954, #35434f, #333d49, #313a45, #303742, #2e343e, #2c323c, #2b313a, #292f39, #282e37);
+  background: linear-gradient(to right bottom, #3b555e, #394f59, #374954, #35434f, #333d49, #313a45, #303742, #2e343e, #2c323c, #2b313a, #292f39, #282e37);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -91,19 +99,18 @@ body {
 }
 #container-header-desktop nav .nav-wrapper .brand-logo {
   margin-top: 6px;
-    width: 190px;
+  width: 190px;
 }
-
 @media (max-width: 600px) {
   #container-header-desktop nav .nav-wrapper .brand-logo {
     margin-top: 4px;
-      margin-left: -2rem;
-      width: 150px;
+    margin-left: -2rem;
+    width: 150px;
   }
 }
 #container-header-desktop nav .nav-wrapper ul {
   cursor: pointer;
-    color: #d6ded9;
+  color: #d6ded9;
   text-decoration: none;
 }
 #container-header-desktop nav .nav-wrapper ul li a {
@@ -122,12 +129,14 @@ body {
   }
 }
 #container-slider .slider .slides li {
-    border-bottom: 3px solid #C00D0E;
+  border-bottom: 3px solid #C00D0E;
 }
 #container-slider .slider .slides li h3 {
-    font-family: "Merriweather Sans";
+  font-family: "Righteous";
+  text-transform: uppercase;
+  letter-spacing: 2px;
   color: #fff;
-    font-weight: 800;
+  font-weight: 800;
   font-size: 45px;
   text-shadow: 2px 1px 2px #000000;
 }
@@ -137,8 +146,8 @@ body {
   }
 }
 #container-slider .slider .slides li h5 {
-    color: #C00D0E;
-    font-weight: 700;
+  color: #C00D0E;
+  font-weight: 700;
   font-size: 30px;
   text-shadow: 2px 1px 2px #000000;
 }
@@ -163,11 +172,11 @@ body {
   align-items: center;
   min-height: 50px;
   margin: 20px 5px 10px 5px;
-    background-color: #1f262e;
-    border-bottom: 2px solid #C00D0E;
+  background-color: #1f262e;
+  border-bottom: 2px solid #C00D0E;
   border-radius: 4px;
   color: #FFFFFF;
-    padding: 0px 15px 0px 15px;
+  padding: 0px 15px 0px 15px;
 }
 @media (max-width: 702px) {
   #container-item-products-plus .item {
@@ -176,7 +185,7 @@ body {
 }
 #container-item-products-plus .item i {
   margin-right: 30px;
-    font-size: 30px;
+  font-size: 30px;
 }
 #container-item-products-plus .item span {
   width: 79px;
@@ -190,18 +199,18 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 #container-item-products-plus .item .text-description h5 {
   margin: 0;
-    color: #d6ded9;
+  color: #d6ded9;
   font-size: 20px;
   font-weight: 800;
 }
 #container-item-products-plus .item .text-description h5:nth-child(2) {
   margin: 0;
-    color: #C00D0E;
-    font-size: 23px;
+  color: #C00D0E;
+  font-size: 23px;
   font-weight: 800;
 }
 
@@ -235,7 +244,7 @@ body {
 
 /************ ARTICLE CENTER *************/
 #container-article .row .card-sidebar-left .card {
-    background: #1f262e;
+  background: #1f262e;
 }
 #container-article .row .card-sidebar-left .card .card-title {
   display: flex;
@@ -250,7 +259,7 @@ body {
 }
 #container-article .row .card-sidebar-left .card .card-title .material-icons {
   margin-right: 10px;
-    color: #C00D0E;
+  color: #C00D0E;
 }
 #container-article .row .card-sidebar-left .card .card-1 .card-content ul {
   list-style: none;
@@ -260,6 +269,12 @@ body {
 }
 #container-article .row .card-sidebar-left .card .card-2 .card-content ul {
   list-style: none;
+}
+#container-article .row .card-sidebar-left .card .card-2 .card-content ul li {
+  line-height: 10px;
+}
+#container-article .row .card-sidebar-left .card .card-2 .card-content ul li:hover {
+  color: #C00D0E;
 }
 #container-article .row .card-sidebar-left .card .card-3 .row {
   padding: 10px;
@@ -289,16 +304,16 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-    background: #1f262e !important;
+  background: #1f262e !important;
 }
 #container-article .row .card-products .item {
-    background: #1f262e;
+  background: #1f262e;
 }
 #container-article .row .card-products .item .card-content {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 200px;
+  width: 186px;
   background-image: linear-gradient(to bottom, #252525, #1f1f1f, #1a1a1a, #141414, #0d0d0d, #0d0d0d, #0d0d0d, #0d0d0d, #141414, #1a1a1a, #1f1f1f, #252525);
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
   margin: 10px;
@@ -330,7 +345,7 @@ body {
   width: 40%;
   font-size: 14px;
   background-color: #fff;
-    color: #C00D0E;
+  color: #C00D0E;
   border-radius: 3px;
   outline: none;
   text-align: center;
@@ -339,7 +354,7 @@ body {
   cursor: pointer;
   font-weight: 500;
   line-height: 14px;
-    border: solid 1px #C00D0E;
+  border: solid 1px #C00D0E;
   margin: 10px;
 }
 #container-article .row .card-products .item .card-content .div-button a:hover {
@@ -347,7 +362,7 @@ body {
   border: none;
   font-weight: 700;
   padding: 6px;
-    background-color: #C00D0E;
+  background-color: #C00D0E;
 }
 
 /************* FOOTER **************/
@@ -365,7 +380,7 @@ body {
 }
 #container-footer .footer-copyright .container a i {
   font-size: 17px;
-    color: #C00D0E;
+  color: #C00D0E;
 }
 
 /*********** HEADER **********/
@@ -376,8 +391,8 @@ body {
 /************** NOSOTROS ***************/
 .card-article-right .card-nosotros {
   padding: 20px;
-    background: #1f262e;
-    color: #d6ded9;
+  background: #1f262e;
+  color: #d6ded9;
 }
 .card-article-right .card-nosotros .title-cards {
   display: flex;
@@ -385,7 +400,7 @@ body {
 }
 .card-article-right .card-nosotros .title-cards .hr-one {
   height: 2px;
-    background: #d6ded9;
+  background: #d6ded9;
   width: 5%;
 }
 .card-article-right .card-nosotros .title-cards h5 {
@@ -395,11 +410,11 @@ body {
   margin-top: 0px;
 }
 .card-article-right .card-nosotros .title-cards h5 span {
-    color: #C00D0E;
+  color: #C00D0E;
 }
 .card-article-right .card-nosotros .title-cards .hr-two {
   height: 2px;
-    background: #d6ded9;
+  background: #d6ded9;
   width: 55%;
 }
 .card-article-right .card-nosotros .description p {
@@ -407,7 +422,7 @@ body {
 }
 .card-article-right .card-nosotros .img {
   width: 100%;
-  height: 300px;
+  height: 400px;
 }
 .card-article-right .card-nosotros .img img {
   display: block;
@@ -431,8 +446,8 @@ body {
 /************** NOSOTROS ***************/
 .card-article-right .card-blog {
   padding: 20px;
-    background: #1f262e;
-    color: #d6ded9;
+  background: #1f262e;
+  color: #d6ded9;
   /*******POST*****/
 }
 .card-article-right .card-blog .title-cards {
@@ -441,7 +456,7 @@ body {
 }
 .card-article-right .card-blog .title-cards .hr-one {
   height: 2px;
-    background: #d6ded9;
+  background: #d6ded9;
   width: 5%;
 }
 .card-article-right .card-blog .title-cards h5 {
@@ -451,11 +466,11 @@ body {
   margin-top: 0px;
 }
 .card-article-right .card-blog .title-cards h5 span {
-    color: #C00D0E;
+  color: #C00D0E;
 }
 .card-article-right .card-blog .title-cards .hr-two {
   height: 2px;
-    background: #d6ded9;
+  background: #d6ded9;
   width: 55%;
 }
 .card-article-right .card-blog .contenido-post {
@@ -514,8 +529,8 @@ body {
 /**************** FOOTER ******************/
 /************** CARD PRODUCTS DETAIL ***************/
 .card-article-right .card-products-detail-one {
-    background: #1f262e;
-    color: #d6ded9;
+  background: #1f262e;
+  color: #d6ded9;
   padding: 0;
 }
 .card-article-right .card-products-detail-one .title-cards {
@@ -531,7 +546,7 @@ body {
   font-weight: bold;
 }
 .card-article-right .card-products-detail-one .title-cards h5 span {
-    color: #C00D0E;
+  color: #C00D0E;
 }
 .card-article-right .card-products-detail-one .header-product-detail {
   display: flex;
@@ -558,7 +573,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
-    border-bottom: 3px solid #C00D0E;
+  border-bottom: 3px solid #C00D0E;
 }
 .card-article-right .card-products-detail-one .header-product-detail .table-description {
   width: 60%;
@@ -585,7 +600,7 @@ body {
 }
 .card-article-right .card-products-detail-one .header-product-detail .table-description table tr td a {
   background: #028EED;
-    color: #d6ded9;
+  color: #d6ded9;
   font-size: 16px;
   font-weight: 400;
   padding: 5px 10px 5px 10px;
