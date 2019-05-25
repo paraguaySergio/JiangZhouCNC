@@ -2722,12 +2722,12 @@ video.responsive-video {
   float: none;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width : 992px) {
   .pagination {
     width: 100%;
   }
   .pagination li.prev,
-  .pagination li.next {
+.pagination li.next {
     width: 10%;
   }
   .pagination li.pages {
@@ -2813,19 +2813,19 @@ ul.staggered-list li {
 /*********************
   Media Query Classes
 **********************/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width : 600px) {
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important;
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width : 992px) {
   .hide-on-med-and-down {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width : 601px) {
   .hide-on-med-and-up {
     display: none !important;
   }
@@ -2837,25 +2837,25 @@ ul.staggered-list li {
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width : 993px) {
   .hide-on-large-only {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width : 1201px) {
   .hide-on-extra-large-only {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width : 1201px) {
   .show-on-extra-large {
     display: block !important;
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width : 993px) {
   .show-on-large {
     display: block !important;
   }
@@ -2867,25 +2867,25 @@ ul.staggered-list li {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width : 600px) {
   .show-on-small {
     display: block !important;
   }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width : 601px) {
   .show-on-medium-and-up {
     display: block !important;
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width : 992px) {
   .show-on-medium-and-down {
     display: block !important;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width : 600px) {
   .center-on-small-only {
     text-align: center;
   }
@@ -2948,7 +2948,7 @@ td, th {
   border-radius: 2px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width : 992px) {
   table.responsive-table {
     width: 100%;
     border-collapse: collapse;
@@ -2961,7 +2961,7 @@ td, th {
     content: " ";
   }
   table.responsive-table th,
-  table.responsive-table td {
+table.responsive-table td {
     margin: 0;
     vertical-align: top;
   }
@@ -3009,7 +3009,7 @@ td, th {
   }
 }
 .collection {
-  margin: 0.5rem 0 1rem 0;
+  margin: 0.3333333333rem 0 0.6666666667rem 0;
   border: 1px solid #e0e0e0;
   border-radius: 2px;
   overflow: hidden;
@@ -3116,7 +3116,7 @@ td, th {
   width: 100%;
   background-color: #fac3c4;
   border-radius: 2px;
-  margin: 0.5rem 0 1rem 0;
+  margin: 0.3333333333rem 0 0.6666666667rem 0;
   overflow: hidden;
 }
 .progress .determinate {
@@ -3298,20 +3298,19 @@ table span.badge {
   width: 90%;
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width : 601px) {
   .container {
     width: 90%;
   }
 }
-
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width : 993px) {
   .container {
     width: 90%;
   }
 }
 .col .row {
-  margin-left: -0.75rem;
-  margin-right: -0.75rem;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
 }
 
 .section {
@@ -3341,8 +3340,13 @@ table span.badge {
 .row .col {
   float: left;
   box-sizing: border-box;
-  padding: 0 0.75rem;
+  padding: 0 0.5rem;
   min-height: 1px;
+}
+@media (max-width: 702px) {
+  .row .col {
+    padding: 0;
+  }
 }
 .row .col[class*=push-], .row .col[class*=pull-] {
   position: relative;
@@ -3527,8 +3531,7 @@ table span.badge {
 .row .col.push-s12 {
   left: 100%;
 }
-
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width : 601px) {
   .row .col.m1 {
     width: 8.3333333333%;
     margin-left: auto;
@@ -3710,8 +3713,7 @@ table span.badge {
     left: 100%;
   }
 }
-
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width : 993px) {
   .row .col.l1 {
     width: 8.3333333333%;
     margin-left: auto;
@@ -3893,8 +3895,7 @@ table span.badge {
     left: 100%;
   }
 }
-
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width : 1201px) {
   .row .col.xl1 {
     width: 8.3333333333%;
     margin-left: auto;
@@ -4110,8 +4111,7 @@ nav .nav-wrapper {
   position: relative;
   height: 100%;
 }
-
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width : 993px) {
   nav a.sidenav-trigger {
     display: none;
   }
@@ -4138,8 +4138,7 @@ nav .brand-logo.center {
   left: 50%;
   transform: translateX(-50%);
 }
-
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width : 992px) {
   nav .brand-logo {
     left: 50%;
     transform: translateX(-50%);
@@ -4243,7 +4242,7 @@ nav .input-field label.active i {
   position: fixed;
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width : 601px) {
   nav.nav-extended .nav-wrapper {
     min-height: 75px;
   }
@@ -4473,14 +4472,14 @@ small {
 .card-panel {
   transition: box-shadow 0.25s;
   padding: 24px;
-  margin: 0.5rem 0 1rem 0;
+  margin: 0.3333333333rem 0 0.6666666667rem 0;
   border-radius: 2px;
   background-color: #fff;
 }
 
 .card {
   position: relative;
-  margin: 0.5rem 0 1rem 0;
+  margin: 0.3333333333rem 0 0.6666666667rem 0;
   background-color: #fff;
   transition: box-shadow 0.25s;
   border-radius: 2px;
@@ -4632,23 +4631,20 @@ small {
   position: fixed;
   z-index: 10000;
 }
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width : 600px) {
   #toast-container {
     min-width: 100%;
     bottom: 0%;
   }
 }
-
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width : 601px) and (max-width : 992px) {
   #toast-container {
     left: 5%;
     bottom: 7%;
     max-width: 90%;
   }
 }
-
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width : 993px) {
   #toast-container {
     top: 10%;
     right: 7%;
@@ -4685,8 +4681,7 @@ small {
 .toast.rounded {
   border-radius: 24px;
 }
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width : 600px) {
   .toast {
     width: 100%;
     border-radius: 0;
@@ -4764,7 +4759,7 @@ small {
   will-change: left, right;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width : 992px) {
   .tabs {
     display: flex;
   }
@@ -5308,8 +5303,7 @@ body.keyboard-focused .dropdown-content li:focus {
 .modal:focus {
   outline: none;
 }
-
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width : 992px) {
   .modal {
     width: 100%;
   }
@@ -5381,7 +5375,7 @@ body.keyboard-focused .dropdown-content li:focus {
   border-top: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd;
-  margin: 0.5rem 0 1rem 0;
+  margin: 0.3333333333rem 0 0.6666666667rem 0;
 }
 
 .collapsible-header {
@@ -5952,11 +5946,11 @@ textarea.materialize-textarea + label:after {
   margin-bottom: 1rem;
 }
 .input-field.col label {
-  left: 0.75rem;
+  left: 0.5rem;
 }
 .input-field.col .prefix ~ label,
 .input-field.col .prefix ~ .validate ~ label {
-  width: calc(100% - 3rem - 1.5rem);
+  width: calc(100% - 3rem - 1rem);
 }
 .input-field > label {
   color: #9e9e9e;
@@ -6014,15 +6008,13 @@ textarea.materialize-textarea + label:after {
 .input-field .prefix ~ label {
   margin-left: 3rem;
 }
-
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width : 992px) {
   .input-field .prefix ~ input {
     width: 86%;
     width: calc(100% - 3rem);
   }
 }
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width : 600px) {
   .input-field .prefix ~ input {
     width: 80%;
     width: calc(100% - 3rem);
@@ -6964,7 +6956,7 @@ input[type=range]::-ms-thumb {
   left: auto;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width : 992px) {
   .sidenav.sidenav-fixed {
     transform: translateX(-105%);
   }
@@ -7898,7 +7890,7 @@ input[type=range]::-ms-thumb {
 }
 
 /* Media Queries */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width : 601px) {
   .datepicker-modal {
     max-width: 625px;
   }
@@ -7912,8 +7904,8 @@ input[type=range]::-ms-thumb {
   }
 
   .datepicker-controls,
-  .datepicker-table,
-  .datepicker-footer {
+.datepicker-table,
+.datepicker-footer {
     width: 320px;
   }
 
@@ -8084,7 +8076,7 @@ input[type=range]::-ms-thumb {
 }
 
 /* Media Queries */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width : 601px) {
   .timepicker-modal {
     max-width: 600px;
   }
@@ -8107,3 +8099,4 @@ input[type=range]::-ms-thumb {
 }
 
 /*# sourceMappingURL=materialize.css.map */
+                 

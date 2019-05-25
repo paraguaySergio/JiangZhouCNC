@@ -76,6 +76,9 @@
     box-sizing: border-box;
     padding: 0 $gutter-width / 2;
     min-height: 1px;
+    @media(max-width: 702px) {
+      padding: 0;
+    }
 
     &[class*="push-"],
     &[class*="pull-"] {
