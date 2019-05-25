@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="005a3f4a-7acd-4919-9668-ce8f35ac1a25" name="Default Changelist" comment="commit for merge in gh-pages">
-      <change afterPath="$PROJECT_DIR$/js/servicio_detail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components-web/_tipografias.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/_servicios_detail.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicios/servicio_detail/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/materialize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles_template.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles_template.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/data_return.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/data_return.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/servicios.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/servicios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/servicios_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/servicios_data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components-web/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components-web/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/imports-dist.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/imports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/imports.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/imports.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/imports.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/materialize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/materialize.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/materialize.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/servicios/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="005a3f4a-7acd-4919-9668-ce8f35ac1a25" name="Default Changelist" comment="" />
     <list id="20c50956-7d8c-4fca-a15b-2c6d602ca2f6" name="Revert &quot;Update .gitignore&quot;" comment="Revert &quot;Update .gitignore&quot;&#10;&#10;This reverts commit b3c1300e" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/pages/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="341" column="32" selection-start-line="341" selection-start-column="32" selection-end-line="341" selection-end-column="32" />
+            <state relative-caret-position="327">
+              <caret line="344" column="31" lean-forward="true" selection-start-line="344" selection-start-column="31" selection-end-line="344" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -623,11 +599,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558680953671</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="added Detail sevice, correction styles bugs, added full screen in movil, added js detect width">
+      <created>1558771432938</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1558771432938</updated>
+    </task>
+    <task id="LOCAL-00049" summary="added Detail service, correction styles bugs, added full screen in mobile, added js detect width, recommit">
+      <created>1558771487633</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1558771487633</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210307000" />
+    <option name="totallyTimeSpent" value="210518000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -734,8 +724,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="correction styles" />
-    <MESSAGE value="added JSON products" />
     <MESSAGE value="added JSON products and styles" />
     <MESSAGE value="consumiendo json en home" />
     <MESSAGE value="update web joungzhou" />
@@ -759,7 +747,9 @@
     <MESSAGE value="Mejora de diseño, tipo fuente y correccion de algnos bug y etc" />
     <MESSAGE value="Mejora de diseño contacto, nosotros, servicios, nuevas fuentes, mas contenido etc etc" />
     <MESSAGE value="commit for merge in gh-pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit for merge in gh-pages" />
+    <MESSAGE value="added Detail sevice, correction styles bugs, added full screen in movil, added js detect width" />
+    <MESSAGE value="added Detail service, correction styles bugs, added full screen in mobile, added js detect width, recommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Detail service, correction styles bugs, added full screen in mobile, added js detect width, recommit" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1142,8 +1132,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/pages/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="341" column="32" selection-start-line="341" selection-start-column="32" selection-end-line="341" selection-end-column="32" />
+        <state relative-caret-position="327">
+          <caret line="344" column="31" lean-forward="true" selection-start-line="344" selection-start-column="31" selection-end-line="344" selection-end-column="31" />
         </state>
       </provider>
     </entry>
