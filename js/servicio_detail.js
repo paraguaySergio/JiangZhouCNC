@@ -1,5 +1,5 @@
 /*********** data GET ***********/
-let idServ = getParameterByName('idServ');
+let idServ = getParameterByName('servId');
 
 function getParameterByName(name) {
     name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
