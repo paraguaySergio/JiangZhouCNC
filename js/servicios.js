@@ -6,7 +6,7 @@ function servicios() {
     for (let i = 0; i <= numServi; i++) {
         document.write(" <div class=\"contenido-post\" id=\"contenido-post\">\n" +
             "                    <div class=\"img-post\">\n" +
-            "                        <img src=\"../img/servicios/" + obj[i].img + ".jpg\" alt=\"\">\n" +
+            "                        <img src=\"../img/servicios/" + obj[i].img + "\" alt=\"\">\n" +
             "                    </div>\n" +
             "                    <div class=\"description-post\">\n" +
             "                        <h5>" + obj[i].title + "</h5>\n" +
@@ -14,7 +14,7 @@ function servicios() {
             "                            " + obj[i].description + "\n" +
             "                        </p>\n" +
             "                        <!---********** ENLACE **********--->\n" +
-            "                        <a class=\"waves-effect waves-light btn modal-trigger\" href=\"#modal1\"\n" +
+            "                        <a class=\"btn modal-trigger\" href=\"servicio_detail/?servId=" + obj[i].id + "\"\n" +
             "                           onclick=\"redirectIdServ()\">Leer\n" +
             "                            Más</a>\n" +
             "                    </div>\n" +

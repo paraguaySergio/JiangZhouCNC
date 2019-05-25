@@ -1,0 +1,166 @@
+/*********** HEADER **********/
+/*********** SLIDER **********/
+/************** PRODUCTS PLUS **************/
+/********** ITEMS CARDS PRODUCTS GENERAL **********/
+/**************** FOOTER ******************/
+/************** CARD PRODUCTS DETAIL ***************/
+.card-article-right .card-service-detail {
+    background: #1f262e;
+    color: #d6ded9;
+    padding: 0;
+}
+
+.card-article-right .card-service-detail .title-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: rgba(23, 27, 32, 0.91);
+    width: 100%;
+}
+
+.card-article-right .card-service-detail .title-cards h5 {
+    padding-left: 10px;
+    width: auto;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.card-article-right .card-service-detail .title-cards h5 span {
+    color: #C00D0E;
+}
+
+.card-article-right .card-service-detail .header-service-detail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+}
+
+.card-article-right .card-service-detail .header-service-detail .img-service {
+    width: 40%;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.card-article-right .card-service-detail .header-service-detail .img-service .fondo-img {
+    width: 200px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.card-article-right .card-service-detail .header-service-detail .img-service .fondo-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    border-bottom: 3px solid #C00D0E;
+}
+
+.card-article-right .card-service-detail .header-service-detail .table-description {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 5px;
+}
+
+@media (max-width: 702px) {
+    .card-article-right .card-service-detail .header-service-detail .table-description {
+        width: 100%;
+    }
+}
+
+.card-article-right .card-service-detail .header-service-detail .table-description table {
+    background: #232930;
+    margin: auto;
+    font-size: 14px;
+}
+
+.card-article-right .card-service-detail .header-service-detail .table-description table tr td {
+    margin: auto;
+    padding: 10px;
+}
+
+.card-article-right .card-service-detail .header-service-detail .table-description table tr td a {
+    background: #028EED;
+    color: #d6ded9;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    margin: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.card-article-right .card-service-detail .body-detail-service {
+    background: #232930;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.card-article-right .card-service-detail .body-detail-service h5 {
+    text-align: left;
+}
+
+.card-article-right .card-service-detail .body-detail-service p {
+    text-align: justify;
+}
+
+.card-article-right .card-service-detail #modal-order-service .modal-content .content-order-service {
+    width: 100%;
+}
+
+.card-article-right .card-service-detail #modal-order-service .modal-content .content-order-service .item-service {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.card-article-right .card-service-detail #modal-order-service .modal-content .content-order-service .item-service .table-service {
+    width: 45% !important;
+    margin: 10px;
+}
+
+.card-article-right .card-service-detail #modal-order-service .modal-content .content-order-service .item-service .form-order-service {
+    width: 45% !important;
+    margin: 10px;
+}
+
+.card-article-right .card-service-detail #modal-order-service .modal-content .content-order-service .item-service .terminos {
+    font-size: 13px;
+}

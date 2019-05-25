@@ -3,7 +3,6 @@ function saveLocalStorage() {
 }
 saveLocalStorage();
 
-
 /*Data products*/
 list_products = (ruta) => {
     for (let i = 0; i <= 16; i++) {

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="../../css/styles_template.css">
+    <link type="text/css" rel="stylesheet" href="../../css/materialize.css" media="screen,projection"/>
+    <!--Import FontAweson-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!--- SCRIPTS --->
+    <script src="../../js/servicios_data.js"></script>
+    <script src="../../js/servicio_detail.js"></script>
+    <script src="../../js/data_return.js"></script>
+    <script src="../../js/product_detail.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+            src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.3"></script>
+</head>
+<body>
+<div class="container-fluid" id="container-header-desktop">
+    <nav>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <div class="nav-wrapper">
+            <a href="../../index.html" class="brand-logo"><img src="../../img/logos/logo.png" alt=""
+                                                               class="responsive-img"></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../../nosotros">Nosotros</a></li>
+                <li><a href="../../productos">Productos</a></li>
+                <li><a href="../../servicios">Servicios</a></li>
+                <li><a href="../../contacto">Contácto</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+<!--Menu for mobile-->
+<ul id="slide-out" class="sidenav">
+    <li>
+        <div class="user-view">
+            <div class="background">
+                <img src="../../img/sidebar_mobile/img1.jpg" style="object-fit: cover;width: 300px">
+            </div>
+            <a href="#user"><img class="circle" src="../../img/logos/imalogo.png"></a>
+            <a href="#name"><span class="white-text name">Joung Zhou</span></a>
+            <a href="#email"><span class="white-text email">sales@jzsk.com.cn</span></a>
+        </div>
+    </li>
+    <li><a class="subheader">MENU</a></li>
+    <li><a class="waves-effect" href="../../index.html">Inicio</a></li>
+    <li><a class="waves-effect" href="../../nosotros">Nosotros</a></li>
+    <li><a class="waves-effect" href="../../productos">Productos</a></li>
+    <li><a class="waves-effect" href="../../servicios">Servicios</a></li>
+    <li><a class="waves-effect" href="../../contacto">Contácto</a></li>
+</ul>
+
+
+<div class="container section" id="container-article">
+    <div class="row">
+        <div class="col l4 m4 s12  card-sidebar-left">
+            <div class="card darken-1 card-1">
+                <div class="title-cotizador">
+                    <h6 style="margin: 0;padding: 10px;font-weight: 500;background: #df1216;color: #fff;border-top-left-radius:7px;border-top-right-radius:7px;">
+                        ORDENALO<span> YA!</span>
+                    </h6>
+                </div>
+                <form class="form" action="" style="padding: 15px">
+                    <input type="text" placeholder="Ingrese nombre completo..." style="::placeholder:#fff;color: #fff;">
+                    <input type="text" placeholder="Ingrese apellido completo..."
+                           style="::placeholder:#fff;color: #fff;">
+                    <input type="email" placeholder="Ingrese email..." style="::placeholder:#fff;color: #fff;">
+                    <input type="number" minlength="0" min="0" placeholder="Ingrese teléfono..."
+                           style="::placeholder:#fff;color: #fff;">
+                    <textarea name=""
+                              placeholder="Ingrese Mensaje..."
+                              style="::placeholder:#fff;max-width:323px;color: #fff;"></textarea>
+                    <label for="">Producto</label>
+                    <script>
+                        document.write("<input disabled type='text' value='" + obj.title + " / " + obj.model + "' style='font-size: 12px;font-weight: 500;color:#028eed'>");
+                    </script>
+                    <button class="btn btn-enviar">CONFIRMAR</button>
+                </form>
+            </div>
+            <div class="card darken-1 card-1">
+                <div class="card-title"><i class="small material-icons">hdr_weak</i>Productos Populares</div>
+                <div class="card-content white-text">
+                    <ul>
+                        <script>
+                            PD_list_products();
+                        </script>
+                    </ul>
+                </div>
+            </div>
+            <div class="card darken-2 card-2">
+                <div class="card-title"><i class="small material-icons">call</i>Contáctanos</div>
+                <div class="card-content white-text">
+                    <ul>
+                        <li>Contact person: Anna</li>
+                        <li>Mobile:+86 15061008297</li>
+                        <li>E-mail:sales@jzsk.com.cn</li>
+                        <li>Tel：+86-523-86585956</li>
+                        <li>Company：Taizhou Jiangzhou Numerical Control Machine Tool Manufacture Co.,Ltd.</li>
+                        <li>Address：NO.16, Xingtai Road, Jiulong Industrial Zone, Taizhou, Jiangsu, China</li>
+                        <li>Code：225300</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col l8 m8 s12 card-article-right">
+            <div class="card  darken-1 card-service-detail">
+                <div class="title-cards">
+                    <h5>
+                        <script>document.write(objServ.title);</script>
+                        - <span>DETALLE</span>
+                    </h5>
+                </div>
+
+                <div class="header-service-detail">
+                    <div class="img-service">
+                        <script>
+                            document.write("<img src='../../img/servicios/" + objServ.img + "' alt=''>");
+                        </script>
+                    </div>
+                </div>
+                <div class="body-detail-service">
+                    <h5>Descripción:</h5>
+                    <p>
+                        <script>document.write(objServ.description);</script>
+                    </p>
+                    <br>
+                    <div style="border:none;overflow:hidden;background:rgba(255,255,255,0.8);width: 100%;margin:auto;display: block"
+                         class="fb-comments"
+                         data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="700"
+                         data-numposts="5"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" id="container-footer">
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Somos</h5>
+                    <p class="grey-text text-lighten-4"> Taizhou Jiangzhou CNC Máquina Herramienta de Fabricación Co.,
+                        Ltd. </p>
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="../../index.html">Inicio</a></li>
+                        <li><a class="grey-text text-lighten-3" href="../../nosotros">Nosotros</a></li>
+                        <li><a class="grey-text text-lighten-3" href="../../productos">Productos</a></li>
+                        <li><a class="grey-text text-lighten-3" href="../../servicios">Servicios</a></li>
+                        <li><a class="grey-text text-lighten-3" href="../../contacto">Contácto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Copy Right - By ServiTec
+                <a class="grey-text text-lighten-4 right" href="#!">Con <i class="material-icons">favorite</i> De LATAM</a>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<!--/************** MENU MOBILE ***************/-->
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+        <i class="fas fa-location-arrow"></i>
+    </a>
+    <ul>
+        <li><a class="btn-floating red"><i class="far fa-envelope"></i></a></li>
+        <li><a class="btn-floating green"><i class="fab fa-whatsapp"></i></a></li>
+        <li><a class="btn-floating blue"><i class="fab fa-facebook"></i></a></li>
+    </ul>
+</div>
+
+
+<!--JavaScript at end of body for optimized loading-->
+<script type="text/javascript" src="../../js/materialize.js"></script>
+<script src="../../js/general_materialize.js"></script>
+</body>
+</html>
