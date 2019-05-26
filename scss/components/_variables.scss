@@ -126,7 +126,7 @@ $collapsible-border-color: #ddd !default;
 
 $chip-bg-color: #e4e4e4 !default;
 $chip-border-color: #9e9e9e !default;
-$chip-selected-color: #e31f24 !default;
+$chip-selected-color: #E30613 !default;
 $chip-margin: 5px !default;
 
 
@@ -233,7 +233,7 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
 // ==========================================================================
 
 $num-cols: 12 !default;
-$gutter-width: 1.5rem !default;
+$gutter-width: 1rem !default;
 $element-top-margin: $gutter-width/3 !default;
 $element-bottom-margin: ($gutter-width*2)/3 !default;
 
@@ -241,7 +241,7 @@ $element-bottom-margin: ($gutter-width*2)/3 !default;
 // 13. Navigation Bar
 // ==========================================================================
 
-$navbar-height: 64px !default;
+$navbar-height: 75px !default;
 $navbar-line-height: $navbar-height !default;
 $navbar-height-mobile: 56px !default;
 $navbar-line-height-mobile: $navbar-height-mobile !default;

@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="../css/styles_template.css">
     <!--Import FontAweson-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--scripts-->
+    <script src="../js/desing.js"></script>
 </head>
 
 <body>
 <div class="container-fluid" id="container-header-desktop">
     <nav>
-            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <div class="nav-wrapper">
             <a href="../" class="brand-logo"><img src="../img/logos/logo.png" alt="" class="responsive-img"></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -31,31 +33,29 @@
 </div>
 
 
-
-
-    <!--Menu for mobile-->
-    <ul id="slide-out" class="sidenav">
-        <li>
-            <div class="user-view">
-                <div class="background">
-                    <img src="../img/sidebar_mobile/img1.jpg" style="object-fit: cover;width: 300px">
-                </div>
-                <a href="#user"><img class="circle" src="../img/logos/logo.png"></a>
-                <a href="#name"><span class="white-text name">Joung Zhou</span></a>
-                <a href="#email"><span class="white-text email">sales@jzsk.com.cn</span></a>
+<!--Menu for mobile-->
+<ul id="slide-out" class="sidenav">
+    <li>
+        <div class="user-view">
+            <div class="background">
+                <img src="../img/sidebar_mobile/img1.jpg" style="object-fit: cover;width: 300px">
             </div>
-        </li>
-        <li><a class="subheader">MENU</a></li>
-        <li><a class="waves-effect" href="../index.html">Inicio</a></li>
-        <li><a class="waves-effect" href="../nosotros">Nosotros</a></li>
-        <li><a class="waves-effect" href="../productos">Productos</a></li>
-        <li><a class="waves-effect" href="../servicios">Servicios</a></li>
-        <li><a class="waves-effect" href="../contacto">Contácto</a></li>
-    </ul>
+            <a href="#user"><img class="circle" src="../img/logos/imalogo.png"></a>
+            <a href="#name"><span class="white-text name">Joung Zhou</span></a>
+            <a href="#email"><span class="white-text email">sales@jzsk.com.cn</span></a>
+        </div>
+    </li>
+    <li><a class="subheader">MENU</a></li>
+    <li><a class="waves-effect" href="../index.html">Inicio</a></li>
+    <li><a class="waves-effect" href="../nosotros">Nosotros</a></li>
+    <li><a class="waves-effect" href="../productos">Productos</a></li>
+    <li><a class="waves-effect" href="../servicios">Servicios</a></li>
+    <li><a class="waves-effect" href="../contacto">Contácto</a></li>
+</ul>
 
 <div class="container section" id="container-article">
     <div class="row">
-        <div class="col l4 m4 s12  card-sidebar-left">
+        <div class="card-sidebar-left">
             <div class="card darken-2 card-2">
                 <div class="card-title"><i class="small material-icons">call</i>Contáctanos</div>
                 <div class="card-content white-text">
@@ -82,8 +82,11 @@
         </div>
 
 
-        <div class="col l8 m8 s12 card-article-right">
-            <div class="card  darken-1 card-products-detail-one">
+        <div class="card-article-right">
+            <div class="card darken-1 card-products-detail-one">
+                <div class="title-cards">
+                    <h5>Envienos su<span> Mensaje</span></h5>
+                </div>
                 <div class="body-detail-product">
                     <p>
                         Productos de primera Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -92,38 +95,26 @@
                     </p>
                 </div>
 
-                <div class="form-contact-product" style="padding:3vh;">
-                    <div class="title-cotizador">
-                        <hr class="hr-one">
-                        <h5>Envienos su<span> Mensaje</span></h5>
-                        <hr class="hr-two">
-                    </div>
-                    <form class="form-contact" action="" style="margin:0vh 3vh 3vh 3vh ;">
-                        <p>
-                            <label for="">Nombres</label>
-                            <input type="text">
-                        </p>
-                        <p>
-                            <label for="">Apellidos</label>
-                            <input type="text">
-                        </p>
-                        <p>
-                            <label for="">Email</label>
-                            <input type="text">
-                        </p>
-                        <p>
-                            <label for="">Teléfono</label>
-                            <input type="text">
-                        </p>
-                        <p>
-                            <label for="">Mensaje</label><br>
-                            <textarea name="" id="" style="max-width:100%;height: 150px;width: 100%;"></textarea>
-                        <p>
-                            <button class="btn btn-enviar">Enviar</button>
-                        </p>
+                <div class="form-contact-product" style="padding:3vh;background:rgba(0,0,0,0.2);">
+                    <form class="form-contact" action="" style="padding: 10px;color: #fff;">
+                        <input name="nombres" type="text" placeholder="Nombres..." required>
+                        <input name="apellidos" type="text" placeholder="Apellidos..." required>
+                        <input name="email" type="email" placeholder="Email" required>
+                        <input name="telefono" type="number" min="0" placeholder="Teléfono" required>
+                        <textarea name="mensaje" id="" style="max-width:100%;width:100%;height: 200px"
+                                  placeholder="Mensaje"
+                                  required></textarea>
+                        <button class="btn btn-enviar">Enviar</button>
                     </form>
                 </div>
 
+                <div class="card-article-right" style="margin-top: 10px">
+                    <div class="card  darken-1 card-products-detail-one">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62408.97531618021!2d-77.0417046061569!3d-12.142163636845824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x70a366f7a0e80cd0!2sServitec+Chorrillos!5e0!3m2!1ses-419!2spe!4v1558678112120!5m2!1ses-419!2spe"
+                                frameborder="0" style="border:0;width: 97%;height: 300px;margin: 10px;"
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

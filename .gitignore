@@ -2,6 +2,18 @@
 # Created by https://www.gitignore.io/api/node,windows,webstorm
 # Edit at https://www.gitignore.io/?templates=node,windows,webstorm
 
+*/.idea/workspace.xml
+
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+
+
 ### Node ###
 # Logs
 logs
