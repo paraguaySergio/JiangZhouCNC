@@ -6,7 +6,7 @@ function servicios() {
     for (let i = 0; i <= numServi; i++) {
         document.write(" <div class=\"contenido-post\" id=\"contenido-post\">\n" +
             "                    <div class=\"img-post\">\n" +
-            "                        <img src=\"../img/servicios/" + obj[i].img + "\" alt=\"\">\n" +
+            "                        <img src=\"../img/servicios/" + obj[i].img + "\" alt=\"\" data-caption='" + obj[i].title + "' class=\'materialboxed\'>\n" +
             "                    </div>\n" +
             "                    <div class=\"description-post\">\n" +
             "                        <h5>" + obj[i].title + "</h5>\n" +
