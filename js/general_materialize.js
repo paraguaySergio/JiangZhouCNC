@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', function () {
     var instances = M.Modal.init(elems, {});
 });
 
-
 /********** NAVAR MOBILE ***********/
 document.addEventListener('DOMContentLoaded', function () {
     var elems = document.querySelectorAll('.sidenav');
