@@ -167,47 +167,25 @@ body {
   }
 }
 
-/********** CAROUSEL *********/
-#container-carousel {
-
-  .card-carousel-product {
-    margin-top: 7px;
-    background-blend-mode: multiply;
-    background: url("../../img/fondo-cards/china.jpg"), radial-gradient(ellipse at center, #000000 0%, #eaeaea 94%);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center;
-    padding: 5px;
-    border-radius: 3px;
-
-    .carousel {
-      height: 350px;
-
-      .carousel-item {
-        text-align: center;
-        margin: 10px;
-
-        h6 {
-          color: $color-white-one;
-          font-weight: 500;
-          font-size: 20px;
-        }
-
-        > img {
-          width: 100%;
-          height: 200px;
-        }
-      }
-    }
-  }
-}
-
 /************ ARTICLE CENTER *************/
 #container-article {
+  overflow-x: hidden;
   margin-top: 1rem;
+
   .row {
+    display: grid;
+    grid-template-columns: 28% 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    @media(max-width: 803px) {
+      grid-template-columns: 100%;
+    }
     //Card Left
     .card-sidebar-left {
+      @media(max-width: 802px) {
+        grid-row: 2 / span 2;
+      }
+
       .card {
         background: $bgcolor-card-dark;
 
@@ -257,32 +235,27 @@ body {
         }
 
         .card-3 {
-          .row {
+          .form-contact {
             padding: 10px;
+            width: 90%;
+            height: 400px;
             color: $color-white-one;
 
-            .form-contact {
-              margin: auto;
-              width: 80%;
-              height: 400px !important;
+            input {
               color: #fff !important;
+              padding: 0;
+              margin: 0;
+              height: 1rem !important;
+            }
 
-              input {
-                color: #fff !important;
-                padding: 0;
-                margin: 0;
-                height: 1rem !important;
-              }
+            textarea {
+              color: #fff !important;
+              padding: 0;
+              margin: 0;
+            }
 
-              textarea {
-                color: #fff !important;
-                padding: 0;
-                margin: 0;
-              }
-
-              button {
-                margin-top: 10px;
-              }
+            button {
+              margin-top: 10px;
             }
           }
         }
@@ -290,87 +263,107 @@ body {
     }
 
     //Card Products general
-    .card-products {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      background: $bgcolor-card-dark;
-      @media(max-width: 702px) {
-        justify-content: center;
+    .card-article-right {
+      .card-title {
+        display: flex;
+        justify-content: flex-start;
+        background: $bgcolor-header-cards;
+        font-weight: 700;
+        font-size: 20px;
+        color: #f1f8e9;
+        padding: 10px;
+        margin-bottom: 0;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+
+        i {
+          margin-right: 10px;
+        }
       }
 
-      .item {
+      .card-products {
+        margin-top: 0;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
         background: $bgcolor-card-dark;
-
-        .card-content {
-          display: flex;
+        @media(max-width: 702px) {
           justify-content: center;
-          flex-direction: column;
-          width: 186px;
-          background-image: linear-gradient(to bottom, #252525, #1f1f1f, #1a1a1a, #141414, #0d0d0d, #0d0d0d, #0d0d0d, #0d0d0d, #141414, #1a1a1a, #1f1f1f, #252525);
-          box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
-          margin: 10px;
-          border-radius: 7px;
-          padding: 0px;
-          @media(max-width: 702px) {
-            width: 150px;
-          }
-          @media(max-width: 502px) {
-            width: 135px;
-          }
+        }
 
-          div {
-            width: 100%;
-            height: 110px;
-            background: $color-white-one;
-            border-top-right-radius: 7px;
-            border-top-left-radius: 7px;
+        .item {
+          background: $bgcolor-card-dark;
 
-            img {
-              width: 100%;
-              height: 100%;
-              margin: 0;
-              object-fit: contain;
+          .card-content {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 186px;
+            background-image: linear-gradient(to bottom, #252525, #1f1f1f, #1a1a1a, #141414, #0d0d0d, #0d0d0d, #0d0d0d, #0d0d0d, #141414, #1a1a1a, #1f1f1f, #252525);
+            box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+            margin: 10px;
+            border-radius: 7px;
+            padding: 0px;
+            @media(max-width: 902px) {
+              width: 155px;
             }
-          }
-
-          a {
-            margin-top: 13px;
-            font-size: 13px;
-            color: $color-title-cards-products-light;
-            font-weight: 500;
-            text-align: center;
-            padding-bottom: 7px;
             @media(max-width: 502px) {
-              font-size: 10px;
-              font-weight: 600;
-              color: $color-title-cards-products-light;
+              width: 135px;
             }
-          }
 
-          .div-button {
+            div {
+              width: 100%;
+              height: 110px;
+              background: $color-white-one;
+              border-top-right-radius: 7px;
+              border-top-left-radius: 7px;
+
+              img {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                object-fit: contain;
+              }
+            }
+
             a {
-              width: 40%;
-              font-size: 14px;
-              background-color: $color-white-one;
-              color: $color-primary;
-              border-radius: 3px;
-              outline: none;
-              text-align: center;
-              float: right;
-              padding: 5px;
-              cursor: pointer;
+              margin-top: 13px;
+              font-size: 13px;
+              color: $color-title-cards-products-light;
               font-weight: 500;
-              line-height: 14px;
-              border: solid 1px $color-primary;
-              margin: 10px;
+              text-align: center;
+              padding-bottom: 7px;
+              @media(max-width: 502px) {
+                font-size: 10px;
+                font-weight: 600;
+                color: $color-title-cards-products-light;
+              }
+            }
 
-              &:hover {
-                color: $color-white-one;
-                border: none;
-                font-weight: 700;
-                padding: 6px;
-                background-color: $color-primary;
+            .div-button {
+              a {
+                width: 40%;
+                font-size: 14px;
+                background-color: $color-white-one;
+                color: $color-primary;
+                border-radius: 3px;
+                outline: none;
+                text-align: center;
+                float: right;
+                padding: 5px;
+                cursor: pointer;
+                font-weight: 500;
+                line-height: 14px;
+                border: solid 1px $color-primary;
+                margin: 10px;
+
+                &:hover {
+                  color: $color-white-one;
+                  border: none;
+                  font-weight: 700;
+                  padding: 6px;
+                  background-color: $color-primary;
+                }
               }
             }
           }
