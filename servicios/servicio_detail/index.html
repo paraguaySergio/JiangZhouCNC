@@ -64,24 +64,21 @@
 
 <div class="container section" id="container-article">
     <div class="row">
-        <div class="col l4 m4 s12  card-sidebar-left">
+        <div class="card-sidebar-left">
             <div class="card darken-1 card-1">
                 <div class="title-cotizador">
                     <h6 style="margin: 0;padding: 10px;font-weight: 500;background: #df1216;color: #fff;border-top-left-radius:7px;border-top-right-radius:7px;">
                         ORDENALO<span> YA!</span>
                     </h6>
                 </div>
-                <form class="form" action="" style="padding: 15px">
-                    <input type="text" placeholder="Ingrese nombre completo..." style="::placeholder:#fff;color: #fff;">
-                    <input type="text" placeholder="Ingrese apellido completo..."
-                           style="::placeholder:#fff;color: #fff;">
-                    <input type="email" placeholder="Ingrese email..." style="::placeholder:#fff;color: #fff;">
-                    <input type="number" minlength="0" min="0" placeholder="Ingrese teléfono..."
-                           style="::placeholder:#fff;color: #fff;">
-                    <textarea name=""
-                              placeholder="Ingrese Mensaje..."
-                              style="::placeholder:#fff;max-width:323px;color: #fff;"></textarea>
-                    <button class="btn btn-enviar">CONFIRMAR</button>
+                <form class="form-contact" action="" style="padding: 10px;color: #fff;">
+                    <input name="nombres" type="text" placeholder="Nombres..." required>
+                    <input name="apellidos" type="text" placeholder="Apellidos..." required>
+                    <input name="email" type="email" placeholder="Email" required>
+                    <input name="telefono" type="number" min="0" placeholder="Teléfono" required>
+                    <textarea name="mensaje" id="" style="max-width:100%;width:100%" placeholder="Mensaje"
+                              required></textarea>
+                    <button class="btn btn-enviar">Enviar</button>
                 </form>
             </div>
             <div class="card darken-1 card-1">
@@ -111,7 +108,7 @@
         </div>
 
 
-        <div class="col l8 m8 s12 card-article-right">
+        <div class="card-article-right">
             <div class="card  darken-1 card-service-detail">
                 <div class="title-cards">
                     <h5>
