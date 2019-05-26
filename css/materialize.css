@@ -4627,7 +4627,9 @@ textarea.materialize-textarea {
   transition: border .3s, -webkit-box-shadow .3s;
   -o-transition: box-shadow .3s, border .3s;
   transition: box-shadow .3s, border .3s;
-  transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s; }
+    transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+    color: #FFF;
+}
   input:not([type]):disabled, input:not([type])[readonly="readonly"],
   input[type=text]:not(.browser-default):disabled,
   input[type=text]:not(.browser-default)[readonly="readonly"],
@@ -6552,11 +6554,22 @@ input[type=range]::-ms-thumb {
     visibility: visible;
     -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
     animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-    -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-    transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-    -o-transition: opacity .3s, transform .3s, visibility 0s 1s;
-    transition: opacity .3s, transform .3s, visibility 0s 1s;
-    transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s; }
+    -webkit-transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+    transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+    -o-transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s;
+    transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s;
+    transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s; }
 
 .tap-target {
   position: absolute;
@@ -6604,11 +6617,22 @@ input[type=range]::-ms-thumb {
     transition: transform .3s, -webkit-transform .3s; }
   .tap-target-wave::after {
     visibility: hidden;
-    -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-    transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-    -o-transition: opacity .3s, transform .3s, visibility 0s;
-    transition: opacity .3s, transform .3s, visibility 0s;
-    transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
+    -webkit-transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+    transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+    -o-transition: opacity .3s,
+ transform .3s,
+ visibility 0s;
+    transition: opacity .3s,
+ transform .3s,
+ visibility 0s;
+    transition: opacity .3s,
+ transform .3s,
+ visibility 0s,
+ -webkit-transform .3s;
     z-index: -1; }
 
 .tap-target-origin {

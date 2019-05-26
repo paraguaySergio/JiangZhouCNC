@@ -120,7 +120,7 @@ body {
     @media(max-width: 802px) {
       height: 80px;
       @media(max-width: 702px) {
-        width: 100%;
+        width: 90%;
       }
     }
 
@@ -380,10 +380,10 @@ body {
     background: $color-gray-two;
 
     .container {
+      padding: 10px;
       .row {
         .col {
           font-size: 15px;
-
         }
       }
     }
