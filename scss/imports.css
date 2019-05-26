@@ -30,8 +30,13 @@ ul {
   border-bottom: 2px solid #C00D0E;
 }
 
-.container-fluid {
-  width: 100%;
+.container {
+  width: 90%;
+}
+@media (max-width: 702px) {
+  .container {
+    width: 100%;
+  }
 }
 
 /* latin */
@@ -194,7 +199,7 @@ body {
 }
 @media (max-width: 802px) and (max-width: 702px) {
   #container-item-products-plus .item {
-    width: 100%;
+    width: 90%;
   }
 }
 #container-item-products-plus .item i {
@@ -240,27 +245,24 @@ body {
 
 /************ ARTICLE CENTER *************/
 #container-article {
-    overflow-x: hidden;
+  overflow-x: hidden;
   margin-top: 1rem;
 }
-
 #container-article .row {
-    display: grid;
-    grid-template-columns: 28% 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 10px;
+  display: grid;
+  grid-template-columns: 28% 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
 }
-
 @media (max-width: 803px) {
-    #container-article .row {
-        grid-template-columns: 100%;
-    }
+  #container-article .row {
+    grid-template-columns: 100%;
+  }
 }
-
 @media (max-width: 802px) {
-    #container-article .row .card-sidebar-left {
-        grid-row: 2/span 2;
-    }
+  #container-article .row .card-sidebar-left {
+    grid-row: 2/span 2;
+  }
 }
 #container-article .row .card-sidebar-left .card {
   background: #1f262e;
@@ -295,65 +297,56 @@ body {
 #container-article .row .card-sidebar-left .card .card-2 .card-content ul li:hover {
   color: #C00D0E;
 }
-
 #container-article .row .card-sidebar-left .card .card-3 .form-contact {
   padding: 10px;
-    width: 90%;
-    height: 400px;
+  width: 90%;
+  height: 400px;
   color: #fff;
 }
-
 #container-article .row .card-sidebar-left .card .card-3 .form-contact input {
   color: #fff !important;
   padding: 0;
   margin: 0;
   height: 1rem !important;
 }
-
 #container-article .row .card-sidebar-left .card .card-3 .form-contact textarea {
   color: #fff !important;
   padding: 0;
   margin: 0;
 }
-
 #container-article .row .card-sidebar-left .card .card-3 .form-contact button {
   margin-top: 10px;
 }
-
 #container-article .row .card-article-right .card-title {
-    display: flex;
-    justify-content: flex-start;
-    background: rgba(23, 27, 32, 0.91);
-    font-weight: 700;
-    font-size: 20px;
-    color: #f1f8e9;
-    padding: 10px;
-    margin-bottom: 0;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
+  background: rgba(23, 27, 32, 0.91);
+  font-weight: 700;
+  font-size: 20px;
+  color: #f1f8e9;
+  padding: 10px;
+  margin-bottom: 0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
-
 #container-article .row .card-article-right .card-title i {
-    margin-right: 10px;
+  margin-right: 10px;
 }
-
 #container-article .row .card-article-right .card-products {
-    margin-top: 0;
+  margin-top: 0;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   background: #1f262e;
 }
 @media (max-width: 702px) {
-    #container-article .row .card-article-right .card-products {
+  #container-article .row .card-article-right .card-products {
     justify-content: center;
   }
 }
-
 #container-article .row .card-article-right .card-products .item {
   background: #1f262e;
 }
-
 #container-article .row .card-article-right .card-products .item .card-content {
   display: flex;
   justify-content: center;
@@ -365,18 +358,16 @@ body {
   border-radius: 7px;
   padding: 0px;
 }
-
 @media (max-width: 902px) {
-    #container-article .row .card-article-right .card-products .item .card-content {
-        width: 155px;
+  #container-article .row .card-article-right .card-products .item .card-content {
+    width: 155px;
   }
 }
 @media (max-width: 502px) {
-    #container-article .row .card-article-right .card-products .item .card-content {
+  #container-article .row .card-article-right .card-products .item .card-content {
     width: 135px;
   }
 }
-
 #container-article .row .card-article-right .card-products .item .card-content div {
   width: 100%;
   height: 110px;
@@ -384,14 +375,12 @@ body {
   border-top-right-radius: 7px;
   border-top-left-radius: 7px;
 }
-
 #container-article .row .card-article-right .card-products .item .card-content div img {
   width: 100%;
   height: 100%;
   margin: 0;
   object-fit: contain;
 }
-
 #container-article .row .card-article-right .card-products .item .card-content a {
   margin-top: 13px;
   font-size: 13px;
@@ -401,13 +390,12 @@ body {
   padding-bottom: 7px;
 }
 @media (max-width: 502px) {
-    #container-article .row .card-article-right .card-products .item .card-content a {
+  #container-article .row .card-article-right .card-products .item .card-content a {
     font-size: 10px;
     font-weight: 600;
     color: #e3e1e1;
   }
 }
-
 #container-article .row .card-article-right .card-products .item .card-content .div-button a {
   width: 40%;
   font-size: 14px;
@@ -424,7 +412,6 @@ body {
   border: solid 1px #C00D0E;
   margin: 10px;
 }
-
 #container-article .row .card-article-right .card-products .item .card-content .div-button a:hover {
   color: #fff;
   border: none;
@@ -436,6 +423,9 @@ body {
 /************* FOOTER **************/
 #container-footer .page-footer {
   background: #232930;
+}
+#container-footer .page-footer .container {
+  padding: 10px;
 }
 #container-footer .page-footer .container .row .col {
   font-size: 15px;
@@ -469,14 +459,14 @@ body {
 .card-article-right .card-nosotros .title-cards .hr-one {
   height: 2px;
   background: #d6ded9;
-    width: 10%;
+  width: 10%;
 }
 .card-article-right .card-nosotros .title-cards h5 {
   width: auto;
   font-size: 24px;
   font-weight: bold;
   margin-top: 0px;
-    margin-left: 10px;
+  margin-left: 10px;
 }
 .card-article-right .card-nosotros .title-cards h5 span {
   color: #C00D0E;
@@ -484,7 +474,7 @@ body {
 .card-article-right .card-nosotros .title-cards .hr-two {
   height: 2px;
   background: #d6ded9;
-    width: 100%;
+  width: 100%;
 }
 .card-article-right .card-nosotros .description p {
   text-align: justify;
@@ -519,87 +509,78 @@ body {
   color: #d6ded9;
   /*******POST*****/
 }
-
 .card-article-right .card-servicios .title-cards {
   display: flex;
   align-items: center;
 }
-
 .card-article-right .card-servicios .title-cards .hr-one {
   height: 2px;
   background: #d6ded9;
-    width: 10%;
+  width: 10%;
 }
-
 .card-article-right .card-servicios .title-cards h5 {
   width: auto;
   font-size: 24px;
   font-weight: bold;
   margin-top: 0px;
-    margin-left: 10px;
+  margin-left: 10px;
 }
-
 .card-article-right .card-servicios .title-cards h5 span {
   color: #C00D0E;
 }
-
 .card-article-right .card-servicios .title-cards .hr-two {
   height: 2px;
   background: #d6ded9;
-    width: 100%;
+  width: 100%;
 }
-
 .card-article-right .card-servicios .contenido-post {
   display: flex;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
 @media (max-width: 702px) {
-    .card-article-right .card-servicios .contenido-post {
+  .card-article-right .card-servicios .contenido-post {
     flex-direction: column;
     margin-bottom: 2rem;
   }
 }
-
 .card-article-right .card-servicios .contenido-post .img-post {
   padding: 10px;
   margin: auto;
   width: 30%;
 }
 @media (max-width: 702px) {
-    .card-article-right .card-servicios .contenido-post .img-post {
+  .card-article-right .card-servicios .contenido-post .img-post {
     display: flex;
     justify-content: center;
-        width: 100%;
-        height: 200px;
+    width: 100%;
+    height: 200px;
   }
 }
-
 .card-article-right .card-servicios .contenido-post .img-post img {
   display: block;
   margin: auto;
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
-
 @media (max-width: 702px) {
-    .card-article-right .card-servicios .contenido-post .img-post img {
-        object-fit: cover;
-    }
+  .card-article-right .card-servicios .contenido-post .img-post img {
+    object-fit: cover;
+  }
 }
-
 .card-article-right .card-servicios .contenido-post .description-post {
   margin: 10px;
   width: 70%;
 }
 @media (max-width: 702px) {
-    .card-article-right .card-servicios .contenido-post .description-post {
+  .card-article-right .card-servicios .contenido-post .description-post {
     display: flex;
     justify-content: center;
     flex-direction: column;
-        width: 100%;
-        text-align: justify;
+    width: 100%;
+    text-align: justify;
+    margin: auto;
   }
 }
 
