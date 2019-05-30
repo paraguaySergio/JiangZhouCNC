@@ -8,12 +8,6 @@
 /************** PRODUCTS PLUS **************/
 /********** ITEMS CARDS PRODUCTS GENERAL **********/
 /**************** FOOTER ******************/
-body {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
 ul {
   font-size: 12px; }
 
@@ -31,14 +25,12 @@ ul {
 
 /*MODAL IMG*/
 #materialbox-overlay {
-    background: rgba(0, 0, 0, 0.9) !important;
-    font-weight: 700;
-}
+  background: rgba(0, 0, 0, 0.9) !important;
+  font-weight: 700; }
 
 .materialbox-caption {
-    padding: 0 !important;
-    height: 65px !important;
-}
+  padding: 0 !important;
+  height: 65px !important; }
 
 .container {
   width: 90%; }
@@ -94,7 +86,7 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background-blend-mode: multiply;
-  background: url("../../img/fondo/red-dark.png"), rgba(0, 0, 0, 0.7);
+  background: url("../img/fondo/red-dark.png"), rgba(0, 0, 0, 0.7);
   background-size: cover;
   background-position: top;
   background-repeat: repeat; }
@@ -131,7 +123,7 @@ body {
         #container-header-desktop nav .nav-wrapper .brand-logo {
           margin-top: 4px;
           margin-left: -2rem;
-          width: 182px; } }
+          width: 150px; } }
     #container-header-desktop nav .nav-wrapper ul {
       cursor: pointer;
       color: #d6ded9;
@@ -690,6 +682,25 @@ body {
       text-align: left; }
     .card-article-right .card-products-detail-one .body-detail-product p {
       text-align: justify; }
+    .card-article-right .card-products-detail-one .body-detail-product .item-table {
+      width: 100%;
+      max-width: 800px;
+      overflow-x: auto; }
+      .card-article-right .card-products-detail-one .body-detail-product .item-table table {
+        border: 1px solid #bebebe;
+        font-size: 12px;
+        width: 100%; }
+        .card-article-right .card-products-detail-one .body-detail-product .item-table table tr:first-child {
+          background-color: rgba(0, 0, 0, 0.2);
+          color: #f1f8e9;
+          font-weight: 800;
+          padding: 5px; }
+        .card-article-right .card-products-detail-one .body-detail-product .item-table table tr {
+          border: 1px solid #bebebe;
+          padding: 3px; }
+        .card-article-right .card-products-detail-one .body-detail-product .item-table table td {
+          border: 1px solid #bebebe;
+          padding: 3px; }
   .card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product {
     width: 100%; }
     .card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product .item-product {
