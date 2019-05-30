@@ -107,6 +107,36 @@
       p {
         text-align: justify;
       }
+
+
+      .item-table {
+        width:100%;
+        max-width: 800px;
+        overflow-x: auto;
+        table {
+          border: 1px solid #bebebe;
+          font-size: 12px;
+          width: 100%;
+
+          tr:first-child {
+            background-color: rgba(0, 0, 0, 0.2);
+            color: #f1f8e9;
+            font-weight: 800;
+            padding: 5px;
+          }
+
+          tr {
+            border: 1px solid #bebebe;
+            padding: 3px;
+          }
+
+          td {
+            border: 1px solid #bebebe;
+            padding: 3px;
+          }
+        }
+      }
+
     }
 
     #modal-order-product {
