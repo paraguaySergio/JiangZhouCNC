@@ -127,5 +127,13 @@ let jsonProducts = {
             "size": "big",
             "img": "DK771220CNCWIREEDM",
         },
+        {
+            "id": 16,
+            "title": "productx",
+            "model": "Null",
+            "description": "Sin Descripción",
+            "size": "Null",
+            "img": "productx",
+        }
     ]
 };
