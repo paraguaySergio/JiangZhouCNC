@@ -67,6 +67,9 @@ productsCaracteristicas = () => {
         case 15:
             document.write(product15);
             break;
+        case 16:
+            document.write(product16);
+            break;
     }
 };
 
@@ -6678,3 +6681,5 @@ const product15 = "<table border=\"1\" style=\"width: 500px\">\n" +
     "\t\t</tr>\n" +
     "\t</tbody>\n" +
     "</table>";
+    
+const product16 = "Sin Descripción";
