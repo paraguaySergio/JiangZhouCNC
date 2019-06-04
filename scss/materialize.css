@@ -5628,7 +5628,7 @@ textarea.materialize-textarea {
   box-shadow: none;
   box-sizing: content-box;
   transition: box-shadow 0.3s, border 0.3s;
-    color: #FFF;
+  color: #FFF;
 }
 input:not([type]):disabled, input:not([type])[readonly=readonly],
 input[type=text]:not(.browser-default):disabled,
