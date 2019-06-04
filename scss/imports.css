@@ -8,12 +8,6 @@
 /************** PRODUCTS PLUS **************/
 /********** ITEMS CARDS PRODUCTS GENERAL **********/
 /**************** FOOTER ******************/
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 ul {
   font-size: 12px;
 }
@@ -30,15 +24,26 @@ ul {
   border-bottom: 2px solid #C00D0E;
 }
 
-.container-fluid {
-  width: 100%;
+/*MODAL IMG*/
+#materialbox-overlay {
+  background: rgba(0, 0, 0, 0.9) !important;
+  font-weight: 700;
 }
 
-/*********** HEADER **********/
-/*********** SLIDER **********/
-/************** PRODUCTS PLUS **************/
-/********** ITEMS CARDS PRODUCTS GENERAL **********/
-/**************** FOOTER ******************/
+.materialbox-caption {
+  padding: 0 !important;
+  height: 65px !important;
+}
+
+.container {
+  width: 90%;
+}
+@media (max-width: 702px) {
+  .container {
+    width: 100%;
+  }
+}
+
 /* latin */
 @font-face {
   font-family: "Raleway";
@@ -59,20 +64,34 @@ ul {
 }
 /* latin */
 @font-face {
-  font-family: "Righteous";
+  font-family: "Archivo Black";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Righteous"), local("Righteous-Regular"), url(https://fonts.gstatic.com/s/righteous/v7/1cXxaUPXBpj2rGoU7C9WiHGF.woff2) format("woff2");
+  src: local("Archivo Black Regular"), local("ArchivoBlack-Regular"), url(https://fonts.gstatic.com/s/archivoblack/v8/HTxqL289NzCGg4MzN6KJ7eW6CYyF_g.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+/* latin */
+@font-face {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Russo One"), local("RussoOne-Regular"), url(https://fonts.gstatic.com/s/russoone/v7/Z9XUDmZRWg6M1LvRYsHOz8mJ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/*********** HEADER **********/
+/*********** SLIDER **********/
+/************** PRODUCTS PLUS **************/
+/********** ITEMS CARDS PRODUCTS GENERAL **********/
+/**************** FOOTER ******************/
 body {
   font-family: "Raleway";
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   background-blend-mode: multiply;
-  background: url("../../img/fondo/red-dark.png"), rgba(0, 0, 0, 0.7);
+  background: url("../img/fondo/red-dark.png"), rgba(0, 0, 0, 0.7);
   background-size: cover;
   background-position: top;
   background-repeat: repeat;
@@ -132,10 +151,10 @@ body {
   border-bottom: 3px solid #C00D0E;
 }
 #container-slider .slider .slides li h3 {
-  font-family: "Righteous";
+  font-family: "Russo One";
   text-transform: uppercase;
-  letter-spacing: 2px;
   color: #fff;
+  letter-spacing: 1px;
   font-weight: 800;
   font-size: 45px;
   text-shadow: 2px 1px 2px #000000;
@@ -178,9 +197,14 @@ body {
   color: #FFFFFF;
   padding: 0px 15px 0px 15px;
 }
-@media (max-width: 702px) {
+@media (max-width: 802px) {
   #container-item-products-plus .item {
-    width: 100%;
+    height: 80px;
+  }
+}
+@media (max-width: 802px) and (max-width: 702px) {
+  #container-item-products-plus .item {
+    width: 90%;
   }
 }
 #container-item-products-plus .item i {
@@ -193,7 +217,7 @@ body {
   border-right: 1px solid #bebebe;
 }
 #container-item-products-plus .item .text-description {
-  margin-left: 39px;
+  margin-left: 35px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -201,11 +225,21 @@ body {
   text-align: center;
   flex-wrap: wrap;
 }
+@media (max-width: 802px) {
+  #container-item-products-plus .item .text-description {
+    margin-left: 19px;
+  }
+}
 #container-item-products-plus .item .text-description h5 {
   margin: 0;
   color: #d6ded9;
   font-size: 20px;
   font-weight: 800;
+}
+@media (max-width: 800px) {
+  #container-item-products-plus .item .text-description h5 {
+    font-size: 18px;
+  }
 }
 #container-item-products-plus .item .text-description h5:nth-child(2) {
   margin: 0;
@@ -214,35 +248,27 @@ body {
   font-weight: 800;
 }
 
-/********** CAROUSEL *********/
-#container-carousel .card-carousel-product {
-  margin-top: 7px;
-  background-blend-mode: multiply;
-  background: url("../../img/fondo-cards/china.jpg"), radial-gradient(ellipse at center, #000000 0%, #eaeaea 94%);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center center;
-  padding: 5px;
-  border-radius: 3px;
-}
-#container-carousel .card-carousel-product .carousel {
-  height: 350px;
-}
-#container-carousel .card-carousel-product .carousel .carousel-item {
-  text-align: center;
-  margin: 10px;
-}
-#container-carousel .card-carousel-product .carousel .carousel-item h6 {
-  color: #fff;
-  font-weight: 500;
-  font-size: 20px;
-}
-#container-carousel .card-carousel-product .carousel .carousel-item > img {
-  width: 100%;
-  height: 200px;
-}
-
 /************ ARTICLE CENTER *************/
+#container-article {
+  overflow-x: hidden;
+  margin-top: 1rem;
+}
+#container-article .row {
+  display: grid;
+  grid-template-columns: 28% 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+}
+@media (max-width: 803px) {
+  #container-article .row {
+    grid-template-columns: 100%;
+  }
+}
+@media (max-width: 802px) {
+  #container-article .row .card-sidebar-left {
+    grid-row: 2/span 2;
+  }
+}
 #container-article .row .card-sidebar-left .card {
   background: #1f262e;
 }
@@ -276,40 +302,57 @@ body {
 #container-article .row .card-sidebar-left .card .card-2 .card-content ul li:hover {
   color: #C00D0E;
 }
-#container-article .row .card-sidebar-left .card .card-3 .row {
+#container-article .row .card-sidebar-left .card .card-3 .form-contact {
   padding: 10px;
+  width: 90%;
+  height: 400px;
   color: #fff;
 }
-#container-article .row .card-sidebar-left .card .card-3 .row .form-contact {
-  margin: auto;
-  width: 80%;
-  height: 400px !important;
-  color: #fff !important;
-}
-#container-article .row .card-sidebar-left .card .card-3 .row .form-contact input {
+#container-article .row .card-sidebar-left .card .card-3 .form-contact input {
   color: #fff !important;
   padding: 0;
   margin: 0;
   height: 1rem !important;
 }
-#container-article .row .card-sidebar-left .card .card-3 .row .form-contact textarea {
+#container-article .row .card-sidebar-left .card .card-3 .form-contact textarea {
   color: #fff !important;
   padding: 0;
   margin: 0;
 }
-#container-article .row .card-sidebar-left .card .card-3 .row .form-contact button {
+#container-article .row .card-sidebar-left .card .card-3 .form-contact button {
   margin-top: 10px;
 }
-#container-article .row .card-products {
+#container-article .row .card-article-right .card-title {
+  display: flex;
+  justify-content: flex-start;
+  background: rgba(23, 27, 32, 0.91);
+  font-weight: 700;
+  font-size: 20px;
+  color: #f1f8e9;
+  padding: 10px;
+  margin-bottom: 0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+#container-article .row .card-article-right .card-title i {
+  margin-right: 10px;
+}
+#container-article .row .card-article-right .card-products {
+  margin-top: 0;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background: #1f262e !important;
-}
-#container-article .row .card-products .item {
   background: #1f262e;
 }
-#container-article .row .card-products .item .card-content {
+@media (max-width: 702px) {
+  #container-article .row .card-article-right .card-products {
+    justify-content: center;
+  }
+}
+#container-article .row .card-article-right .card-products .item {
+  background: #1f262e;
+}
+#container-article .row .card-article-right .card-products .item .card-content {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -320,28 +363,45 @@ body {
   border-radius: 7px;
   padding: 0px;
 }
-#container-article .row .card-products .item .card-content div {
+@media (max-width: 902px) {
+  #container-article .row .card-article-right .card-products .item .card-content {
+    width: 155px;
+  }
+}
+@media (max-width: 502px) {
+  #container-article .row .card-article-right .card-products .item .card-content {
+    width: 135px;
+  }
+}
+#container-article .row .card-article-right .card-products .item .card-content div {
   width: 100%;
   height: 110px;
   background: #fff;
   border-top-right-radius: 7px;
   border-top-left-radius: 7px;
 }
-#container-article .row .card-products .item .card-content div img {
+#container-article .row .card-article-right .card-products .item .card-content div img {
   width: 100%;
   height: 100%;
   margin: 0;
   object-fit: contain;
 }
-#container-article .row .card-products .item .card-content a {
+#container-article .row .card-article-right .card-products .item .card-content a {
   margin-top: 13px;
   font-size: 13px;
-  color: #d2d0d0;
+  color: #e3e1e1;
   font-weight: 500;
   text-align: center;
   padding-bottom: 7px;
 }
-#container-article .row .card-products .item .card-content .div-button a {
+@media (max-width: 502px) {
+  #container-article .row .card-article-right .card-products .item .card-content a {
+    font-size: 10px;
+    font-weight: 600;
+    color: #e3e1e1;
+  }
+}
+#container-article .row .card-article-right .card-products .item .card-content .div-button a {
   width: 40%;
   font-size: 14px;
   background-color: #fff;
@@ -357,7 +417,7 @@ body {
   border: solid 1px #C00D0E;
   margin: 10px;
 }
-#container-article .row .card-products .item .card-content .div-button a:hover {
+#container-article .row .card-article-right .card-products .item .card-content .div-button a:hover {
   color: #fff;
   border: none;
   font-weight: 700;
@@ -368,6 +428,9 @@ body {
 /************* FOOTER **************/
 #container-footer .page-footer {
   background: #232930;
+}
+#container-footer .page-footer .container {
+  padding: 10px;
 }
 #container-footer .page-footer .container .row .col {
   font-size: 15px;
@@ -401,13 +464,14 @@ body {
 .card-article-right .card-nosotros .title-cards .hr-one {
   height: 2px;
   background: #d6ded9;
-  width: 5%;
+  width: 10%;
 }
 .card-article-right .card-nosotros .title-cards h5 {
   width: auto;
   font-size: 24px;
   font-weight: bold;
   margin-top: 0px;
+  margin-left: 10px;
 }
 .card-article-right .card-nosotros .title-cards h5 span {
   color: #C00D0E;
@@ -415,7 +479,7 @@ body {
 .card-article-right .card-nosotros .title-cards .hr-two {
   height: 2px;
   background: #d6ded9;
-  width: 55%;
+  width: 100%;
 }
 .card-article-right .card-nosotros .description p {
   text-align: justify;
@@ -444,73 +508,84 @@ body {
 /********** ITEMS CARDS PRODUCTS GENERAL **********/
 /**************** FOOTER ******************/
 /************** NOSOTROS ***************/
-.card-article-right .card-blog {
+.card-article-right .card-servicios {
   padding: 20px;
   background: #1f262e;
   color: #d6ded9;
   /*******POST*****/
 }
-.card-article-right .card-blog .title-cards {
+.card-article-right .card-servicios .title-cards {
   display: flex;
   align-items: center;
 }
-.card-article-right .card-blog .title-cards .hr-one {
+.card-article-right .card-servicios .title-cards .hr-one {
   height: 2px;
   background: #d6ded9;
-  width: 5%;
+  width: 10%;
 }
-.card-article-right .card-blog .title-cards h5 {
+.card-article-right .card-servicios .title-cards h5 {
   width: auto;
   font-size: 24px;
   font-weight: bold;
   margin-top: 0px;
+  margin-left: 10px;
 }
-.card-article-right .card-blog .title-cards h5 span {
+.card-article-right .card-servicios .title-cards h5 span {
   color: #C00D0E;
 }
-.card-article-right .card-blog .title-cards .hr-two {
+.card-article-right .card-servicios .title-cards .hr-two {
   height: 2px;
   background: #d6ded9;
-  width: 55%;
+  width: 100%;
 }
-.card-article-right .card-blog .contenido-post {
+.card-article-right .card-servicios .contenido-post {
   display: flex;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
 @media (max-width: 702px) {
-  .card-article-right .card-blog .contenido-post {
+  .card-article-right .card-servicios .contenido-post {
     flex-direction: column;
     margin-bottom: 2rem;
   }
 }
-.card-article-right .card-blog .contenido-post .img-post {
+.card-article-right .card-servicios .contenido-post .img-post {
   padding: 10px;
   margin: auto;
   width: 30%;
 }
 @media (max-width: 702px) {
-  .card-article-right .card-blog .contenido-post .img-post {
+  .card-article-right .card-servicios .contenido-post .img-post {
     display: flex;
     justify-content: center;
-    height: 150px;
+    width: 100%;
+    height: 200px;
   }
 }
-.card-article-right .card-blog .contenido-post .img-post img {
+.card-article-right .card-servicios .contenido-post .img-post img {
   display: block;
   margin: auto;
-  width: 170px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
-.card-article-right .card-blog .contenido-post .description-post {
+@media (max-width: 702px) {
+  .card-article-right .card-servicios .contenido-post .img-post img {
+    object-fit: cover;
+  }
+}
+.card-article-right .card-servicios .contenido-post .description-post {
   margin: 10px;
   width: 70%;
 }
 @media (max-width: 702px) {
-  .card-article-right .card-blog .contenido-post .description-post {
+  .card-article-right .card-servicios .contenido-post .description-post {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
+    text-align: justify;
+    margin: auto;
   }
 }
 
@@ -620,6 +695,30 @@ body {
 .card-article-right .card-products-detail-one .body-detail-product p {
   text-align: justify;
 }
+.card-article-right .card-products-detail-one .body-detail-product .item-table {
+  width: 100%;
+  max-width: 800px;
+  overflow-x: auto;
+}
+.card-article-right .card-products-detail-one .body-detail-product .item-table table {
+  border: 1px solid #bebebe;
+  font-size: 12px;
+  width: 100%;
+}
+.card-article-right .card-products-detail-one .body-detail-product .item-table table tr:first-child {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #f1f8e9;
+  font-weight: 800;
+  padding: 5px;
+}
+.card-article-right .card-products-detail-one .body-detail-product .item-table table tr {
+  border: 1px solid #bebebe;
+  padding: 3px;
+}
+.card-article-right .card-products-detail-one .body-detail-product .item-table table td {
+  border: 1px solid #bebebe;
+  padding: 3px;
+}
 .card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product {
   width: 100%;
 }
@@ -639,6 +738,65 @@ body {
 }
 .card-article-right .card-products-detail-one #modal-order-product .modal-content .content-order-product .item-product .terminos {
   font-size: 13px;
+}
+
+/*********** HEADER **********/
+/*********** SLIDER **********/
+/************** PRODUCTS PLUS **************/
+/********** ITEMS CARDS PRODUCTS GENERAL **********/
+/**************** FOOTER ******************/
+/************** CARD PRODUCTS DETAIL ***************/
+.card-article-right .card-service-detail {
+  background: #1f262e;
+  color: #d6ded9;
+  padding: 0;
+}
+.card-article-right .card-service-detail .title-cards {
+  display: flex;
+  align-items: center;
+  background: rgba(23, 27, 32, 0.91);
+  width: 100%;
+}
+.card-article-right .card-service-detail .title-cards h5 {
+  padding-left: 10px;
+  width: auto;
+  font-size: 17px;
+  font-weight: bold;
+}
+.card-article-right .card-service-detail .title-cards h5 span {
+  color: #C00D0E;
+}
+.card-article-right .card-service-detail .header-service-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 10px;
+}
+.card-article-right .card-service-detail .header-service-detail .img-service {
+  width: 95%;
+  height: 350px;
+  margin: auto;
+  text-align: center;
+  background: #C00D0E;
+}
+.card-article-right .card-service-detail .header-service-detail .img-service img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom: 3px solid #C00D0E;
+}
+.card-article-right .card-service-detail .body-detail-service {
+  background: #232930;
+  padding: 15px;
+  font-size: 14px;
+}
+.card-article-right .card-service-detail .body-detail-service h5 {
+  text-align: left;
+}
+.card-article-right .card-service-detail .body-detail-service p {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=imports.css.map */

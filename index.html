@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script src="js/products_data.js"></script>
     <script src="js/home.js"></script>
+    <script src="js/desing.js"></script>
 </head>
 <body>
 <div class="container-fluid" id="container-header-desktop">
@@ -30,7 +31,7 @@
         </div>
     </nav>
 </div>
-    <!--Menu for mobile-->
+<!--Menu for mobile-->
 <ul id="slide-out" class="sidenav">
     <li>
         <div class="user-view">
@@ -56,22 +57,22 @@
             <li>
                 <img src="img/slider/hero.jpg"> <!-- random image -->
                 <div class="caption center-align">
-                    <h3>Los mejores productos de corte lazer</h3>
-                    <h5 class="light  text-lighten-3">Nosotros lo tenemos</h5>
+                    <h3>Maquinarias de cortes de preción</h3>
+                    <h5 class="light  text-lighten-3">Tu solución</h5>
                 </div>
             </li>
             <li>
-                <img src="img/slider/IMAGEN-CORTE-LASER.jpg"> <!-- random image -->
+                <img src="img/slider/2.jpg"> <!-- random image -->
                 <div class="caption left-align">
-                    <h3>Los mejores productos de corte lazer</h3>
-                    <h5 class="light  text-lighten-3">Nosotros lo tenemos</h5>
+                    <h3>Maquinarias de alta calidad para finos acabados</h3>
+                    <h5 class="light  text-lighten-3">Tu solución</h5>
                 </div>
             </li>
             <li>
-                <img src="img/slider/hero.jpg"> <!-- random image -->
+                <img src="img/slider/3.jpg"> <!-- random image -->
                 <div class="caption right-align">
-                    <h3>Los mejores productos de corte lazer</h3>
-                    <h5 class="light  text-lighten-3">Nosotros lo tenemos</h5>
+                    <h3>Seguridad en los procesos de producción</h3>
+                    <h5 class="light  text-lighten-3">Tu solución</h5>
                 </div>
             </li>
         </ul>
@@ -112,25 +113,18 @@
 
 <div class="container section" id="container-article">
     <div class="row">
-        <div class="col l4 m4 s12  card-sidebar-left">
+        <div class="card-sidebar-left">
             <div class="card darken-3 card-3">
-                <div class="row">
-                    <form class="form-contact" action="">
-                        <input type="text" placeholder="Nombres...">
-
-                        <input type="text" placeholder="Apellidos...">
-
-                        <input type="email" placeholder="Email...">
-
-                        <input type="number" min="0" max="15" maxlength="15" minlength="0" placeholder="teléfono...">
-
-                        <textarea name="" id="" style="max-width:100%;height: 100px;"
-                                  placeholder="Ingrese Mensaje"></textarea>
-
-                        <button class="btn btn-enviar">Enviar</button>
-
-                    </form>
-                </div>
+                <div class="card-title"><i class="small material-icons">book</i>Contáctanos</div>
+                <form class="form-contact" action="" style="padding: 10px;color: #fff;">
+                    <input name="nombres" type="text" placeholder="Nombres..." required>
+                    <input name="apellidos" type="text" placeholder="Apellidos..." required>
+                    <input name="email" type="email" placeholder="Email" required>
+                    <input name="telefono" type="number" min="0" placeholder="Teléfono" required>
+                    <textarea name="mensaje" id="" style="max-width:100%;width:100%" placeholder="Mensaje"
+                              required></textarea>
+                    <button class="btn btn-enviar">Enviar</button>
+                </form>
             </div>
             <div class="card darken-1 card-1">
                 <div class="card-title"><i class="small material-icons">hdr_weak</i>Productos Populares</div>
@@ -159,8 +153,9 @@
         </div>
 
 
-        <div class="col l8 m8 s12 card-article-right">
-            <div class="card blue-grey darken-1 card-products">
+        <div class="card-article-right">
+            <div class="card-title"><i class="small material-icons">hdr_weak </i> Productos</div>
+            <div class="card darken-1 card-products">
                 <script>
                     product_general();
                 </script>

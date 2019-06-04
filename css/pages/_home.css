@@ -3,17 +3,6 @@
 /************** PRODUCTS PLUS **************/
 /********** ITEMS CARDS PRODUCTS GENERAL **********/
 /**************** FOOTER ******************/
-body {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  background-blend-mode: multiply;
-  background: url("../../img/fondo/red-dark.png"), rgba(0, 0, 0, 0.7);
-  background-size: cover;
-  background-position: top;
-  background-repeat: repeat; }
-
 /************ HEADER *************/
 #container-header-desktop nav {
   background: -webkit-gradient(linear, left top, right top, color-stop(0, #0b1c25), color-stop(25%, #1a2a33), to(#212b31));
