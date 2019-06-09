@@ -65,6 +65,8 @@ productsCaracteristicas = () => {
 };
 
 
+
+
 const product0 = "<table width=\"98%\" border=\"0\" align=\"center\" cellpadding=\"5\" cellspacing=\"0\">\n" +
     "            <tbody><tr>\n" +
     "              <td style=\"line-height:25px\"><font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">\n" +
@@ -6267,5 +6269,5 @@ const product12 = "<table border=\"1\" style=\"width: 500px\">\n" +
     "\t\t</tr>\n" +
     "\t</tbody>\n" +
     "</table>";
-
+    
 const product13 = "Sin Descripción";
