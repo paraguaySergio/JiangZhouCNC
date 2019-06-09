@@ -17,6 +17,17 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta charset="utf-8">
+
+    <link rel="icon" type="image/png" href="../../img/logos/imalogo.png" sizes="32x32">
+    <!-- Search Engine -->
+    <meta name="description" content="Venta de todo tipo de maquinas de corte laser, para todo tipo de metales...">
+    <meta name="image" content="../../img/logos/imalogo.png">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Maquinarias CNC">
+    <meta itemprop="description" content="Venta de todo tipo de maquinas de corte laser, para todo tipo de metales...">
+    <meta itemprop="image" content="../../img/logos/imalogo.png">
+
+
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous"
             src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.3"></script>
@@ -77,12 +88,15 @@
                         ORDENALO<span> YA!</span>
                     </h6>
                 </div>
-                <form class="form-contact" action="" style="padding: 10px;color: #fff;">
+                <form class="form-contact" action="../../mail/orderProduct.php" style="padding: 10px;color: #fff;">
                     <input name="nombres" type="text" placeholder="Nombres..." required>
                     <input name="apellidos" type="text" placeholder="Apellidos..." required>
                     <input name="email" type="email" placeholder="Email" required>
                     <input name="telefono" type="number" min="0" placeholder="Teléfono" required>
-                    <textarea name="mensaje" id="" style="max-width:100%;width:100%" placeholder="Mensaje"
+                    <input name="producto" value="product" id="order-product" style="color:#4693de"
+                           readonly="readonly"/>
+                    <textarea name="mensaje" id="" style="max-width:100%;width:100%;height:120px;color:#fff;"
+                              placeholder="Mensaje"
                               required></textarea>
                     <button class="btn btn-enviar">Enviar</button>
                 </form>
@@ -101,10 +115,11 @@
                 <div class="card-title"><i class="small material-icons">call</i>Contáctanos</div>
                 <div class="card-content white-text">
                     <ul>
-                        <li>Contact person: Anna</li>
-                        <li>Mobile:+86 15061008297</li>
-                        <li>E-mail:sales@jzsk.com.cn</li>
-                        <li>Tel：+86-523-86585956</li>
+                        <li>Área comercial : Nancy Lan</li>
+                        <li>974 312 485</li>
+                        <li>Área Técnica: Juan Carlos De Dios P.</li>
+                        <li>991 715 440</li>
+                        <li>E-mail:contacto@maquinariascnc.com</li>
                         <li>Company：Taizhou Jiangzhou Numerical Control Machine Tool Manufacture Co.,Ltd.</li>
                         <li>Address：NO.16, Xingtai Road, Jiulong Industrial Zone, Taizhou, Jiangsu, China</li>
                         <li>Code：225300</li>
@@ -158,7 +173,7 @@
                             </tr>
                             <tr>
                                 <td colspan="2" align="center"><a class="waves-effect waves-light  modal-trigger"
-                                                                  href="#modal-order-product">ORDENAR</a>
+                                                                  href="#modal-order-product" onClick="orderProduct()">ORDENAR</a>
                                 </td>
                             </tr>
                             </tbody>
@@ -173,10 +188,9 @@
                             </script>
                         </div>
                     <br>
-                    <div style="border:none;overflow:hidden;background:rgba(255,255,255,0.8);width: 100%;margin:auto;display: block"
-                         class="fb-comments"
-                         data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="700"
-                         data-numposts="5">
+                    <script>
+                        document.write("<div style='margin:auto;border:none;overflow:hidden;background:rgba(255,255,255,0.8);width: 100%!important;margin:auto;display: block' class='fb-comments' data-href='http://maquinariascnc.com/productos/product_detail/?prodId=" + obj.title + "' data-numposts='5'></div>");
+                    </script>
                     </div>
                 </div>
             </div>
@@ -211,8 +225,8 @@
                             <script>document.write(obj.model)</script>
                         </li>
                     </ul>
-                    <img src="../../img/otros/pagos.png" alt=""
-                         style="width:100%;object-fit: contain;margin: auto;display: block;margin-bottom: 10px">
+                    <!--<img src="../../img/otros/pagos.png" alt=""
+                         style="width:100%;object-fit: contain;margin: auto;display: block;margin-bottom: 10px">-->
                 </div>
 
                 <div class="form-order-product"
@@ -223,20 +237,35 @@
                                 Ingrese su <span> información</span>
                             </h6>
                         </div>
-                        <form class="form-contact" action="" style="padding: 10px;color: #fff;">
-                            <input name="nombres" type="text" placeholder="Nombres..." required>
-                            <input name="apellidos" type="text" placeholder="Apellidos..." required>
-                            <input name="email" type="email" placeholder="Email" required>
-                            <input name="telefono" type="number" min="0" placeholder="Teléfono" required>
-                            <textarea name="mensaje" id="" style="max-width:100%;width:100%" placeholder="Mensaje"
+                        <form class="form-contact" action="../../mail/orderProduct.php"
+                              style="padding: 10px;color: #fff;">
+                            <input name="nombres" type="text" placeholder="Nombres..." required style="color:#444">
+                            <input name="apellidos" type="text" placeholder="Apellidos..." required style="color:#444">
+                            <input name="email" type="email" placeholder="Email" required style="color:#444">
+                            <input name="telefono" type="number" min="0" placeholder="Teléfono" required
+                                   style="color:#444">
+                            <input name="producto" value="product" id="order2-product" style="color:#4693de"
+                                   readonly="readonly"/>
+                            <textarea name="mensaje" style="max-width:100%;width:100%;height:120px; color:#444"
+                                      placeholder="Mensaje..."
                                       required></textarea>
                             <button class="btn btn-enviar">Enviar</button>
                         </form>
+                        <script>
+                            window.onload = function () {
+                                let product = " " + obj.title + " / " + obj.model;
+                                document.getElementById("order-product").value = product;
+                            }
+                            orderProduct = () => {
+                                let product = " " + obj.title + " / " + obj.model;
+                                document.getElementById("order2-product").value = product;
+                            };
+                        </script>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="terminos" style="font-size:12px;color:#444;margin-top:30px">
+        <!---<div class="terminos" style="font-size:12px;color:#444;margin-top:30px">
             <p><b>Terminos y Condiciónes:</b>
                 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dicta dignissimos
                     dolor et facilis nam pariatur possimus quae quia quidem, rem repellendus soluta.
@@ -245,7 +274,7 @@
                     magni molestias nisi. Aliquam amet, architecto blanditiis dolorem eum facilis magni nam
                     nesciunt obcaecati, optio quae, voluptates.</span>
             </p>
-        </div>
+        </div>-->
     </div>
     <div class="modal-footer">
         <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
@@ -261,7 +290,6 @@
                     <h5 class="white-text">Somos</h5>
                     <p class="grey-text text-lighten-4"> Taizhou Jiangzhou CNC Máquina Herramienta de Fabricación Co.,
                         Ltd. </p>
-                    </p>
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Links</h5>
@@ -291,9 +319,11 @@
         <i class="fas fa-location-arrow"></i>
     </a>
     <ul>
-        <li><a class="btn-floating red"><i class="far fa-envelope"></i></a></li>
-        <li><a class="btn-floating green"><i class="fab fa-whatsapp"></i></a></li>
-        <li><a class="btn-floating blue"><i class="fab fa-facebook"></i></a></li>
+        <li><a class="btn-floating red" href="mailto:contacto@maquinariascnc.com"><i class="far fa-envelope"></i></a>
+        </li>
+        <!--<li><a class="btn-floating green"><i class="fab fa-whatsapp"></i></a></li>-->
+        <li><a class="btn-floating blue" href="https://www.facebook.com/Maquinarias-CNC-304195630534153"
+               target="_blank"><i class="fab fa-facebook"></i></a></li>
     </ul>
 </div>
 
