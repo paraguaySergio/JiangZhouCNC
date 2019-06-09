@@ -1,0 +1,30 @@
+@import "variables";
+
+
+ul {
+  font-size: 12px;
+}
+
+.btn-primary {
+  background: $color-terciary;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  font-weight: 400;
+  border-radius: 4px;
+  transition: all 0.2s ease 0.2s;
+
+  &:hover {
+    border-bottom: 2px solid $color-primary;
+  }
+}
+
+/*MODAL IMG*/
+#materialbox-overlay {
+  background: rgba(0, 0, 0, .9) !important;
+  font-weight: 700;
+}
+
+.materialbox-caption {
+  padding: 0 !important;
+  height: 65px !important;
+}

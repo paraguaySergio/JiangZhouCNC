@@ -1,0 +1,42 @@
+$color-white-default: #d6ded9;
+
+$color-primary: #C00D0E;
+$color-secundary: #ffc620;
+$color-terciary: #028EED;
+$color-cuartiary: #E30613;
+
+$color-white-one: #fff;
+
+$color-gray-one: #444;
+$color-gray-two: #232930;
+$color-gray-tree: rgba(23, 27, 32, 0.91);
+
+$bgcolor-cards-body: #252c33;
+$bgcolor-card-light: #bebebe;
+
+$bgcolor-card-dark: #1f262e;
+
+
+//___________________________________________________________________________________________________________________//
+/*********** HEADER **********/
+$bgcolor-header: linear-gradient(to right bottom, #3b555e, #394f59, #374954, #35434f, #333d49, #313a45, #303742, #2e343e, #2c323c, #2b313a, #292f39, #282e37);
+$color-text: $color-white-default;
+
+/*********** SLIDER **********/
+$color-border-bottom-slider: $color-primary;
+$color-text1: $color-white-one;
+$color-text2: $color-primary;
+
+/************** PRODUCTS PLUS **************/
+$color-border-bottom: $color-primary;
+$bgcolor-card-product-plus: $bgcolor-card-dark;
+
+/********** ITEMS CARDS PRODUCTS GENERAL **********/
+$color-title-cards-products-light: #e3e1e1;
+$color-title-cards-products-dark: rgba(21, 0, 3, 0.97);
+
+$bgcolor-item-product: $color-gray-tree;
+$bgcolor-header-cards: $color-gray-tree;
+
+/**************** FOOTER ******************/
+$bgcolor-footer: rgba(0, 0, 0, 0.17);
