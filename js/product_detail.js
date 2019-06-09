@@ -13,7 +13,7 @@ let obj = jsonProducts.products[prodId];
 /******** CARD1 LIST **********/
 PD_list_products = () => {
     for (let i = 0; i <= 16; i++) {
-        document.write("<li><a href='?prodId=" + jsonProducts.products[i].id + "' style='color:#fff;'>" + jsonProducts.products[i].title + "</a></li>");
+        document.write("<li><a href='?prodId=" + jsonProducts.products[i].id + "' style='color:#fff;'>" + "<b style='color:#f44336'>-> </b> " + jsonProducts.products[i].title + "</a></li>");
     }
 };
 

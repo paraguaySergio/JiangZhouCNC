@@ -9,7 +9,8 @@
 /********** ITEMS CARDS PRODUCTS GENERAL **********/
 /**************** FOOTER ******************/
 ul {
-  font-size: 12px; }
+    font-size: 14px;
+}
 
 .btn-primary {
   background: #028EED;
@@ -285,6 +286,7 @@ body {
         #container-article .row .card-sidebar-left .card .card-1 .card-content ul li {
           border: dashed 1px #bebebe; }
       #container-article .row .card-sidebar-left .card .card-2 .card-content ul {
+          font-size: 24px;
         list-style: none; }
         #container-article .row .card-sidebar-left .card .card-2 .card-content ul li {
           line-height: 10px; }
