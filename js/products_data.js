@@ -130,11 +130,11 @@ let jsonProducts = {
         },
         {
             "id": 13,
-            "title": "productx",
-            "model": "Null",
-            "description": "Sin Descripción",
-            "size": "Null",
-            "img": "productx",
+            "title": "Sk40s/50s CNC Lathe",
+            "model": "SK40S, SK50S",
+            "description": "tHorizontal Lathe",
+            "size": "Medium",
+            "img": "Sk40s50sCNCLathe",
         }
     ]
 };
