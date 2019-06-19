@@ -361,7 +361,7 @@ body {
     -ms-flex-pack: center;
     justify-content: center;
     margin: auto;
-    width: 1250px;
+    width: auto;
 }
 
 .container-categoria-productos ul li {
