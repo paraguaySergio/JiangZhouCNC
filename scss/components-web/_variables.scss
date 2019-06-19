@@ -1,9 +1,11 @@
 $color-white-default: #d6ded9;
 
-$color-primary: #C00D0E;
+$color-primary: #D80000;
 $color-secundary: #ffc620;
 $color-terciary: #028EED;
-$color-cuartiary: #E30613;
+$color-cuartiary: #FD0000;
+
+$color-black: #000000;
 
 $color-white-one: #fff;
 
@@ -19,7 +21,7 @@ $bgcolor-card-dark: #1f262e;
 
 //___________________________________________________________________________________________________________________//
 /*********** HEADER **********/
-$bgcolor-header: linear-gradient(to right bottom, #3b555e, #394f59, #374954, #35434f, #333d49, #313a45, #303742, #2e343e, #2c323c, #2b313a, #292f39, #282e37);
+$bgcolor-header: #000000;
 $color-text: $color-white-default;
 
 /*********** SLIDER **********/
