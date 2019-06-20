@@ -22,18 +22,14 @@ productByCategory = (catId) => {
     let prod = jsonProducts[catId]["products"];
 
     for (let i = 0; i <= cantPC; i++) {
-        console.log(prod[i].title + prod[i].img1);
-        for (let ip = 0; ip <= cantPC; ip++) {
-            document.write("<div class=\"item-product\">\n" +
-                "                <div class=\"img-product\">\n" +
-                "                    <img src=\"../img/products/category" + ip + "/product" + ip + "/" + prod[i].img1 + ".jpg" + "\" alt=\"" + prod[i].title + "\">\n" +
-                "                </div>\n" +
-                "                <div class=\"title-product\">\n" +
-                "                    <a href=\"product_detail/?ProdNom=" + prod[i].title + "\"><h5>" + prod[i].title + "</h5></a>\n" +
-                "                </div>\n" +
-                "            </div>");
-        }
-
+        document.write("<div class=\"item-product\">\n" +
+            "                <div class=\"img-product\">\n" +
+            "                    <img src=\"../img/products/category" + i + "/product" + i + "/" + prod[i].img1 + ".jpg" + "\" alt=\"" + prod[i].title + "\">\n" +
+            "                </div>\n" +
+            "                <div class=\"title-product\">\n" +
+            "                    <a href=\"product_detail/#\"><h5>" + prod[i].title + "</h5></a>\n" +
+            "                </div>\n" +
+            "            </div>");
     }
 };
 
