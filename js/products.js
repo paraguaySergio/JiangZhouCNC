@@ -21,15 +21,17 @@ productByCategory = (catId) => {
     let cantPC = jsonProducts[catId]["products"].length;
     let prod = jsonProducts[catId]["products"];
 
-    for (let i = 0; i <= cantPC; i++) {
-        document.write("<div class=\"item-product\">\n" +
-            "                <div class=\"img-product\">\n" +
-            "                    <img src=\"../img/products/category" + i + "/product" + i + "/" + prod[i].img1 + ".jpg" + "\" alt=\"" + prod[i].title + "\">\n" +
-            "                </div>\n" +
-            "                <div class=\"title-product\">\n" +
-            "                    <a href=\"product_detail/#\"><h5>" + prod[i].title + "</h5></a>\n" +
-            "                </div>\n" +
-            "            </div>");
+    for (let ip = 0; ip <= 5; ip++) {
+        for (let i = 0; i <= cantPC; i++) {
+            document.write("<div class=\"item-product\">\n" +
+                "                <div class=\"img-product\">\n" +
+                "                    <img src=\"../img/products/category" + i + "/product" + ip + "/" + prod[i].img1 + ".jpg" + "\" alt=\"" + prod[i].title + "\">\n" +
+                "                </div>\n" +
+                "                <div class=\"title-product\">\n" +
+                "                    <a href=\"product_detail/#\"><h5>" + prod[i].title + "</h5></a>\n" +
+                "                </div>\n" +
+                "            </div>");
+        }
     }
 };
 
