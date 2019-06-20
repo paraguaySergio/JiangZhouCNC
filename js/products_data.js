@@ -1,43 +1,44 @@
 let jsonProducts = {
-    "CNC WEDM": {
-        "DK77 series of precision CNC wire walking wire EDM machine": [{
-            "id": 0,
-            "title": "DK77 series of precision CNC wire walking wire EDM machine",
-            "img1": "img1",
-            "img2": "img2",
-            "img3": "img3",
-            "img4": "img4",
-            "img_description1": "img_description1",
-            "img_description2": "img_description2",
-            "img_description3": "img_description3",
-            "img_description4": "img_description4",
-            "detail_description": [
-                {
-                    "description1": "Principales indicadores de desempeño sobresalientes:\n" +
-                        "La estructura y el proceso de fundición del cuerpo principal de la máquina.\n" +
-                        "Máxima eficiencia de corte ≥ 200mm2 / min\n" +
-                        "Mejor rugosidad superficial ^ Ra0.8Mm\n" +
-                        "Los ejes X, Y, U, V, Z se utilizan en la guía lineal de plata de Taiwan y en el tornillo de bola de doble tuerca de alta precisión\n" +
-                        "Corte de alta precisión ≤ ± 2μm\n" +
-                        "Corte continuo Pérdida de alambre de molibdeno de 100,000 mm2 ≤ 0.005mm\n" +
-                        "Toda la máquina adopta rodamientos importados japoneses.\n" +
-                        "Todos los componentes eléctricos se utilizan en Alemania, Japón y otras marcas importadas.\n" +
-                        "El sistema de control puede X, Y, U, V compensación de paso de cuatro ejes y compensación de holgura, y es compatible con el software de controlador de corriente principal del mercado actual, con el cable de control de pulso del volante para eliminar el viejo control del interruptor de disparo, usando la codificación Control directo, para lograr posicionamiento de precisión\n" +
-                        "El uso de la estructura de hilo automático tipo alambre móvil, con los diferentes estados de procesamiento, ajuste automático de la resistencia del hilo de consumo de energía ultra bajo, verde",
 
-                    "description2": "■ El cuerpo principal de la máquina está fabricado con resina de alta rigidez HT300 fundición en arena. La máquina herramienta tiene una alta rigidez y poca vibración.\n" +
-                        "■ La estructura general de la máquina adopta la estructura principal de la máquina de roscar, la precisión de la máquina en funcionamiento es alta y la estabilidad es buena\n" +
-                        "■ tornillo con tornillo de bola de alta tuerca de alta precisión de plata de Taiwán, alta precisión de funcionamiento, para garantizar la precisión de posicionamiento de la máquina en funcionamiento\n" +
-                        "■ Guía con plata en la guía lineal de alta precisión plateada, operación suave, alta capacidad de respuesta\n" +
-                        "■ La parte principal de la máquina herramienta con rodamientos Japan NSK, alta precisión, larga vida útil\n" +
-                        "■ La máquina adopta un servomotor o un motor híbrido paso a paso, CNC de 5 ejes, X, Y, U, V corte de articulación de cuatro ejes\n" +
-                        "■ control eléctrico de la máquina parte de su propia investigación y desarrollo, rápido, alto acabado\n" +
-                        "■ software control part of the X, Y, U, V four-axis pitch compensation to solve the problem of low taper accuracy, to achieve precision cutting up and down special-shaped control cabinet with pulse control, control X, Y, U, V , Z-axis five-axis motion control cabinet can be real-time display X, Y, U, V coordinates of the four-axis movement of the control cabinet can be compatible with the mainstream of the control system, no additional servo card and expansion card"
-                }
-            ]
-        }
-        ],
-        "DK77 series of CNC WEDM CNC machine counters": [
+    //**********************CATEGORY NUM 0********************//
+    "CNC WEDM": {
+        "products": [
+            {
+                "id": 0,
+                "title": "DK77 series of precision CNC wire walking wire EDM machine",
+                "img1": "img1",
+                "img2": "img2",
+                "img3": "img3",
+                "img4": "img4",
+                "img_description1": "img_description1",
+                "img_description2": "img_description2",
+                "img_description3": "img_description3",
+                "img_description4": "img_description4",
+                "detail_description": [
+                    {
+                        "description1": "Principales indicadores de desempeño sobresalientes:\n" +
+                            "La estructura y el proceso de fundición del cuerpo principal de la máquina.\n" +
+                            "Máxima eficiencia de corte ≥ 200mm2 / min\n" +
+                            "Mejor rugosidad superficial ^ Ra0.8Mm\n" +
+                            "Los ejes X, Y, U, V, Z se utilizan en la guía lineal de plata de Taiwan y en el tornillo de bola de doble tuerca de alta precisión\n" +
+                            "Corte de alta precisión ≤ ± 2μm\n" +
+                            "Corte continuo Pérdida de alambre de molibdeno de 100,000 mm2 ≤ 0.005mm\n" +
+                            "Toda la máquina adopta rodamientos importados japoneses.\n" +
+                            "Todos los componentes eléctricos se utilizan en Alemania, Japón y otras marcas importadas.\n" +
+                            "El sistema de control puede X, Y, U, V compensación de paso de cuatro ejes y compensación de holgura, y es compatible con el software de controlador de corriente principal del mercado actual, con el cable de control de pulso del volante para eliminar el viejo control del interruptor de disparo, usando la codificación Control directo, para lograr posicionamiento de precisión\n" +
+                            "El uso de la estructura de hilo automático tipo alambre móvil, con los diferentes estados de procesamiento, ajuste automático de la resistencia del hilo de consumo de energía ultra bajo, verde",
+
+                        "description2": "■ El cuerpo principal de la máquina está fabricado con resina de alta rigidez HT300 fundición en arena. La máquina herramienta tiene una alta rigidez y poca vibración.\n" +
+                            "■ La estructura general de la máquina adopta la estructura principal de la máquina de roscar, la precisión de la máquina en funcionamiento es alta y la estabilidad es buena\n" +
+                            "■ tornillo con tornillo de bola de alta tuerca de alta precisión de plata de Taiwán, alta precisión de funcionamiento, para garantizar la precisión de posicionamiento de la máquina en funcionamiento\n" +
+                            "■ Guía con plata en la guía lineal de alta precisión plateada, operación suave, alta capacidad de respuesta\n" +
+                            "■ La parte principal de la máquina herramienta con rodamientos Japan NSK, alta precisión, larga vida útil\n" +
+                            "■ La máquina adopta un servomotor o un motor híbrido paso a paso, CNC de 5 ejes, X, Y, U, V corte de articulación de cuatro ejes\n" +
+                            "■ control eléctrico de la máquina parte de su propia investigación y desarrollo, rápido, alto acabado\n" +
+                            "■ software control part of the X, Y, U, V four-axis pitch compensation to solve the problem of low taper accuracy, to achieve precision cutting up and down special-shaped control cabinet with pulse control, control X, Y, U, V , Z-axis five-axis motion control cabinet can be real-time display X, Y, U, V coordinates of the four-axis movement of the control cabinet can be compatible with the mainstream of the control system, no additional servo card and expansion card"
+                    }
+                ]
+            },
             {
                 "id": 1,
                 "title": "DK77 series of CNC WEDM CNC machine counters",
@@ -56,9 +57,7 @@ let jsonProducts = {
                         "description3": "",
                     }
                 ]
-            }
-        ],
-        "Serie DK77 de máquina CNC WEDM": [
+            },
             {
                 "id": 2,
                 "title": "Serie DK77 de máquina CNC WEDM",
@@ -77,9 +76,7 @@ let jsonProducts = {
                         "description3": "",
                     }
                 ]
-            }
-        ],
-        "K77HC luxury intelligent walking wire cutting machine": [
+            },
             {
                 "id": 3,
                 "title": "K77HC luxury intelligent walking wire cutting machine",
@@ -108,8 +105,10 @@ let jsonProducts = {
             }
         ]
     },
+
+    //**********************CATEGORY NUM 1********************//
     "CNC milling machine": {
-        "XK series CNC milling machine": [
+        "products": [
             {
                 "id": 0,
                 "title": "XK series CNC milling machine",
@@ -131,8 +130,12 @@ let jsonProducts = {
             }
         ]
     },
+
+
+    //**********************CATEGORY NUM 2********************//
+
     "EDM machine": {
-        "DS703A high speed EDM punching machine": [
+        "products": [
             {
                 "id": 0,
                 "title": "DS703A high speed EDM punching machine",
@@ -152,11 +155,9 @@ let jsonProducts = {
                         "description3": "",
                     }
                 ]
-            }
-        ],
-        "DS703 luxury high-speed EDM punching machine": [
+            },
             {
-                "id": 0,
+                "id": 1,
                 "title": "DS703 luxury high-speed EDM punching machine",
                 "img1": "img1",
                 "img2": "img2",
@@ -177,11 +178,9 @@ let jsonProducts = {
                         "description3": "",
                     }
                 ]
-            }
-        ],
-        "D71 series EDM machine": [
+            },
             {
-                "id": 0,
+                "id": 2,
                 "title": "D71 series EDM machine",
                 "img1": "img1",
                 "img2": "img2",
@@ -205,8 +204,12 @@ let jsonProducts = {
             }
         ]
     },
+
+
+    //**********************CATEGORY NUM 3********************//
+
     "CNC machining center": {
-        "XH series machining center": [
+        "products": [
             {
                 "id": 0,
                 "title": "XH series machining center",
@@ -230,8 +233,12 @@ let jsonProducts = {
             }
         ]
     },
+
+
+    //**********************CATEGORY NUM 4********************//
+
     "Engraving and milling machine": {
-        "JZDX series of CNC engraving and milling machine": [
+        "products": [
             {
                 "id": 0,
                 "title": "JZDX series of CNC engraving and milling machine",
@@ -254,8 +261,9 @@ let jsonProducts = {
         ]
     },
 
-    "Sand bar grinding machine ": {
-        "SX77 sand line machine": [
+    //**********************CATEGORY NUM 5********************//
+    "Sand bar grinding machine": {
+        "products": [
             {
                 "id": 0,
                 "title": "SX77 sand line machine",
@@ -282,4 +290,3 @@ let jsonProducts = {
 
 
 };
-

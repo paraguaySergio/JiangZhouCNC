@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="../css/styles_template.css">
 
     <script src="../js/products_data.js"></script>
+    <script src="../js/products.js"></script>
     <script src="../js/desing.js"></script>
 
 </head>
@@ -112,33 +113,54 @@
 </div>
 
 <!--SECTION PRODUCTS-->
-<section class="container">
-    <div class="row">
-        <div class="col lg3">
-            <ul>
-                <li><a href="">CNC WEDM</a></li>
-                <li><a href="">CNC milling machine</a></li>
-                <li><a href="">EDM machine</a></li>
-                <li><a href="">CNC machining center</a></li>
-                <li><a href="">Engraving and milling machine</a></li>
-                <li><a href="">Sand bar grinding machine</a></li>
-            </ul>
-        </div>
-        <div class="col lg9">
-            <div class="content-product">
-                <div class="img-product">
-                    <img src="../img/products/cnc_wedm/product1/img1.jpg" alt="">
-                </div>
-                <div class="title-product">
-                    <h2>DK77 series of precision CNC wire walking wire EDM machine</h2>
-                </div>
-            </div>
-            <div class="content-detail-product">
+<!--<section class="container-productos">-->
+<!--    <div class="row">-->
+<!--        <div class="col lg3">-->
+<!--            <ul>-->
+<!--                <li><a href="">CNC WEDM</a></li>-->
+<!--                <li><a href="">CNC milling machine</a></li>-->
+<!--                <li><a href="">EDM machine</a></li>-->
+<!--                <li><a href="">CNC machining center</a></li>-->
+<!--                <li><a href="">Engraving and milling machine</a></li>-->
+<!--                <li><a href="">Sand bar grinding machine</a></li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--        <div class="col lg9">-->
+<!--            <div class="content-product">-->
+<!--                <div class="img-product">-->
+<!--                    <img src="../img/products/cnc_wedm/product1/img1.jpg" alt="">-->
+<!--                </div>-->
+<!--                <div class="title-product">-->
+<!--                    <h2>DK77 series of precision CNC wire walking wire EDM machine</h2>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="content-detail-product">-->
 
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<section class="container-products">
+    <div class="row">
+        <div class="col l3 s12">
+            <div class="content-category-product">
+                <ul class="list-category">
+                    <script>
+                        categoriesProducts();
+                    </script>
+                </ul>
             </div>
+        </div>
+        <div class="col l9 12">
+            <script>
+                productByCategory(catId);
+            </script>
+
         </div>
     </div>
 </section>
+
 
 <!--FOOTER-PRINCIPAL-->
 <div class="container-fluid" id="container-footer">
