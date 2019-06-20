@@ -25,7 +25,7 @@ productByCategory = (catId) => {
         for (let i = 0; i <= cantPC; i++) {
             document.write("<div class=\"item-product\">\n" +
                 "                <div class=\"img-product\">\n" +
-                "                    <img src=\"../img/products/category" + i + "/product" + ip + "/" + prod[i].img1 + ".jpg" + "\" alt=\"" + prod[i].title + "\">\n" +
+                "                    <img src=\"../img/products/category" + ip + "/product" + i + "/" + prod[i].img1 + ".jpg" + "\" alt=\"" + prod[i].title + "\">\n" +
                 "                </div>\n" +
                 "                <div class=\"title-product\">\n" +
                 "                    <a href=\"product_detail/#\"><h5>" + prod[i].title + "</h5></a>\n" +
