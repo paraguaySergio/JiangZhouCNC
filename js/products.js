@@ -1,6 +1,6 @@
 /******************************************** SCRIPT PAGE PRODUCTS ****************************************************/
 /*********** data GET ***********/
-let catId = getParameterByName('catId');
+let idCat = getParameterByName('idCat');
 
 function getParameterByName(name) {
     name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
@@ -13,27 +13,26 @@ function getParameterByName(name) {
 categoriesProducts = () => {
     let catProducts = jsonProducts;
     for (item in catProducts) {
-        document.write("<a href=\"../productos/?catId=" + item + "\"><li>" + item + "</li></a>");
+        document.write("<a href=\"../productos/?idCat=" + item + "\"><li>" + item + "</li></a>");
     }
 };
 
-productByCategory = (catId) => {
-    let cantPC = jsonProducts[catId]["products"].length;
-    let prod = jsonProducts[catId]["products"];
+productByCategory = (idCat) => {
+    let cantPC = jsonProducts[idCat]["products"].length;
+    let prod = jsonProducts[idCat]["products"];
 
-    for (let ip = 0; ip <= 5; ip++) {
-        for (let i = 0; i <= cantPC; i++) {
-            document.write("<div class=\"item-product\">\n" +
-                "                <div class=\"img-product\">\n" +
-                "                    <img src=\"../img/products/category" + ip + "/product" + i + "/" + prod[i].img1 + ".jpg" + "\" alt=\"" + prod[i].title + "\">\n" +
-                "                </div>\n" +
-                "                <div class=\"title-product\">\n" +
-                "                    <a href=\"product_detail/#\"><h5>" + prod[i].title + "</h5></a>\n" +
-                "                </div>\n" +
-                "            </div>");
-        }
+
+    for (let item in prod) {
+        document.write("<div class=\"item-product\">\n" +
+            "                <div class=\"img-product\">\n" +
+            "                    <img src=\"../img/products/" + prod[item].img1 + "\" alt=\"" + prod[item].title + "\">\n" +
+            "                </div>\n" +
+            "                <div class=\"title-product\">\n" +
+            "                    <a href=\"product_detail/?idCat=" + idCat + "&?idProd=" + item + "\"><h5>" + prod[item].title + "</h5></a>\n" +
+            "                </div>\n" +
+            "            </div>");
     }
 };
 
-console.log(catId);
-console.log(jsonProducts);
+// console.log(idCat);
+// console.log(jsonProducts);

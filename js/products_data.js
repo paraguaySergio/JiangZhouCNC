@@ -6,15 +6,15 @@ let jsonProducts = {
             {
                 "id": 0,
                 "title": "DK77 series of precision CNC wire walking wire EDM machine",
-                "img1": "img1",
-                "img2": "img2",
-                "img3": "img3",
-                "img4": "img4",
-                "img_description1": "img_description1",
-                "img_description2": "img_description2",
-                "img_description3": "img_description3",
-                "img_description4": "img_description4",
-                "detail_description": [
+                "img1": "category0/product0/img1.jpg",
+                "img2": "category0/product0/img2.jpg",
+                "img3": "category0/product0/img3.jpg",
+                "img4": "category0/product0/img4.jpg",
+                "img_description1": "category0/product0/img_description1.jpg",
+                "img_description2": "category0/product0/img_description2.jpg",
+                "img_description3": "category0/product0/img_description3.jpg",
+                "img_description4": "category0/product0/img_description4.jpg",
+                "detail_description":
                     {
                         "description1": "Principales indicadores de desempeño sobresalientes:\n" +
                             "La estructura y el proceso de fundición del cuerpo principal de la máquina.\n" +
@@ -37,58 +37,55 @@ let jsonProducts = {
                             "■ control eléctrico de la máquina parte de su propia investigación y desarrollo, rápido, alto acabado\n" +
                             "■ software control part of the X, Y, U, V four-axis pitch compensation to solve the problem of low taper accuracy, to achieve precision cutting up and down special-shaped control cabinet with pulse control, control X, Y, U, V , Z-axis five-axis motion control cabinet can be real-time display X, Y, U, V coordinates of the four-axis movement of the control cabinet can be compatible with the mainstream of the control system, no additional servo card and expansion card"
                     }
-                ]
             },
             {
                 "id": 1,
                 "title": "DK77 series of CNC WEDM CNC machine counters",
-                "img1": "img1",
-                "img2": "img2",
-                "img3": "img3",
-                "img4": "img4",
-                "img_description1": "img_description1",
-                "img_description2": "img_description2",
-                "img_description3": "img_description3",
-                "img_description4": "img_description4",
-                "detail_description": [
+                "img1": "category0/product1/img1.jpg",
+                "img2": "category0/product1/img2.jpg",
+                "img3": "category0/product1/img3.jpg",
+                "img4": "category0/product1/img4.jpg",
+                "img_description1": "category0/product1/img_description1.jpg",
+                "img_description2": "category0/product1/img_description2.jpg",
+                "img_description3": "category0/product1/img_description3.jpg",
+                "img_description4": "category0/product1/img_description4.jpg",
+                "detail_description":
                     {
                         "description1": "Controlo que la parte de corte de la empresa tiene una sola placa y controlo una de las dos categorías, incluida una de las de control de HF, HL, PM-K y otro sistema de control para la opción de programación fácil de operar, potente y de escritorio y dos Tipo de elección.",
                         "description2": "",
                         "description3": "",
                     }
-                ]
             },
             {
                 "id": 2,
                 "title": "Serie DK77 de máquina CNC WEDM",
-                "img1": "img1",
-                "img2": "img2",
-                "img3": "img3",
-                "img4": "img4",
-                "img_description1": "img_description1",
-                "img_description2": "img_description2",
-                "img_description3": "img_description3",
-                "img_description4": "img_description4",
-                "detail_description": [
+                "img1": "category0/product2/img1.jpg",
+                "img2": "category0/product2/img2.jpg",
+                "img3": "category0/product2/img3.jpg",
+                "img4": "category0/product2/img4.jpg",
+                "img_description1": "category0/product2/img_description1.jpg",
+                "img_description2": "category0/product2/img_description2.jpg",
+                "img_description3": "category0/product2/img_description3.jpg",
+                "img_description4": "category0/product2/img_description4.jpg",
+                "detail_description":
                     {
                         "description1": "",
                         "description2": "",
                         "description3": "",
                     }
-                ]
             },
             {
                 "id": 3,
                 "title": "K77HC luxury intelligent walking wire cutting machine",
-                "img1": "img1",
-                "img2": "img2",
-                "img3": "img3",
-                "img4": "img4",
-                "img_description1": "img_description1",
-                "img_description2": "img_description2",
-                "img_description3": "img_description3",
-                "img_description4": "img_description4",
-                "detail_description": [
+                "img1": "category0/product3/img1.jpg",
+                "img2": "category0/product3/img2.jpg",
+                "img3": "category0/product3/img3.jpg",
+                "img4": "category0/product3/img4.jpg",
+                "img_description1": "category0/product3/img_description1.jpg",
+                "img_description2": "category0/product3/img_description2.jpg",
+                "img_description3": "category0/product3/img_description3.jpg",
+                "img_description4": "category0/product3/img_description4.jpg",
+                "detail_description":
                     {
                         "description1": "Función del quinto eje\n" +
                             "Agregue el quinto eje en base a los ejes X, Y, U, V Para lograr la rotación de la pieza de trabajo de procesamiento de corte.\n" +
@@ -101,7 +98,6 @@ let jsonProducts = {
                         "description2": "",
                         "description3": "",
                     }
-                ]
             }
         ]
     },
@@ -112,21 +108,20 @@ let jsonProducts = {
             {
                 "id": 0,
                 "title": "XK series CNC milling machine",
-                "img1": "img1",
-                "img2": "img2",
-                "img3": "img3",
-                "img4": "img4",
-                "img_description1": "img_description1",
-                "img_description2": "img_description2",
-                "img_description3": "img_description3",
-                "img_description4": "img_description4",
-                "detail_description": [
+                "img1": "category1/product0/img1.jpg",
+                "img2": "category1/product0/img2.jpg",
+                "img3": "category1/product0/img3.jpg",
+                "img4": "category1/product0/img4.jpg",
+                "img_description1": "category1/product0/img_description1.jpg",
+                "img_description2": "category1/product0/img_description2.jpg",
+                "img_description3": "category1/product0/img_description3.jpg",
+                "img_description4": "category1/product0/img_description4.jpg",
+                "detail_description":
                     {
                         "description1": "",
                         "description2": "",
                         "description3": "",
                     }
-                ]
             }
         ]
     },
@@ -139,35 +134,34 @@ let jsonProducts = {
             {
                 "id": 0,
                 "title": "DS703A high speed EDM punching machine",
-                "img1": "img1",
-                "img2": "img2",
-                "img3": "img3",
-                "img4": "img4",
-                "img_description1": "img_description1",
-                "img_description2": "img_description2",
-                "img_description3": "img_description3",
-                "img_description4": "img_description4",
-                "detail_description": [
+                "img1": "category2/product0/img1.jpg",
+                "img2": "category2/product0/img2.jpg",
+                "img3": "category2/product0/img3.jpg",
+                "img4": "category2/product0/img4.jpg",
+                "img_description1": "category2/product0/img_description1.jpg",
+                "img_description2": "category2/product0/img_description2.jpg",
+                "img_description3": "category2/product0/img_description3.jpg",
+                "img_description4": "category2/product0/img_description4.jpg",
+                "detail_description":
                     {
                         "description1": "La máquina se utiliza principalmente para acero inoxidable, acero endurecido, carburo, cobre, aluminio y otros materiales conductores en el procesamiento de orificios profundos de la pieza. Como el alambre y el cable que cortan la pieza a través del agujero; Hilo de fibra química, agujero de boquilla de hilera; placa de filtro, placa de tamiz en el agujero; palas del motor, agujeros de refrigeración del cilindro; Cuerpo de la válvula hidráulica, neumática. Orificios viales de aceite y gas. Tabla X, eje Y con dispositivo de visualización digital. Use agua pura o agua del grifo como fluido de trabajo. Puede ser directamente desde la pendiente de la pieza, la superficie a través del procesamiento. La relación de profundidad máxima del orificio de procesamiento puede alcanzar 200: 1 o más.\n" +
                             "La máquina también se puede usar para quitar la broca que se rompe en la pieza de trabajo, el alambre se empuja sin dañar el orificio o la rosca original.",
                         "description2": "",
                         "description3": "",
                     }
-                ]
             },
             {
                 "id": 1,
                 "title": "DS703 luxury high-speed EDM punching machine",
-                "img1": "img1",
-                "img2": "img2",
-                "img3": "img3",
-                "img4": "img4",
-                "img_description1": "img_description1",
-                "img_description2": "img_description2",
-                "img_description3": "img_description3",
-                "img_description4": "img_description4",
-                "detail_description": [
+                "img1": "category2/product1/img1.jpg",
+                "img2": "category2/product1/img2.jpg",
+                "img3": "category2/product1/img3.jpg",
+                "img4": "category2/product1/img4.jpg",
+                "img_description1": "category2/product1/img_description1.jpg",
+                "img_description2": "category2/product1/img_description2.jpg",
+                "img_description3": "category2/product1/img_description3.jpg",
+                "img_description4": "category2/product1/img_description4.jpg",
+                "detail_description":
                     {
                         "description1": "Velocidad de procesamiento de hasta 30 ~ 60 mm por minuto (según el material);\n" +
                             "Puede procesarse con diferentes materiales conductores, especialmente para el procesamiento de acero inoxidable, acero endurecido, cobre, aluminio, aleación dura;\n" +
@@ -177,20 +171,19 @@ let jsonProducts = {
                         "description2": "",
                         "description3": "",
                     }
-                ]
             },
             {
                 "id": 2,
                 "title": "D71 series EDM machine",
-                "img1": "img1",
-                "img2": "img2",
-                "img3": "img3",
-                "img4": "img4",
-                "img_description1": "img_description1",
-                "img_description2": "img_description2",
-                "img_description3": "img_description3",
-                "img_description4": "img_description4",
-                "detail_description": [
+                "img1": "category2/product2/img1.jpg",
+                "img2": "category2/product2/img2.jpg",
+                "img3": "category2/product2/img3.jpg",
+                "img4": "category2/product2/img4.jpg",
+                "img_description1": "category2/product2/img_description1.jpg",
+                "img_description2": "category2/product2/img_description2.jpg",
+                "img_description3": "category2/product2/img_description3.jpg",
+                "img_description4": "category2/product2/img_description4.jpg",
+                "detail_description":
                     {
                         "description1": "Velocidad de procesamiento de hasta 30 ~ 60 mm por minuto (según el material);\n" +
                             "Puede procesarse con diferentes materiales conductores, especialmente para el procesamiento de acero inoxidable, acero endurecido, cobre, aluminio, aleación dura;\n" +
@@ -200,7 +193,6 @@ let jsonProducts = {
                         "description2": "",
                         "description3": "",
                     }
-                ]
             }
         ]
     },
@@ -213,15 +205,15 @@ let jsonProducts = {
             {
                 "id": 0,
                 "title": "XH series machining center",
-                "img1": "img1",
-                "img2": "img2",
-                "img3": "img3",
-                "img4": "img4",
-                "img_description1": "img_description1",
-                "img_description2": "img_description2",
-                "img_description3": "img_description3",
-                "img_description4": "img_description4",
-                "detail_description": [
+                "img1": "category3/product0/img1.jpg",
+                "img2": "category3/product0/img2.jpg",
+                "img3": "category3/product0/img3.jpg",
+                "img4": "category3/product0/img4.jpg",
+                "img_description1": "category3/product0/img_description1.jpg",
+                "img_description2": "category3/product0/img_description2.jpg",
+                "img_description3": "category3/product0/img_description3.jpg",
+                "img_description4": "category3/product0/img_description4.jpg",
+                "detail_description":
                     {
                         "description1": "Produje la fresadora CNC con buena rigidez, alta precisión, bajo nivel de ruido, funcionamiento, fácil mantenimiento, precio razonable, etc. Puede fresar automáticamente el plano, ranura, pendiente y una variedad de superficies complejas, así como también orificios de cobalto, escariado, levantamiento, etc., con una amplia gama de aplicaciones y una aplicabilidad más amplia, un rendimiento superior. Especialmente indicado para el procesado de moldes.\n" +
                             " \n" +
@@ -229,7 +221,6 @@ let jsonProducts = {
                         "description2": "",
                         "description3": "",
                     }
-                ]
             }
         ]
     },
@@ -242,21 +233,20 @@ let jsonProducts = {
             {
                 "id": 0,
                 "title": "JZDX series of CNC engraving and milling machine",
-                "img1": "img1",
-                "img2": "img2",
-                "img3": "img3",
-                "img4": "img4",
-                "img_description1": "img_description1",
-                "img_description2": "img_description2",
-                "img_description3": "img_description3",
-                "img_description4": "img_description4",
-                "detail_description": [
+                "img1": "category4/product0/img1.jpg",
+                "img2": "category4/product0/img2.jpg",
+                "img3": "category4/product0/img3.jpg",
+                "img4": "category4/product0/img4.jpg",
+                "img_description1": "category4/product0/img_description1.jpg",
+                "img_description2": "category4/product0/img_description2.jpg",
+                "img_description3": "category4/product0/img_description3.jpg",
+                "img_description4": "category4/product0/img_description4.jpg",
+                "detail_description":
                     {
                         "description1": "La serie de máquinas de tallado y fresado JZDX es la producción de mi empresa de una máquina de fresado y tallado CNC de alta velocidad. El uso del diseño totalmente cerrado, el mecanismo de la máquina-herramienta es razonable, buena rigidez, bajo ruido; Guía de rodadura lineal hecha en Taiwán, husillo de bolas de precisión, servomotor importado, movimiento suave, control de alta precisión. Operación simple, fácil de aprender, ampliamente utilizada en moldes, industria ligera, publicidad, electrónica y otras industrias.",
                         "description2": "",
                         "description3": "",
                     }
-                ]
             }
         ]
     },
@@ -267,15 +257,15 @@ let jsonProducts = {
             {
                 "id": 0,
                 "title": "SX77 sand line machine",
-                "img1": "img1",
-                "img2": "img2",
-                "img3": "img3",
-                "img4": "img4",
-                "img_description1": "img_description1",
-                "img_description2": "img_description2",
-                "img_description3": "img_description3",
-                "img_description4": "img_description4",
-                "detail_description": [
+                "img1": "category5/product0/img1.jpg",
+                "img2": "category5/product0/img2.jpg",
+                "img3": "category5/product0/img3.jpg",
+                "img4": "category5/product0/img4.jpg",
+                "img_description1": "category5/product0/img_description1.jpg",
+                "img_description2": "category5/product0/img_description2.jpg",
+                "img_description3": "category5/product0/img_description3.jpg",
+                "img_description4": "category5/product0/img_description4.jpg",
+                "detail_description":
                     {
                         "description1": "La máquina de lijar se utiliza principalmente para el corte de grafito, electrodo y tablero epoxi, material duro no conductor, mármol, jade, óptica, vidrio, ferrita cerámica, material semiconductor, silicio carbonizado, silicio refractario y otros materiales.\n" +
                             "La máquina en el corte de jade y jade y otros preciosos jade ha sido reconocida por los clientes, las herramientas en el corte de jade y jade cuando el ahorro significativo en la pérdida de material es muy bajo, el procesamiento de jade jade es la máquina preferida.\n" +
@@ -283,7 +273,6 @@ let jsonProducts = {
                         "description2": "",
                         "description3": "",
                     }
-                ]
             }
         ]
     }
