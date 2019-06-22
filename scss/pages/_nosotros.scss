@@ -1,58 +1,116 @@
 @import "../components-web/variables";
 
 /************** NOSOTROS ***************/
-.card-article-right {
-  .card-nosotros {
-    padding: 20px;
-    background: $bgcolor-card-dark;
-    color: $color-white-default;
+#container-general {
+  width: 90%;
+  @media(max-width: 702px) {
+    width: 95%;
+  }
 
-    .title-cards {
-      display: flex;
-      align-items: center;
+  .row {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-gap: 10px;
+    @media(max-width: 902px) {
+      grid-template-columns: 1fr;
+    }
 
-      .hr-one {
-        height: 2px;
-        background: $color-white-default;
-        width: 10%;
-      }
+    .card-sidebar-left {
+      .card-contact {
+        .card-title {
+          i {
+            margin: 5px 5px 0 0;
+          }
 
-      h5 {
-        width: auto;
-        font-size: 24px;
-        font-weight: bold;
-        margin-top: 0px;
-        margin-left: 10px;
+          color: $color-title-cards-two;
+          background: $color-primary;
+          padding: 5px;
+        }
 
-        span {
-          color: $color-primary;
+        .card-content {
+          ul {
+            li {
+              font-weight: 900;
+              color: $color-title-cards-one;
+            }
+          }
         }
       }
 
-      .hr-two {
-        height: 2px;
-        background: $color-white-default;
-        width: 100%;
+      .card-form-contact {
+        .card-title {
+          i {
+            margin: 5px 5px 0 0;
+          }
+
+          color: $color-title-cards-two;
+          background: $color-primary;
+          padding: 5px;
+        }
+
+        .form-contact {
+
+        }
       }
     }
 
-    .description {
-      p {
-        text-align: justify;
-      }
-    }
 
-    .img {
-      width: 100%;
-      height: 400px;
+    .card-article-right {
+      grid-row: 1/2;
 
-      img {
-        display: block;
-        margin: auto;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+      .card-nosotros {
+        padding: 20px;
+        color: $color-black;
+
+        .title-cards {
+          display: flex;
+          align-items: center;
+
+          .hr-one {
+            height: 2px;
+            background: $color-black;
+            width: 10%;
+          }
+
+          h5 {
+            width: auto;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 0px;
+            margin-left: 10px;
+
+            span {
+              color: $color-primary;
+            }
+          }
+
+          .hr-two {
+            height: 2px;
+            background: $color-black;
+            width: 100%;
+          }
+        }
+
+        .description {
+          p {
+            text-align: justify;
+          }
+        }
+
+        .img {
+          width: 100%;
+          height: 400px;
+
+          img {
+            display: block;
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
       }
     }
   }
+
 }

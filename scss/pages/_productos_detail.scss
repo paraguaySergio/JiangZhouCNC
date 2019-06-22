@@ -3,11 +3,20 @@
 /************** CARD PRODUCTS DETAIL ***************/
 
 .container-products-in-detail {
-  .row {
-    .col:first-child {
+  .container-product-detail {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    @media(max-width: 702px) {
+      grid-template-columns: 100%;
+    }
+
+    .container-sidebar {
       .content-category-product {
         width: 80%;
         margin: auto;
+        @media(max-width: 702px) {
+          width: 95%;
+        }
 
         .list-category {
           line-height: 30px;
@@ -37,9 +46,39 @@
           }
         }
       }
+
+      .content-order-product {
+        width: 80%;
+        margin: auto;
+        @media(max-width: 702px) {
+          width: 95%;
+        }
+
+        .form-order {
+          h5 {
+            color: #fff;
+            background: $color-cuartiary;
+            width: 100%;
+            margin: 0;
+            padding: 10px;
+          }
+
+          input, textarea, button {
+            margin: 5px 5px 5px 5px;
+          }
+
+          box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.34);
+          border: 2px solid #444444;
+          border-radius: 5px;
+        }
+      }
     }
 
-    .col:last-child {
+    .container-description-product {
+      @media(max-width: 702px) {
+        grid-row: 1 / 2;
+      }
+
       .content-detail {
         display: flex;
         flex-wrap: wrap;

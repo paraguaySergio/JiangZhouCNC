@@ -3,17 +3,18 @@
 /************** NOSOTROS ***************/
 .card-article-right {
   .card-servicios {
+    order: 0;
     padding: 20px;
-    background: $bgcolor-card-dark;
-    color: $color-white-default;
+    color: $color-black;
 
     .title-cards {
       display: flex;
       align-items: center;
+      font-weight: 900;
 
       .hr-one {
         height: 2px;
-        background: $color-white-default;
+        background: $color-cuartiary;
         width: 10%;
       }
 
@@ -31,7 +32,7 @@
 
       .hr-two {
         height: 2px;
-        background: $color-white-default;
+        background: $color-cuartiary;
         width: 100%;
       }
     }

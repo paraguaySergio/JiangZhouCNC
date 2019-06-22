@@ -1,16 +1,27 @@
 @import "../components-web/variables";
 
 /************** CARD PRODUCTS DETAIL ***************/
+.container-servicio-detail {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  @media(max-width: 702px) {
+    grid-template-columns: 100%;
+  }
+
+  .card-sidebar-left {
+
+  }
 .card-article-right {
+  @media(max-width: 702px) {
+    grid-row: 1 / 2;
+  }
   .card-service-detail {
-    background: $bgcolor-card-dark;
-    color: $color-white-default;
+    color: $color-black;
     padding: 0;
 
     .title-cards {
       display: flex;
       align-items: center;
-      background: $bgcolor-header-cards;
       width: 100%;
 
       h5 {
@@ -45,12 +56,12 @@
           height: 100%;
           object-fit: cover;
           border-bottom: 3px solid $color-primary;
+          border: 1px solid #bebebe;
         }
       }
     }
 
     .body-detail-service {
-      background: $color-gray-two;
       padding: 15px;
       font-size: 14px;
 
@@ -63,4 +74,5 @@
       }
     }
   }
+}
 }

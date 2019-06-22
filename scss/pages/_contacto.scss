@@ -1,19 +1,31 @@
-.card {
+#container-general {
 
-  .card-article-right {
-    .card-products-detail-one {
-      .body-detail-product {
-        margin-top: 10px;
+  .row {
+    .card-article-right {
+      .content-contact {
+        padding: 10px;
+
+        .title-cards {
+          h5 {
+            font-weight: 900;
+          }
+        }
+
+        .body-detail-product {
+          p {
+            font-weight: 800;
+          }
+        }
+
+        .form-contact-product {
+          .form-contact {
+            input, textarea {
+              color: #444444;
+            }
+          }
+        }
       }
     }
   }
 
-  .card-article-left {
-    .card-1 {
-      .card-content {
-        padding: 5px;
-        margin-left: 5px;
-      }
-    }
-  }
 }

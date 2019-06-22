@@ -9,6 +9,7 @@ $ape = $_GET['apellidos'];
 $email = $_GET['email'];
 $tel = $_GET['telefono'];
 $msm = $_GET['mensaje'];
+$cant = $_GET['cantidad'];
 $product = $_GET['producto'];
 
 
@@ -21,6 +22,7 @@ $mensaje = "CLIENTE: " . $nom . " " .$ape . " \r\n";
 $mensaje .= "CORREO: " . $email . " \r\n";
 $mensaje .= "TELÉFONO: " . $tel . " \r\n";
 $mensaje .= "MENSAJE: ".$msm. " \r\n";
+$mensaje .= "CANTIDAD: ".$cant. " \r\n";
 $mensaje .= "PRODUCTO A ORDENAR:". $product ." \r\n";
 
 
