@@ -4,6 +4,9 @@
       .content-category-product {
         width: 80%;
         margin: auto;
+        @media(max-width: 702px) {
+          width: 95%;
+        }
 
         .list-category {
           line-height: 30px;

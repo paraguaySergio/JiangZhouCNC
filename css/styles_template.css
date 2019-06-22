@@ -411,6 +411,12 @@ body {
 .container-products .row .col:first-child .content-category-product {
   width: 80%;
   margin: auto; }
+
+@media (max-width: 702px) {
+    .container-products .row .col:first-child .content-category-product {
+        width: 95%;
+    }
+}
   .container-products .row .col:first-child .content-category-product .list-category {
     line-height: 30px;
     background: #e8e8e8; }
