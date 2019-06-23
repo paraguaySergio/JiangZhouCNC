@@ -235,7 +235,7 @@ body {
           font-weight: 900;
           color: yellow; }
         #container-header-desktop nav .nav-wrapper ul li:hover {
-          background: #FD0000; }
+          background: yellow; }
 
 /**************** SLIDER ****************/
 @media (max-width: 702px) {
@@ -267,7 +267,7 @@ body {
 
 .container-categoria-productos {
   width: 100%;
-  background: #FD0000;
+  background: yellow;
   padding: 7px; }
   .container-categoria-productos ul {
     display: -webkit-box;
@@ -426,7 +426,7 @@ body {
       -o-transition: all 0.1s;
       transition: all 0.1s; }
       .container-products .row .col:first-child .content-category-product .list-category a:hover {
-        background: #FD0000;
+        background: yellow;
         color: #fff; }
       .container-products .row .col:first-child .content-category-product .list-category a li {
         cursor: pointer;
@@ -436,7 +436,7 @@ body {
         -o-transition: all 0.5s;
         transition: all 0.5s; }
         .container-products .row .col:first-child .content-category-product .list-category a li:hover {
-          background: #FD0000; }
+          background: yellow; }
 
 .container-products .row .col:last-child {
   display: -ms-grid;
@@ -523,7 +523,7 @@ body {
     font-weight: 900; }
     .card-article-right .card-servicios .title-cards .hr-one {
       height: 2px;
-      background: #FD0000;
+      background: yellow;
       width: 10%; }
     .card-article-right .card-servicios .title-cards h5 {
       width: auto;
@@ -535,7 +535,7 @@ body {
         color: #D80000; }
     .card-article-right .card-servicios .title-cards .hr-two {
       height: 2px;
-      background: #FD0000;
+      background: yellow;
       width: 100%; }
   .card-article-right .card-servicios .contenido-post {
     display: -webkit-box;
@@ -634,7 +634,7 @@ body {
         -o-transition: all 0.1s;
         transition: all 0.1s; }
         .container-products-in-detail .container-product-detail .container-sidebar .content-category-product .list-category a:hover {
-          background: #FD0000;
+          background: yellow;
           color: #fff; }
         .container-products-in-detail .container-product-detail .container-sidebar .content-category-product .list-category a li {
           cursor: pointer;
@@ -644,7 +644,7 @@ body {
           -o-transition: all 0.5s;
           transition: all 0.5s; }
           .container-products-in-detail .container-product-detail .container-sidebar .content-category-product .list-category a li:hover {
-            background: #FD0000; }
+            background: yellow; }
   .container-products-in-detail .container-product-detail .container-sidebar .content-order-product {
     width: 80%;
     margin: auto; }
@@ -658,7 +658,7 @@ body {
       border-radius: 5px; }
       .container-products-in-detail .container-product-detail .container-sidebar .content-order-product .form-order h5 {
         color: #fff;
-        background: #FD0000;
+        background: yellow;
         width: 100%;
         margin: 0;
         padding: 10px; }
@@ -725,7 +725,7 @@ body {
         margin: auto; } }
     .container-products-in-detail .container-product-detail .container-description-product .container-description .title-description {
       font-size: 20px;
-      background: #FD0000;
+      background: yellow;
       padding: 0.8rem 3rem 0.8rem 3rem;
       float: left;
       color: #fff;
