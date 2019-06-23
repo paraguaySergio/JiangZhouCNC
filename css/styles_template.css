@@ -232,7 +232,8 @@ body {
         #container-header-desktop nav .nav-wrapper ul li a {
           font-family: "Helvetica Neue";
           font-size: 18px;
-          font-weight: 900; }
+          font-weight: 900;
+          color: yellow; }
         #container-header-desktop nav .nav-wrapper ul li:hover {
           background: #FD0000; }
 
@@ -323,7 +324,7 @@ body {
       font-size: 15px; }
 
 #container-footer .footer-copyright {
-  background: rgba(255, 255, 255, 0.03); }
+  background: rgba(255, 255, 0, 0.03); }
   #container-footer .footer-copyright .container {
     font-size: 14px; }
     #container-footer .footer-copyright .container a i {
@@ -411,12 +412,9 @@ body {
 .container-products .row .col:first-child .content-category-product {
   width: 80%;
   margin: auto; }
-
-@media (max-width: 702px) {
+  @media (max-width: 702px) {
     .container-products .row .col:first-child .content-category-product {
-        width: 95%;
-    }
-}
+      width: 95%; } }
   .container-products .row .col:first-child .content-category-product .list-category {
     line-height: 30px;
     background: #e8e8e8; }
