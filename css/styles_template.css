@@ -90,7 +90,7 @@ body {
 
 /************ HEADER *************/
 .header-top {
-  background: #000000;
+  background: blue;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -317,7 +317,7 @@ body {
 /************ ARTICLE CENTER *************/
 /************* FOOTER **************/
 #container-footer .page-footer {
-  background: #000000; }
+  background: blue; }
   #container-footer .page-footer .container {
     padding: 10px; }
     #container-footer .page-footer .container .row .col {
@@ -372,7 +372,7 @@ body {
       grid-row: 1/2; }
       #container-general .row .card-article-right .card-nosotros {
         padding: 20px;
-        color: #000000; }
+        color: blue; }
         #container-general .row .card-article-right .card-nosotros .title-cards {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -382,7 +382,7 @@ body {
           align-items: center; }
           #container-general .row .card-article-right .card-nosotros .title-cards .hr-one {
             height: 2px;
-            background: #000000;
+            background: blue;
             width: 10%; }
           #container-general .row .card-article-right .card-nosotros .title-cards h5 {
             width: auto;
@@ -394,7 +394,7 @@ body {
               color: #D80000; }
           #container-general .row .card-article-right .card-nosotros .title-cards .hr-two {
             height: 2px;
-            background: #000000;
+            background: blue;
             width: 100%; }
         #container-general .row .card-article-right .card-nosotros .description p {
           text-align: justify; }
@@ -421,7 +421,7 @@ body {
     .container-products .row .col:first-child .content-category-product .list-category a {
       cursor: pointer;
       font-weight: 800;
-      color: #000000;
+      color: blue;
       -webkit-transition: all 0.1s;
       -o-transition: all 0.1s;
       transition: all 0.1s; }
@@ -490,7 +490,7 @@ body {
     .container-products .row .col:last-child .item-product .title-product {
       width: 98%; }
       .container-products .row .col:last-child .item-product .title-product a {
-        color: #000000;
+        color: blue;
         cursor: pointer;
         -webkit-transition: all 0.3s;
         -o-transition: all 0.3s;
@@ -511,7 +511,7 @@ body {
   -ms-flex-order: 0;
   order: 0;
   padding: 20px;
-  color: #000000;
+  color: blue;
   /*******POST*****/ }
   .card-article-right .card-servicios .title-cards {
     display: -webkit-box;
@@ -629,7 +629,7 @@ body {
       .container-products-in-detail .container-product-detail .container-sidebar .content-category-product .list-category a {
         cursor: pointer;
         font-weight: 800;
-        color: #000000;
+        color: blue;
         -webkit-transition: all 0.1s;
         -o-transition: all 0.1s;
         transition: all 0.1s; }
@@ -764,7 +764,7 @@ body {
       -ms-grid-row-span: 1;
       grid-row: 1 / 2; } }
   .container-servicio-detail .card-article-right .card-service-detail {
-    color: #000000;
+    color: blue;
     padding: 0; }
     .container-servicio-detail .card-article-right .card-service-detail .title-cards {
       display: -webkit-box;
