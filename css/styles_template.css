@@ -232,7 +232,8 @@ body {
         #container-header-desktop nav .nav-wrapper ul li a {
           font-family: "Helvetica Neue";
           font-size: 18px;
-          font-weight: 900; }
+          font-weight: 900;
+          color: yellow; }
         #container-header-desktop nav .nav-wrapper ul li:hover {
           background: #FD0000; }
 
