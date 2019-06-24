@@ -56,7 +56,9 @@
 
 
     .card-article-right {
-      grid-row: 1/2;
+      @media(max-width: 902px) {
+        grid-row: 1/2;
+      }
 
       .card-nosotros {
         padding: 20px;

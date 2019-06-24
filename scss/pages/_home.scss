@@ -71,8 +71,9 @@ body {
     }
 
     span {
-      font-size: 22px;
+      font-size: 30px;
       margin-left: 10px;
+      letter-spacing: 1px;
       font-weight: 900;
     }
   }
@@ -86,8 +87,8 @@ body {
     }
 
     img {
-      width: 120px;
-      height: 70px;
+      width: 100px;
+      height: 60px;
     }
   }
 }
@@ -140,7 +141,7 @@ body {
           text-align: center;
 
           a {
-            font-family: "Helvetica Neue";
+            font-family: "Helvetica Neue" !important;
             font-size: 18px;
             font-weight: 900;
           }
@@ -228,7 +229,8 @@ body {
 
       h4 {
         margin: 0;
-        font-size: 13px;
+        font-size: 15px;
+        text-transform: uppercase;
         color: $color-white-one;
         text-align: center;
       }
@@ -459,6 +461,9 @@ body {
 
       .row {
         .col {
+          h5 {
+            font-size: 20px;
+          }
           font-size: 15px;
         }
       }
