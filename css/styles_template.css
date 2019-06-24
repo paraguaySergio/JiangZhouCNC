@@ -234,7 +234,9 @@ body {
         #container-header-desktop nav .nav-wrapper ul li a {
           font-family: "Helvetica Neue" !important;
           font-size: 18px;
-          font-weight: 900; }
+            font-weight: 900;
+            color: #fff;
+        }
         #container-header-desktop nav .nav-wrapper ul li:hover {
           background: #FD0000; }
 
@@ -358,7 +360,7 @@ body {
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr; } }
     #container-general .row .card-sidebar-left .card-contact .card-title {
-      color: #e3e1e1;
+        color: #fff;
       background: #D80000;
       padding: 5px; }
       #container-general .row .card-sidebar-left .card-contact .card-title i {
@@ -367,11 +369,21 @@ body {
       font-weight: 900;
       color: rgba(21, 0, 3, 0.97); }
     #container-general .row .card-sidebar-left .card-form-contact .card-title {
-      color: #e3e1e1;
+        color: #fff;
       background: #D80000;
       padding: 5px; }
       #container-general .row .card-sidebar-left .card-form-contact .card-title i {
         margin: 5px 5px 0 0; }
+
+#container-general .row .card-sidebar-left .card-form-contact .form-contact input, #container-general .row .card-sidebar-left .card-form-contact .form-contact textarea {
+    color: #444 !important;
+}
+
+#container-general .row .card-sidebar-left .card-form-contact .form-contact textarea {
+    max-width: 100%;
+    width: 100%;
+    height: 120px;
+}
 
 @media (max-width: 902px) {
     #container-general .row .card-article-right {
@@ -632,7 +644,8 @@ body {
   #container-general .row .card-article-right .content-contact .body-detail-product p {
     font-weight: 800; }
   #container-general .row .card-article-right .content-contact .form-contact-product .form-contact input, #container-general .row .card-article-right .content-contact .form-contact-product .form-contact textarea {
-    color: #444444; }
+      color: #444444 !important;
+  }
 
 /*********** HEADER **********/
 /*********** SLIDER **********/

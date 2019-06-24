@@ -96,7 +96,7 @@ body {
 //HEADER PRINCIPAL MENU
 #container-header-desktop {
   nav {
-    background: RED;
+    background: $color-black;
     color: $color-white-one;
     width: 100%;
     display: flex;
@@ -144,7 +144,7 @@ body {
             font-family: "Helvetica Neue" !important;
             font-size: 18px;
             font-weight: 900;
-            color: yellow;
+            color: $color-white-one;
           }
 
           &:hover {
