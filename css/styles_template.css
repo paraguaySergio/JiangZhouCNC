@@ -241,32 +241,121 @@ body {
           background: #FD0000; }
 
 /**************** SLIDER ****************/
+#container-slider {
+    height: 550px;
+}
+
 @media (max-width: 702px) {
-  #container-slider {
-    width: 100%;
-    margin-top: 0rem; } }
+    #container-slider {
+        display: none;
+    }
+}
+
+#container-slider .slider {
+    height: 100% !important;
+}
+
+#container-slider .slider .indicators {
+    z-index: 1000;
+    margin-bottom: 10px;
+}
+
+#container-slider .slider .slides {
+    height: 100% !important;
+}
 
 #container-slider .slider .slides li {
-  border-bottom: 3px solid #D80000; }
-  #container-slider .slider .slides li h3 {
+    border-bottom: 3px solid #D80000;
+}
+
+#container-slider .slider .slides li h3 {
     font-family: "Russo One";
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 1px;
     font-weight: 800;
     font-size: 45px;
-    text-shadow: 2px 1px 2px #000000; }
-    @media (max-width: 702px) {
-      #container-slider .slider .slides li h3 {
-        font-size: 35px; } }
-  #container-slider .slider .slides li h5 {
+    text-shadow: 2px 1px 2px #000000;
+}
+
+@media (max-width: 702px) {
+    #container-slider .slider .slides li h3 {
+        font-size: 35px;
+    }
+}
+
+#container-slider .slider .slides li h5 {
     color: #D80000;
     font-weight: 700;
     font-size: 30px;
-    text-shadow: 2px 1px 2px #000000; }
-    @media (max-width: 702px) {
-      #container-slider .slider .slides li h5 {
-        font-size: 25px; } }
+    text-shadow: 2px 1px 2px #000000;
+}
+
+@media (max-width: 702px) {
+    #container-slider .slider .slides li h5 {
+        font-size: 25px;
+    }
+}
+
+/**************** SLIDER MOBILE ****************/
+@media (max-width: 702px) {
+    #container-slider-mobile {
+        width: 100%;
+        margin-top: 0rem;
+    }
+}
+
+@media (min-width: 703px) {
+    #container-slider-mobile {
+        display: none;
+    }
+}
+
+#container-slider-mobile .slider {
+    height: 100% !important;
+}
+
+#container-slider-mobile .slider .indicators {
+    z-index: 1000;
+    margin-bottom: 10px;
+}
+
+#container-slider-mobile .slider .slides {
+    height: 100%;
+}
+
+#container-slider-mobile .slider .slides li {
+    border-bottom: 3px solid #D80000;
+}
+
+#container-slider-mobile .slider .slides li h3 {
+    font-family: "Russo One";
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: 45px;
+    text-shadow: 2px 1px 2px #000000;
+}
+
+@media (max-width: 702px) {
+    #container-slider-mobile .slider .slides li h3 {
+        font-size: 35px;
+    }
+}
+
+#container-slider-mobile .slider .slides li h5 {
+    color: #D80000;
+    font-weight: 700;
+    font-size: 30px;
+    text-shadow: 2px 1px 2px #000000;
+}
+
+@media (max-width: 702px) {
+    #container-slider-mobile .slider .slides li h5 {
+        font-size: 25px;
+    }
+}
 
 .container-categoria-productos {
   width: 100%;
