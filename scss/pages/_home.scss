@@ -158,13 +158,76 @@ body {
 
 /**************** SLIDER ****************/
 #container-slider {
+  height: 550px;
+  @media(max-width: 702px) {
+    //width: 100%;
+    //margin-top: 0rem;
+    display: none;
+  }
+
+  .slider {
+    height: 100% !important;
+
+    .indicators {
+      z-index: 1000;
+      margin-bottom: 10px;
+    }
+
+    .slides {
+      height: 100% !important;
+
+      li {
+        border-bottom: 3px solid $color-border-bottom-slider;
+
+        h3 {
+          font-family: $tipografia-slider-title;
+          text-transform: uppercase;
+          color: $color-text1;
+          letter-spacing: 1px;
+          font-weight: 800;
+          font-size: 45px;
+          text-shadow: 2px 1px 2px #000000;
+          @media(max-width: 702px) {
+            font-size: 35px;
+          }
+        }
+
+        h5 {
+          color: $color-primary;
+          font-weight: 700;
+          font-size: 30px;
+          text-shadow: 2px 1px 2px #000000;
+          @media(max-width: 702px) {
+            font-size: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/**************** SLIDER MOBILE ****************/
+#container-slider-mobile {
   @media(max-width: 702px) {
     width: 100%;
     margin-top: 0rem;
   }
+  @media(min-width: 703px) {
+    display: none;
+  }
 
   .slider {
+    height: 100% !important;
+
+    .indicators {
+      z-index: 1000;
+      margin-bottom: 10px;
+    }
+
     .slides {
+      height: 100%;
+
       li {
         border-bottom: 3px solid $color-border-bottom-slider;
 
@@ -465,6 +528,7 @@ body {
           h5 {
             font-size: 20px;
           }
+
           font-size: 15px;
         }
       }
